@@ -7,15 +7,15 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: 高扬
+  email: 393724605@qq.com
+  link: http://blademastercoder.github.io/
+  weibo: http://weibo.com/u/2344559062
+  github: https://github.com/BladeMasterCoder
 
 # 站点信息
-title: 闫肃的博客 
-description: 闫肃的博客
+title: skyCoder 
+description: 高扬的博客
 url: http://yansu.org
 rss_url: /pages/atom.xml
 
@@ -23,14 +23,6 @@ rss_url: /pages/atom.xml
 gavatar: http://7u2ho6.com1.z0.glb.clouddn.com/gavatar.png
 favicon: http://7u2ho6.com1.z0.glb.clouddn.com/favicon.ico
 
-# google analytics 设置
-ga:
-  id: UA-54767140-1
-  url: yansu.org
-
-# disqus 设置
-disqus:
-  shortname: suyan-zh
 
 # 主题设置，自动激活某个标签
 active: 技术
