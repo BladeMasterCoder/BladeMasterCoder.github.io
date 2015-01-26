@@ -23,6 +23,9 @@ rss_url: /pages/atom.xml
 gavatar: http://7u2ho6.com1.z0.glb.clouddn.com/gavatar.png
 favicon: http://7u2ho6.com1.z0.glb.clouddn.com/favicon.ico
 
+# disqus 设置
+disqus:
+  shortname: gy-zh
 
 # 主题设置，自动激活某个标签
 active: 技术
