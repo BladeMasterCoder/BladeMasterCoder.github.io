@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 关于Java中的反射--一些概念
-category: 技术
+title: 关于Java中的反射（一些概念与简单用法）
+category: Java学习
 tags:  Java
 description: 
 ---
@@ -78,7 +78,9 @@ public class Reflection {
 ```
 class1,class2,class3便是Class类的对象。可通过这些对象获得X类的所有信息。包括Fields(代表类的成员变量),Methods(代表类的方法),Constructor(代表类的构造方法)
 
+
 ### 在Class类中的方法
+
 
 - getName()：获得类的完整名字，包名+类名
 - getFields()：获得类的public类型的属性
@@ -90,7 +92,8 @@ class1,class2,class3便是Class类的对象。可通过这些对象获得X类的
 - getConstructor(Class[] parameterTypes)：获得类的特定构造方法，parameterTypes 参数指定构造方法的参数类型。
 - getDeclaredConstructors() ：返回类中所有的构造器，包括私有
 - newInstance()：通过类的不带参数的构造方法创建这个类的一个对象。
-- 
+
+
 #### newInstance()
 
 之后，我们便可以通过Class类的对象c1的newInstance()方法直接实例化Person类的对象。
@@ -110,6 +113,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 类中就只有这一个构造方法，将没有默认提供的无参构造方法，再运行时就会报错。
 - 如果类的构造函数是private的，比如Class，我们仍旧不能实例化其对象。
 因此，如果想使用可接受参数的newInstance，需要明确指定要调用的构造方法，并传递参数，但在实际的开发中，一般使用反射实例化的时候，都最好存在一个无参构造函数，这样比较合理些。
+
 
 #### 使用带参数的构造器
 
@@ -131,6 +135,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
             e.printStackTrace();
         }
 ```
+
 
 
 #### getDeclaredFields()
@@ -169,6 +174,8 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 - INTERFACE: 512
 - ABSTRACT: 1024
 - STRICT: 2048
+
+
 
 
 #### getDeclaredMethods()
