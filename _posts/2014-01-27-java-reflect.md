@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于Java中的反射（一些概念与简单用法）
-category: Java学习
+category: 技术
 tags:  Java
 description: 
 ---
