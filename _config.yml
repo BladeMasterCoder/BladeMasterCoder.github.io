@@ -28,7 +28,7 @@ disqus:
   shortname: blademastercoder
 
 # 主题设置，自动激活某个标签
-active: [java技术，数据挖掘]
+active: [java学习，数据挖掘]
 
 # 首页除了最新文章外显示分类
 cates: 
