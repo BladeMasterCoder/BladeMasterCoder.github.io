@@ -113,7 +113,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 使用但参数的构造器，生成对象。
 
 ```java
-		Constructor<?> cons[] = c1.getConstructors() ;        
+Constructor<?> cons[] = c1.getConstructors() ;        
         Person per = null ;                                    // 声明Person对象
         try{            
             per = (Person)cons[0].newInstance("test",30) ;    // 实例化对象            
@@ -134,7 +134,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 想要获得Person类的所有域
 
 ```java
-		Field [] f = c1.getDeclaredFields();
+Field [] f = c1.getDeclaredFields();
         for (int i = 0; i < f.length; i++) {
             Class<?> r = f[i].getType() ;    // 得到属性类型
             int mo = f[i].getModifiers() ;    // 得到修饰符的数字
@@ -171,7 +171,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 下面获得Person类中的方法
 
 ```java
-		Method m[] = c1.getDeclaredMethods() ;    // 取得全部方法
+Method m[] = c1.getDeclaredMethods() ;    // 取得全部方法
         for(int i=0;i<m.length;i++){
             Class<?> r = m[i].getReturnType() ;    // 得到返回值类型
             Class<?> p[] = m[i].getParameterTypes() ;    // 取得全部参数的类型
