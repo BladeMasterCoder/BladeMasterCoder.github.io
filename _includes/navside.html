@@ -39,14 +39,14 @@
               <h2 class="center">{{ site.locals.tags }}</h2>
               {% for tag in site.tags %} 
                 <div class="panel panel-info">
-				  <a data-toggle="collapse" data-parent="#accordion" href="#{{ tag[0] }}">
-                  <div class="panel-heading" >
+				  
+                  <div class="panel-heading" onclick="#{{ tag[0] }}">
                     <h4 class="panel-title">
-                      <a> {{ tag[0] }}</a>
+                     <a data-toggle="collapse" data-parent="#accordion" href="#{{ tag[0] }}">   {{ tag[0] }} </a>
                       <span class="badge pull-right">{{ tag[1].size }}</span>
                     </h4>
                   </div>
-				  </a>
+				 
                   <div id="{{ tag[0] }}" class="panel-collapse collapse">
                     {% for post in tag[1] %}
                       <a  href='{{ post.url }}' class="list-group-item pjaxlink">
