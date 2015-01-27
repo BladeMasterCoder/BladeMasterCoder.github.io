@@ -21,7 +21,7 @@ rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
 gavatar: /public/img/blade.png
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/favicon.ico
+favicon: /public/img/blade2.ico
 
 # disqus 设置
 disqus:
