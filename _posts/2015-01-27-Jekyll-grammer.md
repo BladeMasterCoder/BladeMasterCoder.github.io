@@ -8,6 +8,11 @@ description:
 
 >前言:具体官方文档地址请参考[官方文档](http://jekyllrb.com/docs/home/).这里记录下关于 jekyll 的一些配置信息所代表的意义。
 
+先上图片
+
+![](/public/img/blogimg/Jekyll-grammer.png)
+
+
 ## Jekyll 是什么?
 
 jekyll 是一个静态网站生成器.
@@ -28,7 +33,7 @@ jekyll 的全局配置在 _config.yml 文件中配置.
 
 对于网站的头部, 底部, 侧栏等公共部分, 为了维护方便, 我们可能想提取出来单独编写, 然后使用的时候包含进去即可.这时我们可以把那些公共部分放在这个目录下.使用时只需要引入即可.
 
-`{ % include filename % }`
+	{ % include filename % }
 
 ### _layouts
 
