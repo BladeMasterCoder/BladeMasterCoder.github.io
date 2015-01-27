@@ -111,6 +111,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 #### 使用带参数的构造器
 获取Person类的构造器 `Constructor<?> cons[] = c1.getConstructors() ;`
 使用但参数的构造器，生成对象。
+
 ```java
 		Constructor<?> cons[] = c1.getConstructors() ;        
         Person per = null ;                                    // 声明Person对象
@@ -131,6 +132,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 #### getDeclaredFields()
 
 想要获得Person类的所有域
+
 ```java
 		Field [] f = c1.getDeclaredFields();
         for (int i = 0; i < f.length; i++) {
@@ -167,6 +169,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 
 #### getDeclaredMethods()
 下面获得Person类中的方法
+
 ```java
 		Method m[] = c1.getDeclaredMethods() ;    // 取得全部方法
         for(int i=0;i<m.length;i++){
@@ -199,7 +202,9 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
         }
 
 ```
+
 打印输出结果为
+
 ```java
 	public class java.lang.String toString()
 	public class java.lang.String getName()
