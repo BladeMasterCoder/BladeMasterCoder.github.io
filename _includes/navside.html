@@ -39,7 +39,7 @@
               <h2 class="center">{{ site.locals.tags }}</h2>
               {% for tag in site.tags %} 
                 <div class="panel panel-info">
-                  <div class="panel-heading">
+                  <div class="panel-heading" onClick="#{{ tag[0] }}">
                     <h4 class="panel-title">
                       <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#{{ tag[0] }}">{{ tag[0] }}</a>
                       <span class="badge pull-right">{{ tag[1].size }}</span>
