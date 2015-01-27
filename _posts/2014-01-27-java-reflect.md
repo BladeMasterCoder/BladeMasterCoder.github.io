@@ -76,7 +76,7 @@ public class Reflection {
 ```
 class1,class2,class3便是Class类的对象。可通过这些对象获得X类的所有信息。包括Fields(代表类的成员变量),Methods(代表类的方法),Constructor(代表类的构造方法)
 
-### 在Class类中，有如下方法。
+### 在Class类中的方法
 - getName()：获得类的完整名字，包名+类名
 - getFields()：获得类的public类型的属性
 - getDeclaredFields()：获得类的所有属性。
@@ -96,11 +96,13 @@ class1,class2,class3便是Class类的对象。可通过这些对象获得X类的
 newInstance返回的是一个泛型，因此我们需要强制转换成Person类型。
 注：
 - 这种方法必须要求Person类中存在无参构造方法，因为Class的newInstance是不接受参数的，如果我在Person中加入构造方法
+
 ```java
 	public Person(String name,int age){
 	　　this.setName(name) ;
 	　　this.setAge(age);
 	}
+
 ```
 类中就只有这一个构造方法，将没有默认提供的无参构造方法，再运行时就会报错。
 - 如果类的构造函数是private的，比如Class，我们仍旧不能实例化其对象。
@@ -126,7 +128,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 ```
 
 
-#### getDeclaredFields()获得所有域
+#### getDeclaredFields()
 
 想要获得Person类的所有域
 ```java
@@ -163,7 +165,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 - STRICT: 2048
 
 
-#### getDeclaredMethods()：获得类的所有方法。
+#### getDeclaredMethods()
 下面获得Person类中的方法
 ```java
 		Method m[] = c1.getDeclaredMethods() ;    // 取得全部方法
@@ -195,6 +197,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
             }
             System.out.println() ;
         }
+
 ```
 打印输出结果为
 ```java
@@ -203,6 +206,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 	public void setName(java.lang.String arg0)
 	public void setAge(int arg0)
 	public int getAge()
+
 ```
 
 java文档中，Class类中还有很多方法。
