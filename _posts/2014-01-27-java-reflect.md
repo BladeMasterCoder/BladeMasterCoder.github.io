@@ -7,6 +7,7 @@ description:
 ---
 
 ## 一、反射是什么
+
 Reflection 是 Java 程序开发语言的特征之一，它允许运行中的 Java 程序对自身进行检查，或者说“自审”，并能直接操作程序的内部属性和方法。Java 的这一能力在实际应用中用得不是很多，但是在其它的程序设计语言中根本就不存在这一特性。例如，Pascal、C 或者 C++ 中就没有办法在程序中获得函数定义相关的信息。
 
 Reflection 是 Java 被视为动态（或准动态）语言的关键，允许程序于执行期 Reflection APIs 取得任何已知名称之 class 的內部信息。类中有什么信息，他就能获得什么信息。
@@ -16,6 +17,7 @@ Reflection 是 Java 被视为动态（或准动态）语言的关键，允许程
 
 
 ## 二、Java中的Class类
+
 Class has no public constructor. Instead Class objects are constructed automatically by the Java Virtual Machine as classes are loaded and by calls to the defineClassmethod in the class loader.
 
 Java文档中明确说了Class没有公用构造器，这个类是由JVM来创建的，所以我们就不用麻烦了。
@@ -77,6 +79,7 @@ public class Reflection {
 class1,class2,class3便是Class类的对象。可通过这些对象获得X类的所有信息。包括Fields(代表类的成员变量),Methods(代表类的方法),Constructor(代表类的构造方法)
 
 ### 在Class类中的方法
+
 - getName()：获得类的完整名字，包名+类名
 - getFields()：获得类的public类型的属性
 - getDeclaredFields()：获得类的所有属性。
@@ -109,6 +112,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 因此，如果想使用可接受参数的newInstance，需要明确指定要调用的构造方法，并传递参数，但在实际的开发中，一般使用反射实例化的时候，都最好存在一个无参构造函数，这样比较合理些。
 
 #### 使用带参数的构造器
+
 获取Person类的构造器 `Constructor<?> cons[] = c1.getConstructors() ;`
 使用但参数的构造器，生成对象。
 
@@ -168,6 +172,7 @@ newInstance返回的是一个泛型，因此我们需要强制转换成Person类
 
 
 #### getDeclaredMethods()
+
 下面获得Person类中的方法
 
 ```java
