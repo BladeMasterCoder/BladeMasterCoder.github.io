@@ -89,7 +89,6 @@ description:
 					Person person = (Person)ois.readObject();	//读出对象
 					System.out.println(person);
 				} catch (ClassNotFoundException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				} 
 			} catch (IOException e) {
