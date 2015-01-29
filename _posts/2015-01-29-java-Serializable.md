@@ -6,7 +6,7 @@ tags:  Java
 description: 
 ---
 
->最近在阅读JDK源码中的集合，看到很多集合类实现了Serializable接口,Cloneable接口。在阅读了很多关于Serializable接口的博客后，浅谈我对Serializable接口的理解。
+>最近在阅读JDK源码中的集合，看到很多集合类实现了Serializable接口,Cloneable接口。在阅读了很多关于Serializable接口的博客后，浅谈下我对Serializable接口的理解。
 
 
 ## 序列化
@@ -121,7 +121,7 @@ description:
 
 ### serialVersionUID
 
-注意到上面程序中有一个 serialVersionUID 实现了Serializable接口之后，Eclipse就会提示你增加一个 serialVersionUID，虽然不加的话上述程序依然能够正常运行。
+注意到上面程序中有一个 serialVersionUID ，实现了Serializable接口之后，Eclipse就会提示你增加一个 serialVersionUID，虽然不加的话上述程序依然能够正常运行。
 
 序列化 ID 在 Eclipse 下提供了两种生成策略
 
