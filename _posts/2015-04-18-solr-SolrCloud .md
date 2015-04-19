@@ -197,6 +197,8 @@ clientPort对应如下：
 	JMX enabled by default
 	Using config: /usr/local/SolrCloud/zookeeper_server_2/bin/../conf/zoo.cfg
 	Mode: leader
+
+
 可以看到zookeeper_server_1被选为leader 其它两个为follower。
 
 另外，可以通过客户端脚本，连接到ZooKeeper集群上。对于客户端来说，ZooKeeper是一个整体（ensemble），
