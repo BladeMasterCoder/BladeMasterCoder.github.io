@@ -48,7 +48,7 @@ description:
 
 配置端口：
 
-	    tomcat           http端口	 https端口   关闭指令端口	   Ajp端口
+	    tomcat           http端口   https端口   关闭指令端口   Ajp端口
 	tomcat_server_8080	  8080        8443        8005         8009
 	tomcat_server_8081	  8081        8444        8006         8010
 	tomcat_server_8082	  8082        8445        8007         8011
@@ -166,9 +166,9 @@ tomcat-server_*（8080-8083）/bin下
 
 clientPort对应如下：
 
-	zookeeper_server_1 	 	2181
-	zookeeper_server_2  	2182
-	zookeeper_server_3 		2183
+	zookeeper_server_1      2181
+	zookeeper_server_2      2182
+	zookeeper_server_3      2183
 
 - tickTime：这个时间是作为 Zookeeper 服务器之间或客户端与服务器之间维持心跳的时间间隔，也就是每个 tickTime 时间就会发送一个心跳。
 - initLimit：这个配置项是用来配置 Zookeeper 接受客户端（这里所说的客户端不是用户连接 Zookeeper 服务器的客户端，而是 Zookeeper服务器集群中连接到 Leader 的 
