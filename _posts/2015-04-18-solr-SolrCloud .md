@@ -48,10 +48,10 @@ description:
 
 配置端口：
 
-	    tomcat		     http端口	 https端口   关闭指令端口	   Ajp端口
+	    tomcat           http端口	 https端口   关闭指令端口	   Ajp端口
 	tomcat_server_8080	  8080        8443        8005         8009
 	tomcat_server_8081	  8081        8444        8006         8010
-	tomcat_server_8082	  8082		  8445        8007         8011
+	tomcat_server_8082	  8082        8445        8007         8011
 	tomcat_server_8083	  8083        8446        8008         8012
 
 修改 tomcat-server_*/conf/server.xml 进行配置，以tomcat_server_8080/conf/server.xml为例，其它按照此配置进行配置即可。
