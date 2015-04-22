@@ -228,7 +228,7 @@ clientPort对应如下：
 	
 	java -classpath .:/usr/local/SolrCloud/solrLib-Files/* org.apache.solr.cloud.ZkCLI -cmd upconfig -zkhost 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 -confdir /usr/local/SolrCloud/solrConfig-files/ -confname myconf
 
-接下来链接zookeeper的配置内容：
+接下来把collection中的内容链接到zookeeper中的配置：
 	
 	java -classpath .:/usr/local/SolrCloud/solrLib-Files/* org.apache.solr.cloud.ZkCLI -cmd linkconfig -collection collection1 -confname myconf -zkhost 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183  
 
