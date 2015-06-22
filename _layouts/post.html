@@ -15,15 +15,13 @@ layout: base
 	<a class="bds_renren" data-cmd="renren"></a>
 	<a class="bds_tqq" data-cmd="tqq"></a>
 	<a class="bds_more" data-cmd="more">更多</a>
-	<a class="bds_count" data-cmd="count"></a>
   </div>
 
    <script>
 	window._bd_share_config = {
 		common : {
-			bdText : '{{ page.title }}',	
-	
-			bdUrl : 'page.url', 	
+			bdText : '{{ page.title }}',		
+			bdUrl : '{{ page.url }}', 	
 		},
 		share : [{
 			"bdSize" : 16
@@ -45,7 +43,7 @@ layout: base
 		}]
 	}
 	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
-</script>
+ </script>
   
 
   <div class="col-md-12 aside3-content">
