@@ -9,7 +9,6 @@ layout: base
   </div>
 
   <div class="bdsharebuttonbox" data-tag="share_1">
-	<a class="bds_mshare" data-cmd="mshare"></a>
 	<a class="bds_qzone" data-cmd="qzone" href="#"></a>
 	<a class="bds_tsina" data-cmd="tsina"></a>
 	<a class="bds_baidu" data-cmd="baidu"></a>
@@ -19,11 +18,11 @@ layout: base
 	<a class="bds_count" data-cmd="count"></a>
   </div>
 
-   <script>
+  <script>
 	window._bd_share_config = {
 		common : {
-			bdText : 'page.title',		
-			bdUrl : 'page.url', 	
+			bdText : {{ page.title }},		
+			bdUrl : {{page.url}}, 	
 		},
 		share : [{
 			"bdSize" : 16
