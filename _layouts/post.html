@@ -7,6 +7,19 @@ layout: base
     <h2 id="#identifier">{{ page.title }}</h2>
     {{ page.date | date:"%Y年%m月%d日" }}
   </div>
+
+  <div class="bdsharebuttonbox" data-tag="share_1">
+		<!-- 此处添加展示按钮 -->
+   <script>
+     window._bd_share_config = {
+     //此处添加分享具体设置
+     }
+
+     //以下为js加载部分
+     with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+  </div>
+
   <div class="col-md-12 aside3-content">
     {% include content.html %}
     <hr>
