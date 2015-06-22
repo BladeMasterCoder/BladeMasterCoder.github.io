@@ -25,7 +25,7 @@ description:
 Java实现的代码：
 
 	class Stack{
-		LinkedList<Integer> queue1 = new LinkedList<Integer>(); 	//队列1    
+        LinkedList<Integer> queue1 = new LinkedList<Integer>(); 	//队列1    
 	    LinkedList<Integer> queue2 = new LinkedList<Integer>(); 	//队列2
 	    
 	    // Push element x onto stack.
