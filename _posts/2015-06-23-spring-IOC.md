@@ -34,7 +34,7 @@ description:
 		
 	}
 
-看一下配置文件： bean 中的name属性（即loginAction）是class属性的一个别名，class属性指类的全名。在LoginAction类中有一个公共属性loginService，因此下面配置property，name="loginService"， 这个name名字需要与LoginAction类中的一致。而ref指下面<bean id="loginService" ...>,这样其实就是spring将LoginServiceImpl对象实例化并且调用LoginAction的setLoginService方法将loginService注入：
+看一下配置文件： bean 中的name属性（即loginAction）是class属性的一个别名，class属性指类的全名。在LoginAction类中有一个公共属性loginService，因此下面配置property，name="loginService"， 这个name对应了与LoginAction类中set方法setLoginService的一致。而ref指下面<bean id="loginService" ...>,这样其实就是spring将LoginServiceImpl对象实例化并且调用LoginAction的setLoginService方法将loginService注入：
 
 		<!--配置bean,配置后该类由spring管理-->
 		<bean id="loginAction" class="com.iip.actions.LoginAction" scope="prototype">  
