@@ -10,7 +10,7 @@ description:
 
 虽然有很多种依赖注入的方式，下面只说一下最简单的一种依赖注入的方式，这里最主要的是了解依赖注入的这种思想。
 
-看一下代码：LoginAction类中需要使用LoginService类中的方法，可以在LoginAction类中private声明LoginService类的对象，这里不是new的，而一般情况下想要使用其他类的方法，需要先new这个类的对象，LoginAction类的set方法就是IOC的入口，spring容器帮我们创建LoginService类的对象再通过sety方法注入到当前类中
+看一下代码：LoginAction类中需要使用LoginService类中的方法，可以在LoginAction类中private声明LoginService类的对象，这里不是new的，而一般情况下想要使用其他类的方法，需要先new这个类的对象，LoginAction类的set方法就是IOC的入口，spring容器帮我们创建LoginService类的对象再通过set方法注入到当前类中
 
 	public class LoginAction extends ActionSupport {
 		
