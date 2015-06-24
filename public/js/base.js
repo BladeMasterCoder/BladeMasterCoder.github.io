@@ -83,15 +83,16 @@ $(document).ready(function() {
   });
 
   $('body').on('click', '.show-commend', function() {
-      var duoshuoQuery = {short_name:"maydaycoder"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
+    var ds_loaded = false;
+    window.disqus_shortname = $('.show-commend').attr('name');
+    $.ajax({
+      type: "GET",
+      url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+      dataType: "script",
+      cache: true
+    });
   });
   content_effects();
 });
+
+window._bd_share_config={"common":{"bdSnsKey":	{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{},"image":	{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":	{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0	[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
