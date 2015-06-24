@@ -16,15 +16,14 @@
       </div>
     </div>
   </div>
-  {% include footer.html %}
-  {% include googleanalytics.html %}
+
 
   <!-- 多说评论框 start -->
   <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="blademastercoder.github.io{{ page.url }}"></div>
   <!-- 多说评论框 end -->
   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
   <script type="text/javascript">
-	var duoshuoQuery = {short_name:"maydaycoder"};
+	    var duoshuoQuery = {short_name:"maydaycoder"};
 		(function() {
 			var ds = document.createElement('script');
 			ds.type = 'text/javascript';ds.async = true;
@@ -36,5 +35,7 @@
 	</script>
   <!-- 多说公共JS代码 end -->
 
+  {% include footer.html %}
+  {% include googleanalytics.html %}
 </body>
 </html>
