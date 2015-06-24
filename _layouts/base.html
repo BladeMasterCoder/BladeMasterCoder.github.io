@@ -18,11 +18,12 @@
   </div>
   {% include footer.html %}
   {% include googleanalytics.html %}
-	<!-- 多说评论框 start -->
-		<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="blademastercoder.github.io/{{ page.url }}"></div>
-	<!-- 多说评论框 end -->
-	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-	<script type="text/javascript">
+
+  <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="blademastercoder.github.io{{ page.url }}"></div>
+  <!-- 多说评论框 end -->
+  <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
 	var duoshuoQuery = {short_name:"maydaycoder"};
 		(function() {
 			var ds = document.createElement('script');
@@ -32,7 +33,8 @@
 			(document.getElementsByTagName('head')[0] 
 			 || document.getElementsByTagName('body')[0]).appendChild(ds);
 		})();
-		</script>
-	<!-- 多说公共JS代码 end -->
+	</script>
+  <!-- 多说公共JS代码 end -->
+
 </body>
 </html>
