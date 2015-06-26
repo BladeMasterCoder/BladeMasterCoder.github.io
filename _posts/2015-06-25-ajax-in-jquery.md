@@ -196,11 +196,3 @@ post() 方法通过 HTTP POST 请求从服务器载入数据。
 9. $.load()
 load() 方法通过 AJAX 请求从服务器加载数据，并把返回的数据放置到指定的元素中。
 语法：load(url,data,callback),data是一个形如{key1:val2,key2:val2,key3:val3...}的js对象，callback为回调函数，两个参数都是可选的
-
-
-
-
-
-
-
-3. 
