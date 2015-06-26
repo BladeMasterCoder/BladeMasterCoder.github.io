@@ -62,12 +62,14 @@ $(document).ready(function() {
     isClicked = $(this).data('clicked');
     nav_click(isClicked);
     $(this).data('clicked', !isClicked);
+        window.location.reload();
   });
 
   $('body').on('click', '#content_btn' , function() {
     isClicked = $(this).data('clicked');
     content_click(!isClicked);
     $(this).data('clicked', !isClicked);
+    
   });
 
   $(document).pjax('.pjaxlink', '#pjax', {
@@ -90,7 +92,7 @@ $(document).ready(function() {
       dataType: "script",
       cache: true
     });
-    window.location.reload();
+
   });
   
   content_effects();
