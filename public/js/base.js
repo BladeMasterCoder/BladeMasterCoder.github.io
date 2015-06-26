@@ -57,7 +57,7 @@ function content_effects() {
 }
 
 $(document).ready(function() {
-	window.location.reload();
+
   /* 控制左侧 aside 的动作 */
   $("#nav_btn").on('click', function() {
     isClicked = $(this).data('clicked');
@@ -69,7 +69,7 @@ $(document).ready(function() {
     isClicked = $(this).data('clicked');
     content_click(!isClicked);
     $(this).data('clicked', !isClicked);
-    
+    	window.location.reload();
   });
 
   $(document).pjax('.pjaxlink', '#pjax', {
