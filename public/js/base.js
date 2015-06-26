@@ -92,9 +92,8 @@ $(document).ready(function() {
       dataType: "script",
       cache: true
     });
-
+    $('.show-commend').hide();
   });
-  
   content_effects();
 });
 
