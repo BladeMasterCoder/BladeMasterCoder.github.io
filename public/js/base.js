@@ -83,14 +83,14 @@ $(document).ready(function() {
   });
 	
   $('body').on('click', '.show-commend', function() {
-    var uyan_loaded = false;
+    
     $.ajax({
       type: "GET",
       url: "http://v2.uyan.cc/code/uyan.js?uid=2042092",
       dataType: "script",
       cache: true
     });
-      uyan_loaded = true;
+    window.location.reload();
   });
   
   content_effects();
