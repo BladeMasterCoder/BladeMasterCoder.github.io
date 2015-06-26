@@ -15,6 +15,13 @@ layout: base
       {{ content }}
     </div>
     <hr>
+
+	<script type="text/javascript">
+		var uyan_config = {
+		            'url':'{{ page.url }}', 
+		            'title':'{{ page.title }}'
+		};
+	</script>
 	{% include disqus.html %}
   </div>
 </div>
