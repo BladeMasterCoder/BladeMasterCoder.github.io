@@ -87,7 +87,7 @@ $(document).ready(function() {
       type: "GET",
       url: "http://v2.uyan.cc/code/uyan.js?uid=2042092",
       dataType: "script",
-      cache: true
+      cache: false
     });
   });
   
