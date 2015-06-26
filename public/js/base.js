@@ -81,7 +81,7 @@ $(document).ready(function() {
     $('.aside3').scrollTop(0);
     content_effects();
   });
-
+	
   $('body').on('click', '.show-commend', function() {
     $.ajax({
       type: "GET",
