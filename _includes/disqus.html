@@ -1,17 +1,5 @@
 <div>
-  <button type="button" class="btn btn-default show-commend" onclick="toggleDuoshuoComments('#comment-box');">显示评论</button>
+  <button type="button" class="btn btn-default show-commend">显示评论</button>
 </div>
 
-
-<div id="comment-box" ></div>
-
-<script>
-    var duoshuoQuery = {short_name:"maydaycoder"};
-	function toggleDuoshuoComments(container){
-	    var el = document.createElement('div');//
-	    el.setAttribute('data-thread-key', 'page.id');
-	    el.setAttribute('data-url', 'http://blademastercoder.github.io{{ page.url }}');
-	    DUOSHUO.EmbedThread(el);
-	    jQuery(container).append(el);
-	}
-</script>
+<div id="uyan_frame"></div>

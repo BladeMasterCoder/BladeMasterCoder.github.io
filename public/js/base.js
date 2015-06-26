@@ -83,10 +83,12 @@ $(document).ready(function() {
   });
 
   $('body').on('click', '.show-commend', function() {
-    var ds_loaded = false;
     $.ajax({
       type: "GET",
-      url: "http://static.duoshuo.com/embed.js",
+      data:{
+          uid : 2042092
+      }，
+      url: "http://v2.uyan.cc/code/uyan.js",
       dataType: "script",
       cache: true
     });
