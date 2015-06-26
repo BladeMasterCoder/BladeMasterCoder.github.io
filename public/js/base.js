@@ -39,6 +39,7 @@ function content_click(is_show) {
 
 function content_effects() {
   //remove the asidebar
+      	window.location.reload();
   $('.row-offcanvas').removeClass('active');
   if ($("#nav").length > 0) {
     $("#content > h2,#content > h3,#content > h4,#content > h5,#content > h6").each(function(i) {
@@ -69,7 +70,6 @@ $(document).ready(function() {
     isClicked = $(this).data('clicked');
     content_click(!isClicked);
     $(this).data('clicked', !isClicked);
-    	window.location.reload();
   });
 
   $(document).pjax('.pjaxlink', '#pjax', {
