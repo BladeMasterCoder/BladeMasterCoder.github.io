@@ -27,7 +27,7 @@ jquery封装了XMLHttpRequest（AJAX与服务器异步交互的核心）的底�
 
 **jQuery中ajax方法**
 
-***$.ajax(options)方法***
+**$.ajax(options)方法**
 
 这个方法是jQuery对于ajax最为全面的支持，$.ajax(options)既可以发送GET请求，也可以发送POST请求等等，因此我们通过这个方法可以获得ajax交互的所有控制权。$.ajax() 返回其创建的 XMLHttpRequest 对象。
 
@@ -161,7 +161,7 @@ XMLHttpRequest 对象是唯一的参数。
 类型：Function
 需要返回一个 XMLHttpRequest 对象。默认在 IE 下是 ActiveXObject 而其他情况下是 XMLHttpRequest 。使用自己的方式来创建XMLHttpRequest对象
 
-***一些简单易用的高级方法 ***
+**一些简单易用的高级方法 **
 
 上面介绍的$.ajax(options)为我们提供了全面控制ajax的请求细节，但另一个方面就会显得比较的复杂，因此jquery提供了几个简单的方法来发送请求
 
@@ -188,24 +188,19 @@ $.get(url, [data], [callback], [type]):向服务器端发送GET请求，参数�
 
 
 6. $.post()
-
 post() 方法通过 HTTP POST 请求从服务器载入数据。
-
 语法与get()方法一样
 
 
 7. $.getJSON()
-
 通过 HTTP GET 请求载入 JSON 数据。与$.get()一样，只是默认指定type方式为json
 
 
 8. $.getScript()
-
 通过 HTTP GET 请求载入 JSON 数据。与$.get()一样，只是默认指定type方式为script
 
 
 9. $.load()
- 
 load() 方法通过 AJAX 请求从服务器加载数据，并把返回的数据放置到指定的元素中。
 语法：load(url,data,callback),data是一个形如{key1:val2,key2:val2,key3:val3...}的js对象，callback为回调函数，两个参数都是可选的
 
