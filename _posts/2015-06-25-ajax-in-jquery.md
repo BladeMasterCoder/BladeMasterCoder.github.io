@@ -179,26 +179,19 @@ ajaxSuccess() 方法在 AJAX 请求成功时执行函数。它是一个 Ajax 事
 ajaxSetup() 方法设置全局 AJAX 默认选项，语法：  .ajaxSetup(name:value, name:value, ...)
 
 5. $.get()
-
 get() 方法通过远程 HTTP GET 请求载入信息。
-
 $.get(url, [data], [callback], [type]):向服务器端发送GET请求，参数表示分别是：url：访问的服务器的地址；data:一个js对象，同于指定请求参数；callback:指服务器响应成功后的回调函数，该函数形如：function(data, statusText){...}函数，其中data表示服务器端的响应，statusText表示服务器端响应类型的描述信息；type:表示服务器端响应的数据类型
-
 简单的 GET 请求功能以取代复杂 $.ajax 。请求成功时可调用回调函数。如果需要在出错时执行函数，还需使用 $.ajax
-
 
 6. $.post()
 post() 方法通过 HTTP POST 请求从服务器载入数据。
 语法与get()方法一样
 
-
 7. $.getJSON()
 通过 HTTP GET 请求载入 JSON 数据。与$.get()一样，只是默认指定type方式为json
 
-
 8. $.getScript()
 通过 HTTP GET 请求载入 JSON 数据。与$.get()一样，只是默认指定type方式为script
-
 
 9. $.load()
 load() 方法通过 AJAX 请求从服务器加载数据，并把返回的数据放置到指定的元素中。
