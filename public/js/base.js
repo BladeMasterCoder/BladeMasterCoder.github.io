@@ -90,6 +90,7 @@ $(document).ready(function() {
       dataType: "script",
       cache: true
     });
+      uyan_loaded = true;
   });
   
   content_effects();
