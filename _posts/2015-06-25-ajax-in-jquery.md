@@ -161,7 +161,7 @@ XMLHttpRequest 对象是唯一的参数。
 类型：Function
 需要返回一个 XMLHttpRequest 对象。默认在 IE 下是 ActiveXObject 而其他情况下是 XMLHttpRequest 。使用自己的方式来创建XMLHttpRequest对象
 
-**一些简单易用的高级方法 **
+**一些简单易用的高级方法**
 
 上面介绍的$.ajax(options)为我们提供了全面控制ajax的请求细节，但另一个方面就会显得比较的复杂，因此jquery提供了几个简单的方法来发送请求
 
