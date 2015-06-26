@@ -90,7 +90,7 @@ $(document).ready(function() {
 	},
       url: "http://v2.uyan.cc/code/uyan.js",
       dataType: "script",
-      cache: true
+      cache: false
     });
   });
   content_effects();
