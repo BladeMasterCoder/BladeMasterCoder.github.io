@@ -24,6 +24,7 @@
     <div class="col-md-9 col-xs-9 aside2">
       <div class="row">
         <div class="tab-content">
+
           {% for category in site.categories %} 
             <div class="tab-pane" id="{{ category[0] }}">
               <div class="list-group">
@@ -34,11 +35,15 @@
               </div>
             </div>
           {% endfor %}
+
           <div class="tab-pane" id="tags">
             <div class="panel-group" id="accordion">
               <h2 class="center">{{ site.locals.tags }}</h2>
+
               {% for tag in site.tags %} 
+
                 <div class="panel panel-info">
+
 				  <a data-toggle="collapse" data-parent="#accordion" href="#{{ tag[0] }}"> 
                   <div class="panel-heading">
                     <h4 class="panel-title">
@@ -47,6 +52,7 @@
                     </h4>
                   </div>
 				 </a>
+
                   <div id="{{ tag[0] }}" class="panel-collapse collapse">
                     {% for post in tag[1] %}
                       <a  href='{{ post.url }}' class="list-group-item pjaxlink">
@@ -54,8 +60,11 @@
                       </a>
                     {% endfor %}
                   </div>
+
                 </div>
+
               {% endfor %}
+
             </div>
           </div>
         </div>
