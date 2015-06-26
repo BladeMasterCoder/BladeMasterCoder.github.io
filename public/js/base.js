@@ -71,8 +71,20 @@ $(document).ready(function() {
     content_click(!isClicked);
     $(this).data('clicked', !isClicked);
   });
+  
+/*
+  $(document).pjax('.pjaxlink', '#pjax', {
+    fragment: "#pjax",
+    timeout: 10000
+  });
 
-
+  $(document).on("pjax:end", function() {
+    if ($("body").find('.container').width() < 992)
+      $('#nav_btn').click();
+    $('.aside3').scrollTop(0);
+    content_effects();
+  });
+*/
 	
   $('body').on('click', '.show-commend', function() {
     
@@ -82,7 +94,6 @@ $(document).ready(function() {
       dataType: "script",
       cache: true
     });
-    $('.show-commend').hide();
   });
   content_effects();
 });
