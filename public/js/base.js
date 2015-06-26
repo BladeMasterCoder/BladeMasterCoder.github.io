@@ -85,9 +85,6 @@ $(document).ready(function() {
   $('body').on('click', '.show-commend', function() {
     $.ajax({
       type: "GET",
-  	data:{
-  		uid : 2042092
-	},
       url: "http://v2.uyan.cc/code/uyan.js",
       dataType: "script",
       cache: false
