@@ -49,6 +49,7 @@ function content_effects() {
       $("#nav").append("<div style='margin-left:" + 15 * (tag - 1) + "px'><a id='link" + i + "' href='#title" + i + "'>" + current.html() + "</a></div>");
     });
     $("pre").addClass("prettyprint");
+    $("pre").addClass("linenums");
     prettyPrint();
     $('#content img').addClass('img-thumbnail').parent('p').addClass('center');
     $('#content_btn').show();
