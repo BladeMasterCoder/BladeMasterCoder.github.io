@@ -251,9 +251,11 @@ poxy-target-class="true"/>时，表示使用CGLib动态代理技术织入增强�
 			-----run-----
 
 
-**spring aop 如何利用jdk动态代理的 **
+当然是用spring还需导入相关jar包
 
-参考这篇： [](http://blog.csdn.net/moreevan/article/details/11977115)
+**spring aop 如何利用jdk动态代理的**
+
+参考这篇： [](!http://blog.csdn.net/moreevan/article/details/11977115)
 
 
 
