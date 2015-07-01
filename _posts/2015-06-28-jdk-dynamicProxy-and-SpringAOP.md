@@ -251,7 +251,7 @@ poxy-target-class="true"/>时，表示使用CGLib动态代理技术织入增强�
 			-----run-----
 
 
-当然是用spring还需导入相关jar包
+当然使用spring还需导入相关jar包
 
 
 
