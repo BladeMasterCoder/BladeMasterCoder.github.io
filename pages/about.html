@@ -24,29 +24,34 @@ title: About me
 <h2>联系方式</h2>
 <hr>
 <table>
-<tr>
-<td width="80px"><li><a href="mailto:{{ site.author.email }}">
-  <i class="fa fa-envelope-o fa-2x"></i>
-</a>Email</li></td>  
-<td>gycoderhh@gmail.com</td>
-</tr>
+	<tr>
+		<td width="80px">
+			<li>Email</li>
+		</td>  
+		<td>gycoderhh@gmail.com
+			<a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o fa-2x"></i></a>
+		</td>
+	</tr>
 
-<tr>
-<td width="80px">
-	<li><a href="{{ site.author.github }}" target="_blank">
-	  <i class="fa fa-github fa-2x">
-	</i>
-	</a>github</li>
-</td>  
-<td><a href="{{ site.author.github }}" target="_blank">https://github.com/BladeMasterCoder</a></td>  
-</tr>
+	<tr>
+		<td width="80px">
+			<li>github</li>
+		</td>  
+		<td>
+			<a href="{{ site.author.github }}" target="_blank">https://github.com/BladeMasterCoder</a>
+			<a href="{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+		</td>  
+	</tr>
 
-<tr>
-<td width="80px"><li><a href="{{ site.author.weibo }}" target="_blank">
-  <i class="fa fa-weibo fa-2x"></i>
-</a>新浪微博</li></td> 
-<td><a href="{{ site.author.weibo }}" target="_blank">http://weibo.com/u/2344559062</a></td> 
-</tr>
+	<tr>
+		<td width="80px">
+			<li>新浪微博</li>
+		</td> 
+		<td>
+			<a href="{{ site.author.weibo }}" target="_blank">http://weibo.com/u/2344559062</a>
+			<a href="{{ site.author.weibo }}" target="_blank"><i class="fa fa-weibo fa-2x"></i></a>
+		</td> 
+	</tr>
 </table>
 
 
@@ -62,22 +67,10 @@ title: About me
 <hr>
 <p>
 学习，永远不会太晚
+
+
 </p>
 <br>
-
-<p>本站所有内容均代表个人观点</p>
-
-<hr>
-<a href="{{ site.author.weibo }}" target="_blank">
-  <i class="fa fa-weibo fa-2x"></i>
-</a>
-<a href="{{ site.author.github }}" target="_blank">
-  <i class="fa fa-github fa-2x"></i>
-</a>
-<a href="mailto:{{ site.author.email }}">
-  <i class="fa fa-envelope-o fa-2x"></i>
-</a>
-
 <br> 
 <br>
 {% include disqus.html %}
