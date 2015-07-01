@@ -95,10 +95,55 @@ Map：是一个键值对的集合。也就是说，一个映射不能包含重�
 
 **在Java中，HashMap是如何工作的？**
 
-HashMap在Map.Entry静态内部类实现中存储<key，value>对。HashMap使用哈希算法，在put和get方法中，它使用hashCode()和equals()方法。当我们通过传递<key，value>对调用put方法的时候，HashMap使用Key hashCode()和哈希算法来找出存储key-value对的索引。Entry存储在LinkedList中，所以如果存在entry，它使用equals()方法来检查传递的key是否已经存在，如果存在，它会覆盖value，如果不存在，它会创建一个新的entry然后保存。当我们通过传递key调用get方法时，它再次使用hashCode()来找到数组中的索引，然后使用equals()方法找出正确的Entry，然后返回它的值。
+HashMap在Map.Entry静态内部类实现中存储<key，value>对。
+	
+	static class HashMapEntry<K, V> implements Entry<K, V> {
+        final K key;
+        V value;
+        final int hash;
+        HashMapEntry<K, V> next;   //从这可以看到HashMapEntry是一个链表
+
+		//...还有一堆代码
+	}
+
+    transient HashMapEntry<K, V>[] table;   //存储key,value的数组。
+
+HashMap使用哈希算法，在put和get方法中，它使用hashCode()和equals()方法。
+
+	public V put(K key, V value) {
+        if (key == null) {
+            return putValueForNullKey(value);
+        }
+
+        int hash = Collections.secondaryHash(key);
+        HashMapEntry<K, V>[] tab = table;
+        int index = hash & (tab.length - 1);
+        for (HashMapEntry<K, V> e = tab[index]; e != null; e = e.next) {  //已经存在
+            if (e.hash == hash && key.equals(e.key)) {
+                preModify(e);
+                V oldValue = e.value;
+                e.value = value;
+                return oldValue;
+            }
+        }
+
+        // No entry for (non-null) key is present; create one
+        modCount++;
+        if (size++ > threshold) {
+            tab = doubleCapacity();
+            index = hash & (tab.length - 1);
+        }
+        addNewEntry(key, value, hash, index);    //新的entry，增加进去
+        return null;
+    }
+
+在HashMap中我们的key可以为null，所以第一步就处理了key为null的情况。
+
+当我们通过传递<key，value>对调用put方法的时候，HashMap使用Key hashCode()和哈希算法来找出存储key-value对的索引。当找到key所对应的位置的时候，对对应位置的Entry的链表进行遍历，如果以及存在key的话，就更新对应的value，并返回老的value。如果是新的key的话，就将其增加进去。
+
+当我们通过传递key调用get方法时，它再次使用hashCode()来找到数组中的索引，然后使用equals()方法找出正确的Entry，然后返回它的值。
 
 HashMap默认的初始容量是32，负荷系数是0.75。阀值是为负荷系数乘以容量，无论何时我们尝试添加一个entry，如果map的大小比阀值大的时候，HashMap会对map的内容进行重新哈希，且使用更大的容量。容量总是2的幂，所以如果你知道你需要存储大量的<key，value>对，比如缓存从数据库里面拉取的数据，使用正确的容量和负荷系数对HashMap进行初始化是个不错的做法。
-
 
 
 
