@@ -223,6 +223,18 @@ applicationContext.xml文件，放在src目录下。
 <aop:aspectj-autoproxy/>有一个proxy-target-class属性，默认为false，表示使用jdk动态代理织入增强，当配为<aop:aspectj-autoproxy  
 poxy-target-class="true"/>时，表示使用CGLib动态代理技术织入增强。 不过即使proxy-target-class设置为false，如果目标类没有声明接口，则spring将自动使用CGLib动态代理。
 
+比较： 
+
+- 如果目标对象实现了接口，默认情况下会采用JDK的动态代理实现AOP
+- 如果目标对象实现了接口，可以强制使用CGLIB实现AOP
+- 如果目标对象没有实现了接口，必须采用CGLIB库，spring会自动在JDK动态代理和CGLIB之间转换
+
+JDK动态代理和CGLIB字节码生成的区别？
+* JDK动态代理只能对实现了接口的类生成代理，而不能针对类
+* CGLIB是针对类实现代理，主要是对指定的类生成一个子类，覆盖其中的方法
+* 因为是继承，所以该类或方法最好不要声明成final	
+
+
 客户端调用：
 
 	import org.springframework.beans.factory.BeanFactory;
