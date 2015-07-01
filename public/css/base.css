@@ -73,4 +73,4 @@ a:hover {text-decoration:none;}
 .ds-thread {width: 100%; margin-bottom: 40px;}
 
 /* 显示站点访问统计的地方 */
-.count {  width:100%;text-align:center; }
+.count {  width:100%;text-align:center;font-size: 18px; }
