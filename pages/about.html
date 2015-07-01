@@ -25,17 +25,26 @@ title: About me
 <hr>
 <table>
 <tr>
-<td width="80px"><li>Email</li></td>  
+<td width="80px"><li><a href="mailto:{{ site.author.email }}">
+  <i class="fa fa-envelope-o fa-2x"></i>
+</a>Email</li></td>  
 <td>gycoderhh@gmail.com</td>
 </tr>
 
 <tr>
-<td width="80px"><li>github</li></td>  
+<td width="80px">
+	<li><a href="{{ site.author.github }}" target="_blank">
+	  <i class="fa fa-github fa-2x">
+	</i>
+	</a>github</li>
+</td>  
 <td><a href="{{ site.author.github }}" target="_blank">https://github.com/BladeMasterCoder</a></td>  
 </tr>
 
 <tr>
-<td width="80px"><li>新浪微博</li></td> 
+<td width="80px"><li><a href="{{ site.author.weibo }}" target="_blank">
+  <i class="fa fa-weibo fa-2x"></i>
+</a>新浪微博</li></td> 
 <td><a href="{{ site.author.weibo }}" target="_blank">http://weibo.com/u/2344559062</a></td> 
 </tr>
 </table>
@@ -64,9 +73,6 @@ title: About me
 </a>
 <a href="{{ site.author.github }}" target="_blank">
   <i class="fa fa-github fa-2x"></i>
-</a>
-<a href="/pages/atom.xml" target="_blank">
-  <i class="fa fa-rss fa-2x"></i>
 </a>
 <a href="mailto:{{ site.author.email }}">
   <i class="fa fa-envelope-o fa-2x"></i>
