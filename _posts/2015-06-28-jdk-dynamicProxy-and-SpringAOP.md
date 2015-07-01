@@ -271,9 +271,17 @@ poxy-target-class="true"/>时，表示使用CGLib动态代理技术织入增强�
 
 而作为切面的类
 
+	import org.aspectj.lang.JoinPoint;
+
 	public class MyInvocationgHandler {		
 		
-		private void check() {
+		private void check(JoinPoint joinPoint) {    // 客户端调用代理类方法的时候，调用的参数这里都能拿到
+			Object[] args = joinPoint.getArgs();
+			for (int i=0; i<args.length; i++) {
+				System.out.println(args[i]);
+			}
+			
+			System.out.println(joinPoint.getSignature().getName());   //方法名也都能拿到
 			System.out.println("-----check-----");
 		}
 		
