@@ -255,6 +255,33 @@ poxy-target-class="true"/>时，表示使用CGLib动态代理技术织入增强�
 
 
 
+上面是通过注解的方式，也可通过静态配置的方式，applicationContext.xml文件作如下改动。
+
+	<!--  <aop:aspectj-autoproxy/>  -->
+	<bean id="myInvocationgHandler" class="com.spring.MyInvocationgHandler"/>           
+	<bean id="people" class="com.spring.Student"/>
+
+	<aop:config>
+		<aop:aspect id="security" ref="myInvocationgHandler">        <!-- 配置切面  -->
+			<aop:pointcut id="method" expression="execution(* say*(..)) || execution(* run*(..))"/>
+			<aop:before method="check" pointcut-ref="method"/>
+		</aop:aspect>
+	</aop:config>
+
+
+而作为切面的类
+
+	public class MyInvocationgHandler {		
+		
+		private void check() {
+			System.out.println("-----check-----");
+		}
+		
+	}
+
+从这里也可以看到基于注解的实现中的，method()只是一个标识。
+
+
 **spring aop 如何利用jdk动态代理的**
 
 参考这篇：  [http://blog.csdn.net/moreevan/article/details/11977115](http://blog.csdn.net/moreevan/article/details/11977115)
