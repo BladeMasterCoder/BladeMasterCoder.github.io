@@ -5,7 +5,8 @@
 .x2-right{right:16.66666667%}
 .x1-move{margin-left:8.33333333%}
 .padding-large{padding:30px}.padding-large-top{padding-top:30px}.padding-large-right{padding-right:30px}.padding-large-bottom{padding-bottom:30px}.padding-large-left{padding-left:30px}.padding-big{padding:20px}.padding-big-top{padding-top:20px}.padding-big-right{padding-right:20px}.padding-big-bottom{padding-bottom:20px}.padding-big-left{padding-left:20px}.padding{padding:10px}.padding-top{padding-top:10px}.padding-right{padding-right:10px}.padding-bottom{padding-bottom:10px}.padding-left{padding-left:10px}.padding-small{padding:5px}.padding-small-top{padding-top:5px}.padding-small-right{padding-right:5px}.padding-small-bottom{padding-bottom:5px}.padding-small-left{padding-left:5px}.padding-little{padding:2px}.padding-little-top{padding-top:2px}.padding-little-right{padding-right:2px}.padding-little-bottom{padding-bottom:2px}.padding-little-left{padding-left:2px}
-.border{border:solid 1px #ddd}
+.border{border:solid 1px #ddd}.border-top{border-top:solid 1px #ddd}
+.border-right{border-right:solid 1px #ddd}.border-bottom{border-bottom:solid 1px #ddd}.border-left{border-left:solid 1px #ddd}.border-left-right{border-left:solid 1px #ddd;border-right:solid 1px #ddd}.border-top-bottom{border-top:solid 1px #ddd;border-bottom:solid 1px #ddd}.border-large{border-width:10px}.border-big{border-width:5px}.border-middle{border-width:3px}.border-small{border-width:2px}
 .border-sub{color:#0ae}
 .border-dotted{border-style:dotted}
 .fadein-right,.fadein-bottom{-webkit-animation:1s ease-out backwards;-moz-animation:1s ease-out backwards;-ms-animation:1s ease-out backwards;animation:1s ease-out backwards}
