@@ -70,7 +70,11 @@ a:hover {text-decoration:none;}
 
 
 /* 显示评论地方 */
-.ds-thread {width: 100%; margin-bottom: 40px;}
+.ds-thread { width: 100%; margin-bottom: 40px;}
 
 /* 显示站点访问统计的地方 */
-.count {  width:100%;text-align:center;font-size: 18px; }
+.count{ font-size:16px;margin:0;padding:0}
+
+.x2 { width:16.66666667%,margin-left:8.33333333%}
+
+.x3 { padding:10px;color:#fff;border:solid 1px #ddd;}
