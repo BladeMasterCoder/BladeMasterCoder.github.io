@@ -14,7 +14,7 @@ author:
   github: https://github.com/BladeMasterCoder
 
 # 站点信息
-title: skyCoder 
+title: blademaster
 description: 高扬的博客
 url: http://blademastercoder.github.io/
 rss_url: /pages/atom.xml
@@ -31,7 +31,8 @@ disqus:
 active: 技术
 
 # 首页除了最新文章外显示分类
-#cates: 
+cates: 
+- Essay
 # - Python
 # - OpenStack
 
