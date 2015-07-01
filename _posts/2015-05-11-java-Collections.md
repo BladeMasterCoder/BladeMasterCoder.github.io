@@ -141,7 +141,7 @@ HashMap使用哈希算法，在put和get方法中，它使用hashCode()和equals
 
 当我们通过传递<key，value>对调用put方法的时候，HashMap使用Key hashCode()和哈希算法来找出存储key-value对的索引。当找到key所对应的位置的时候，对对应位置的Entry的链表进行遍历，如果以及存在key的话，就更新对应的value，并返回老的value。如果是新的key的话，就将其增加进去。
 
-当我们通过传递key调用get方法时，它再次使用hashCode()来找到数组中的索引，然后使用equals()方法找出正确的Entry，然后返回它的值。
+当我们通过传递key调用get方法时，其实就是将key以put时相同的方法算出在table的所在位置，然后对所在位置的链表进行遍历，找到hash值和key都相等的Entry并将value返回。
 
 HashMap默认的初始容量是32，负荷系数是0.75。阀值是为负荷系数乘以容量，无论何时我们尝试添加一个entry，如果map的大小比阀值大的时候，HashMap会对map的内容进行重新哈希，且使用更大的容量。容量总是2的幂，所以如果你知道你需要存储大量的<key，value>对，比如缓存从数据库里面拉取的数据，使用正确的容量和负荷系数对HashMap进行初始化是个不错的做法。
 
