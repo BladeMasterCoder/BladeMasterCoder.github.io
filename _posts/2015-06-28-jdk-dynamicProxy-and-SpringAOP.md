@@ -2,7 +2,7 @@
 layout: post
 title: JDK动态代理与spring中的AOP
 category: 技术
-tags:  Java,spring
+tags:  [Java,spring]
 description: 
 ---
 
