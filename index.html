@@ -1,0 +1,59 @@
+---
+layout: page
+title: 首页
+---
+
+<br>
+
+	<div class="count">
+        <div style="float:left;margin-left:20%;width:20%;text-align: center;">
+            <span id="busuanzi_container_site_pv">
+                 <div class="fadein-left" style="border-style:dotted;border-color:#0aE;border-width:1px;padding:10px;">
+                       本站总访问量：<span id="busuanzi_value_site_pv"></span>次
+                 </div>
+            </span>
+        </div>
+        <div style="float:left;margin-left:20%;width:20%;text-align: center;">
+            <span id="busuanzi_container_site_uv">
+                 <div class="fadein-right" style="border-style:dotted;border-color:#0aE;border-width:1px;padding:10px;">
+                       本站总访客数：<span id="busuanzi_value_site_uv"></span>人
+                 </div>
+            </span>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading">{{ site.locals.newest }}</div>
+      {% for post in paginator.posts %}
+        <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
+          {{post.title}}
+          <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% for cate in site.cates %}
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">{{ cate }}</div>
+        {% for tag in site.tags %} 
+          {% if tag[0] == cate %}
+            {% for post in tag[1] %}
+              <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
+                {{post.title}}
+                <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
+              </a>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+
+    
+</div>
+ 

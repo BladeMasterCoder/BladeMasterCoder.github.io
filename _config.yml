@@ -1,0 +1,45 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: 高扬
+  email: gycoderhh@gmail.com
+  link: http://localhost:4000/
+  weibo: http://weibo.com/u/2344559062
+  github: https://github.com/BladeMasterCoder
+
+# 站点信息
+title: blademaster
+description: 高扬的博客
+url: http://localhost:4000/
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/blade.png
+favicon: /public/img/blade2.ico
+
+# disqus 设置
+disqus:
+  shortname: blademastercoder
+
+# 主题设置，自动激活某个标签
+active: 技术
+
+# 首页除了最新文章外显示分类
+cates: 
+- Essay
+# - Python
+# - OpenStack
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
+  content: 目录
