@@ -9,14 +9,22 @@ kramdown:
 author: 
   name: 高扬
   email: gycoderhh@gmail.com
+<<<<<<< HEAD
   link: http://blademastercoder.github.io/
+=======
+  link: http://localhost:4000/
+>>>>>>> origin/master
   weibo: http://weibo.com/u/2344559062
   github: https://github.com/BladeMasterCoder
 
 # 站点信息
 title: blademaster
 description: 高扬的博客
+<<<<<<< HEAD
 url: http://blademastercoder.github.io/
+=======
+url: http://localhost:4000/
+>>>>>>> origin/master
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
@@ -42,5 +50,9 @@ locals:
   about: 关于
   newest: 最新文章
   archive: 归档
+<<<<<<< HEAD
   content: 目录
   Essay ： 随笔
+=======
+  content: 目录
+>>>>>>> origin/master

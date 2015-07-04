@@ -11,8 +11,13 @@
 5. 修改`_config.yml`配置项
 6. It's done!
 
+<<<<<<< HEAD
 ### 分支说明
 
 - 三栏布局（master分支）
 - 单栏布局（first-ui分支）
+=======
+
+
+>>>>>>> origin/master
 
