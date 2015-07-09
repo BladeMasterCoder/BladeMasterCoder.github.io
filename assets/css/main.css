@@ -22,7 +22,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;s
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -328,12 +328,17 @@ pre {
 }
 
 .profile_gavatar{
+	margin-top : 4em;
 }	
 	
 .profile_desc{
+	margin-top : 5em;
+	font-size: 18px;
+	letter-spacing: 1px;
 }
 
 .profile_social{
+	margin-top : 5em;
 }
 
 /**
