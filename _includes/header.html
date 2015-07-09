@@ -1,20 +1,24 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }} | {{ site.title }}</title>
-<meta name="author" content="{{ site.author.name }}">
-{% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}">
-{% endif %}
-{% if page.description  %}
-  <meta name="description " content="{{ page.description  }}">
-{% endif %}
-<link rel="shortcut icon" href="{{ site.favicon }}" />
-
-<!-- Bootstrap -->
-<link rel="stylesheet" href="/public/css/bootstrap.css">
-<link rel="stylesheet" href="/public/css/font-awesome.css">
-<link rel="stylesheet" href="/public/js/prettify/prettify.css">
-<link rel="stylesheet" href="/public/css/base.css">
-<link href="/pages/atom.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
-
+<header class="site-header">
+	<div class="container">
+		<div class="row">
+				  <div class="col-md-3 col-lg-3 center">
+				 			<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+				  </div>
+				  
+				  <div class="col-md-6 col-lg-6 center">				  			
+							<nav class="site-nav">
+								       <ul class="nav nav-pills">
+								       	<li><a class="page-link pjaxlink" href="/pages/read.html">read</a></li>
+								       	<li><a class="page-link pjaxlink" href="/pages/class.html">class</a></li>
+								       	<li><a class="page-link pjaxlink" href="/pages/tags.html">tags</a></li>
+								      	<li><a class="page-link pjaxlink" href="/pages/archive.html">archive</a></li>
+								        	<li><a class="page-link pjaxlink" href="/pages/about.html">about</a></li>
+								        </ul>
+							</nav>
+				  </div>
+				  
+				   <div class="col-md-3 col-lg-3">
+				   </div>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="content">
+   	<div class="container">	
+   		<div class="row">  		
+			<div class="col-md-3 profile">
+				<div class="center profile_gavatar">
+					<a href="/"><img src="{{ site.gavatar }}"></a>
+				</div>
+				<div class="center profile_desc">
+					{{ site.profile_desc }}
+				</div>
+				<div class="profile_social">
+				        <table class="table table-condensed">
+				          <tr>
+				            <td class="center"><a href="/pages/atom.xml" target="_blank"><i class="fa fa-rss fa-2x"></i></a></td>
+				            <td class="center"><a href="{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x"></i></a></td>
+				            <td class="center"><a href="{{ site.author.weibo }}" target="_blank"><i class="fa fa-weibo fa-2x"></i></a></td>
+				          </tr>
+				        </table>
+				</div>
+			</div>
+			
+			<div class="page-content col-md-6 col-md-offset-3">					 		
+					<div class="wrapper" id="pjax">{{content}}</div>				
+			</div>
+			
+	 		<div class="col-md-3 comment ">
+	 				<div class="recent center">aa</div>
+	 				<div class=" center">aa</div>
+	 		</div>	 
+ 		</div>	
+	</div>
+    </div>
+    
+    <div id="backtotop">
+    		<a href="#"><div class="bttbg"></div></a>
+    </div>
+    
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -20,8 +20,8 @@ url: http://blademastercoder.github.io/
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/blade.png
-favicon: /public/img/blade2.ico
+gavatar : /assets/img/gavatar.png
+favicon : /assets/img/favicon.png
 
 # disqus 设置
 disqus:
