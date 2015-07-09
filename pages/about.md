@@ -1,7 +1,9 @@
 ---
-layout: page
-title: About me
+layout: default
+title: About
+permalink: /pages/about.html
 ---
+
 
 <h2>基本信息</h2>
 <hr>
@@ -71,4 +73,3 @@ title: About me
 <br>
 <br> 
 <br>
-{% include disqus.html %}
