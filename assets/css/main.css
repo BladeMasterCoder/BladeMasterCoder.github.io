@@ -459,7 +459,7 @@ a.profile_gavatar{
 	display: -webkit-box;
 }
 a.profile_gavatar .circle{
-	opacity: 0;
+	opacity: 1;
 	-webkit-border-radius: 99em;
 	-moz-border-radius: 99em;
 	border-radius: 99em;
