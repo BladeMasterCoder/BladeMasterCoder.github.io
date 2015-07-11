@@ -70,7 +70,7 @@ permalink: /pages/about.html
 	</p>
 	<br>
 	<br> 
-	<br>
+	
+	{% include duoshuo.html %}
 </div>
 
-{% include duoshuo.html %}
