@@ -146,6 +146,43 @@ ul, ol, dl, figure,
     cursor:pointer;
 }
 
+.bookpiclist .bookpic img {
+    max-width:100%;
+    position: relative;
+}
+
+.bookpiclist .bookpic .label {
+    position: absolute;
+    width: 100%;
+    height:40px;
+    bottom:-40px;
+    display: block !important;
+}
+
+.bookpiclist .bookpic .label-bg {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.bookpiclist .bookpic .label-text {
+    color:#fff;
+    position: relative;
+    z-index:500;
+    padding:5px 8px;
+    font-weight:300;
+}
+
+.bookpiclist .bookpic .text-title {
+    display:block;
+    font-size:13px;
+    margin: 1px;
+    color : #fff;
+    text-transform:capitalize;
+}
+
 /**
  * 标签页
  */
