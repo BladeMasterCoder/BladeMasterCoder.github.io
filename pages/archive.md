@@ -14,7 +14,7 @@ permalink: /pages/archive.html
 	      <legend id="{{this_year}}-{{this_month}}">{{this_year}}年-{{this_month}}月</legend>
 	      <ul>
 	    {% endif %}
-	    <li><span>{{ post.date | date: "%Y年-%m月-%d日" }}</span> &raquo; 
+	    <li class="archive_span"><span>{{ post.date | date: "%Y年-%m月-%d日" }}</span> &raquo; 
 	      <a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a>
 	    </li>
 	  
