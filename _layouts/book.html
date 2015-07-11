@@ -14,9 +14,9 @@ layout: default
     <br />
     <div class="row">
       {% for book in page.books %}
-        <div class="col-md-12">
+        <div class="col-md-12 target-fix">
           <div class="panel panel-primary">
-            <div class="panel-heading target-fix" id="{{ book.title }}" name = "{{ book.title }}">{{ book.title }}</div>
+            <div class="panel-heading" id="{{ book.title }}" name = "{{ book.title }}">{{ book.title }}</div>
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-4 col-xs-12 center">
