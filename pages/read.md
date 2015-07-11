@@ -9,7 +9,7 @@ permalink: /pages/read.html
 	{% for page in site.posts %}
 			{% if page.categories[0] == '读书' %}
 				{% for book in page.books %}
-					<a href="{{page.url}}"><img src="{{ book.cover }}" alt="cover" class="img-thumbnail"></a>
+					<a href="{{page.url}}#{{ book.title }}"><img src="{{ book.cover }}" alt="cover" class="img-thumbnail"></a>
 				{% endfor %}
 			{% endif %}
 	{% endfor %}
