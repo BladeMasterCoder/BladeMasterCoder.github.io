@@ -10,7 +10,7 @@ description:
 
 先上图片
 
-![](/public/img/blogimg/Jekyll-grammer.png)
+![](/assets/img/blogimg/Jekyll-grammer.png)
 
 
 ## Jekyll 是什么?

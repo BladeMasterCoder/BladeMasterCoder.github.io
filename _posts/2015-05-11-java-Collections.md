@@ -9,7 +9,7 @@ description:
 
 > 容器是Java语言学习中重要的一部分，很多优秀的算法都需要借助特定的容器类来实现。因此容器类其实就是java中的数据结构。先上一张图（原图地址：[点这里](http://www.cnblogs.com/xwdreamer/archive/2012/05/30/2526822.html)）
 
-![](/public/img/blogimg/java_collections.png)
+![](/assets/img/blogimg/java_collections.png)
 
 
 其中

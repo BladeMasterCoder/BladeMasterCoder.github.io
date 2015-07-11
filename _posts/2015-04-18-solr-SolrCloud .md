@@ -250,7 +250,7 @@ clientPort对应如下：
 
 得到的页面都是一样的。一个collection有一个分片，这个分片有四个备份。
 
-![](/public/img/blogimg/SolrCloud.png)
+![](/assets/img/blogimg/SolrCloud.png)
 
 
 ## 创建Collection、Shard和Replication

@@ -12,7 +12,7 @@ description:
 
 基本思想如图所示： 
 
-![](/public/img/blogimg/queue.png)
+![](/assets/img/blogimg/queue.png)
 
 在push的时候，往非空的那个队列添加（刚刚初始化的时候，两个队列都为空，随便往哪个队列push都行 上图步骤1和步骤3
 
