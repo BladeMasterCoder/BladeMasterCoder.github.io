@@ -128,7 +128,6 @@ ul, ol, dl, figure,
     -o-box-sizing: border-box;
     width:31%;
     margin:1%;
-    display:none;
     float:left;
     overflow:hidden;
 }
@@ -141,6 +140,8 @@ ul, ol, dl, figure,
 
 .bookpiclist .bookpic img {
     max-width:100%;
+	width: 100%;
+	height: 100%;
     position: relative;
 }
 
