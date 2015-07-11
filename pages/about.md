@@ -66,7 +66,7 @@ permalink: /pages/about.html
 	<h3>座右铭</h3>
 	<hr>
 	<p>
-	学习，永远不会太晚
+	世界这么大 我想去看看
 	</p>
 	<br>
 	<br> 

@@ -187,7 +187,12 @@ div.article a:focus {
 	z-index : 5000;
 }
 
-
+/**
+ * 最近访客和最新评论
+ */
+.comment{
+	margin-top : 2em;
+}
 
 
 /**
@@ -578,7 +583,7 @@ a.profile_gavatar .circle{
     width: calc(100% - (30px / 2)); } }
     
  
-.comment{
+.aside3{
 	position : fixed;
 	right : 0;
 	top : 6em;
