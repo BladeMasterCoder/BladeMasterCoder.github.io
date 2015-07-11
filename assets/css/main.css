@@ -154,6 +154,7 @@ ul, ol, dl, figure,
 }
 
 .bookpiclist .bookpic .label-bg {
+	background: #3B5998;
     width: 100%;
     height:100%;
     position: absolute;

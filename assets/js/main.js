@@ -29,7 +29,20 @@ $(document).ready(function() {
 	    timeout: 10000
 	  });
        
-       $(".circle").load(function(){
+    $(".circle").load(function(){
 	    $(".circle").addClass("show");
-	 });   		    
+	 });   	
+
+	$('.bookpiclist .bookpic').hover(
+                    function() {
+                        $(this).find('.label').stop().animate({bottom: 0}, 200);
+                        $(this).find('img').stop().animate({top: -30}, 500);
+                    },
+                    function() {
+                        $(this).find('.label').stop().animate({bottom: -40}, 200);
+                        $(this).find('img').stop().animate({top: 0}, 300);
+                    }
+    );
+
+	 
 });
