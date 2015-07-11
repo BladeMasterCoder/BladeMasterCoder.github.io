@@ -587,11 +587,6 @@ a.profile_gavatar .circle{
     width: calc(100% - (30px / 2)); } }
     
  
-.comment{
-	position : fixed;
-	right : 0;
-	top : 6em;
-}
      
 .content{
 	margin:0 auto;
