@@ -120,14 +120,7 @@ ul, ol, dl, figure,
  * 标签页
  */
 .bookpiclist{ 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    width:31%;
-    margin:1%;
-    display:none;
-    float:left;
-    overflow:hidden;
+	width : 100%;
 }
 .bookpiclist .bookpic{ 
     -webkit-box-sizing: border-box;
