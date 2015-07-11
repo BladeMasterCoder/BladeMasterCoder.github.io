@@ -14,13 +14,7 @@ permalink: /pages/read.html
 						<a href="{{page.url}}#{{ book.title }}"><img src="{{ book.cover }}" alt="cover" class="img-thumbnail">
 							<div class="label">
                                 <div class="label-text">
-                                    {% if book.status == '已读' %}
-									<span class="label label-success">{{ book.status }}</span>
-								    {% elsif book.status == '在读' %}
-									<span class="label label-info">{{ book.status }}</span>
-								    {% elsif book.status == '未读' %}
-									<span class="label label-default">{{ book.status }}</span>
-								    {% endif %}
+                                    <span class="text-title">{{ book.status }}</a>
                                 </div>
                                 <div class="label-bg"></div>
                             </div>						
