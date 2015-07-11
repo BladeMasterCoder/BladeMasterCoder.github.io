@@ -119,6 +119,36 @@ ul, ol, dl, figure,
 /**
  * 标签页
  */
+.bookpiclist{ 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width:31%;
+    margin:1%;
+    display:none;
+    float:left;
+    overflow:hidden;
+}
+.bookpiclist .bookpic{ 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width:31%;
+    margin:1%;
+    display:none;
+    float:left;
+    overflow:hidden;
+}
+.bookpiclist .bookpic .bookpic-wrapper{
+    overflow:hidden;
+    position: relative !important;
+    background: #666;
+    cursor:pointer;
+}
+
+/**
+ * 标签页
+ */
 div.page-tag {
   	text-align: center;
 }
