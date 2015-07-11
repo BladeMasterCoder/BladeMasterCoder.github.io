@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 读书
 permalink: /pages/read.html
 ---
