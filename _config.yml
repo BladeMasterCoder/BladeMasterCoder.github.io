@@ -38,3 +38,7 @@ cates:
 - Essay
 # - Python
 # - OpenStack
+
+# 中文本地化
+locals: 
+   newest : 最新文章
