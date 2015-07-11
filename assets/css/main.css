@@ -193,6 +193,9 @@ div.article a:focus {
 .comment{
 	margin-top : 2em;
 }
+.ds-recent-visitors, .ds-recent-comments{
+	margin-left : 0 ; 
+}
 
 
 /**
