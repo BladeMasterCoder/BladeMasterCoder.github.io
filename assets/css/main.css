@@ -191,10 +191,11 @@ div.article a:focus {
  * 最近访客和最新评论
  */
 .comment{
-	margin-top : 2em;
+	margin-top : 5em;
 }
 .ds-recent-visitors, .ds-recent-comments{
 	margin-left : 0 ; 
+	padding-left : 0;
 }
 
 
