@@ -101,11 +101,9 @@ ul, ol, dl, figure,
 	  font-size: 1em;
 	  line-height: 1.2em;
 	  background-color: #eee;
-	  float: left;
 	  padding: 0.1em 0.6em;
 	  margin: 0 1em 1em 0;
 	  border-radius: 8px;
-	  float : right;
 }
 
 .index-post-tag a:hover, .index-post-tag a:focus{
@@ -113,6 +111,11 @@ ul, ol, dl, figure,
 	  color: #fff;
 	  background-color: #428bca;
 }
+
+.active_page{
+	font-size : 1.2em;
+}
+
 /**
  * 标签页
  */
@@ -184,19 +187,9 @@ div.article a:focus {
 .about{
 	margin : 0 auto 0.5em auto;
 	padding : 2em 2em;
-	z-index : 5000;
 }
 
-/**
- * 最近访客和最新评论
- */
-.comment{
-	margin-top : 5em;
-}
-.ds-recent-visitors, .ds-recent-comments{
-	margin-left : 0 ; 
-	padding-left : 0;
-}
+
 
 
 /**
@@ -586,6 +579,12 @@ a.profile_gavatar .circle{
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
     
+ 
+.comment{
+	position : fixed;
+	right : 0;
+	top : 6em;
+}
      
 .content{
 	margin:0 auto;
@@ -696,37 +695,36 @@ a.profile_gavatar .circle{
     	padding: 15px;
     	padding-top: 5px;
     	border : 0.5px dotted black;
-    	border-top : 1px solid blue;
-    	border-bottom : 1px solid blue;	
     	margin-bottom : 2em;
 }
 
 .postbox a.readmore {
     position: relative;
+    border-radius: 8px;
     float: left;
-    margin-top: 28px;
-    padding-right: 15px;
+    margin-top: 20px;
     display: inline-block;
-    width: 200px;
+    width: 150px;
     padding: 5px 2px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
     border: 1px solid #dadada;
 }
 .postbox a.readmore:hover {
-    background-color: #428bca;
+    background-color: rgba(0,0,0,0.6);
     color: #fff;
     padding: 6px;
 }
 .postbox .allpost .title{
-    display: inline-block;
-    font-size: 20px; 
-    text-align: left;
-    width: 100%;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #DDD;
-    padding : 0 ;
+	display: inline-block;
+	font-size: 20px;
+	text-align: left;
+	width: 100%;
+	margin: 0.5em auto;
+	border-bottom: 1px solid #DDD;
+	border-left: 3px solid black;
+	padding-left: 0.5em;
 }
 .postbox .allpost .title a{
 	color:#696969;
@@ -736,12 +734,14 @@ a.profile_gavatar .circle{
     color:#b0a0aa;
     text-decoration:none;
 }
-
+.pagination{
+	display : block;
+	margin : 20px auto;
+}
 
 .postbox .allpost .info{
 	padding-left: 7px;
 	padding-right: 7px;
-	border-left: 1px solid #999999;
 	line-height: 14px;
 	font-size: 14px;
   	color: #828282;

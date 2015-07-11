@@ -1,11 +1,13 @@
 encoding: UTF-8
 
 permalink: /:year/:month/:day/:title.html
-paginate: 10
+paginate: 5
 markdown: kramdown
 
 kramdown:
   input: GFM
+
+highlighter: pygments
 
 # 作者信息
 author: 
