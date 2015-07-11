@@ -411,14 +411,33 @@ pre {
  * Search
  */
 .search{
-	height : 50px;
-}
-.search label{
-	position : absolute;
-	left : 17px;
-	top : 20px;
+	margin : 0 auto;
+	line-height : 50px;
 }
 
+.st-ui-search-input, .st-default-search-input{
+	display: inline-block;
+	width: 190px;
+	height: 16px;
+	padding: 7px 11px 7px 7px;
+	border: 1px solid #bbb;
+	border: 1px solid rgba(0,0,0,0.25);
+	font-weight: 400;
+	color: #444;
+	font-size: 14px;
+	line-height: 16px;
+	box-sizing: content-box;
+	background-clip: padding-box;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
 
 /**
  * Profile elements style
@@ -468,9 +487,6 @@ a.profile_gavatar .circle{
 	-ms-transition: all 0.5s ease-in;
 	transition: all 0.5s ease-in;
 }
-.show{
-	opacity: 1 ! important;
-}
 	
 .profile .address{
 	margin-top: 1.5em;
@@ -486,9 +502,26 @@ a.profile_gavatar .circle{
 	margin-top: 3em;
 }
  .profile_social .table{
-	width : 50%;
+	width : 80%;
 	margin:0 auto;
  }
+
+
+/**
+ * 右侧最近来访和最新评论
+ */
+.aside3{
+	background : #fff;
+	position: fixed;
+	width: 18em;
+	right: 3em;
+	top: 5em;
+	margin: 0 auto;
+	padding: 2em 2em;
+	opacity: 1;
+	border: 1px solid black;
+	z-index: 5000;
+}
 
 /**
  * Site footer
