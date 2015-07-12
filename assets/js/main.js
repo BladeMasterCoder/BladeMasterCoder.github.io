@@ -1,10 +1,6 @@
 $(document).ready(function() {
 		
 	$(function () {
-		window.prettyPrint && prettyPrint();
-		
-		$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-		
 		$(window).scroll(function(){
 			if ($(window).scrollTop()>100){
 				$("#backtotop").addClass("showme");
@@ -48,5 +44,9 @@ $(document).ready(function() {
                     }
       );
       
+	$(function() {
+		    $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+   		     prettyPrint();		
+	});
 	 
 });
