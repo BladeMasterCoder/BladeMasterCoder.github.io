@@ -1,7 +1,6 @@
 $(document).ready(function() {
 		
-	$(function () {
-		$(window).scroll(function(){
+	$(window).scroll(function(){
 			if ($(window).scrollTop()>100){
 				$("#backtotop").addClass("showme");
 			}
