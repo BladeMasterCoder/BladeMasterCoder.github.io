@@ -564,28 +564,28 @@ pre {
 /**
  * Profile elements style
  */
-.profile{
-	background : #fff;
-	position: fixed;
-	width: 18em;
-	left: 3em;
+.aside1{
+ 	position: fixed;
+ 	left: 0;
 	top: 5em;
+ 	z-index: 5000;	 
+}
+ 
+.aside1 .profile{
+	background : #fff;
 	margin: 0 auto;
 	padding: 2em 2em;
 	opacity: 1;
 	border: 1px solid black;
-	z-index: 5000;
 }
 .profile .overlay{
-	width: 100%;
+	-moz-border-radius: 7px 7px 0 0; 
+	-webkit-border-radius: 7px 7px 0 0;  
 	height: 90px;
 	background-image: url(/assets/img/bg5.png);
-	position: absolute;
 	opacity: 0.7;
-	left : 0;
-	top : 0;
+	margin: -2em -2em -4em -2em;
 }
-
 a.profile_gavatar{
 	position: relative;
 	width: 128px;
@@ -632,17 +632,20 @@ a.profile_gavatar .circle{
 /**
  * 右侧最近来访和最新评论
  */
+/**
+ * 右侧最近来访和最新评论
+ */
 .aside3{
-	background : #fff;
 	position: fixed;
-	width: 18em;
-	right: 3em;
+	right: 0;
 	top: 5em;
+	z-index: 5000;
+}
+.aside3 .socialInfo{
+	background : #fff;
 	margin: 0 auto;
 	padding: 2em 2em;
-	opacity: 1;
 	border: 1px solid black;
-	z-index: 5000;
 }
 
 /**
