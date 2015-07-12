@@ -880,7 +880,7 @@ a.profile_gavatar .circle{
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 2em;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
