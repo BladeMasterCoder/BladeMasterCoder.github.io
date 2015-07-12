@@ -696,6 +696,13 @@ a.profile_gavatar .circle{
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
     
+.social-media-list a:visited{
+	color : black;
+}    
+
+.social-media-list a:hover{
+	color : black;
+}  
  
      
 .content{
