@@ -22,11 +22,22 @@ $(document).ready(function() {
 	    fragment: "#pjax",
 	    timeout: 10000
 	  });
+	    
+	 $(document).on('pjax:complete', function() {
+		 $('.bookpiclist .bookpic').hover(
+                    function() {
+                        $(this).find('.booklabel').stop().animate({bottom: 0}, 200);
+                        $(this).find('img').stop().animate({top: -30}, 500);
+                    },
+                    function() {
+                        $(this).find('.booklabel').stop().animate({bottom: -40}, 200);
+                        $(this).find('img').stop().animate({top: 0}, 300);
+                    }
+               );
+	  });
+
        
-       $("li.select").click(function(){
-		$("li.select").removeClass("active");
-		$(this).addClass("active");
-	});
+
        
       $(".circle").load(function(){
 	    $(".circle").addClass("show");
