@@ -136,6 +136,9 @@ ul, ol, dl, figure,
     position: relative !important;
     background: #666;
     cursor:pointer;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
 }
 
 .bookpiclist .bookpic img {
