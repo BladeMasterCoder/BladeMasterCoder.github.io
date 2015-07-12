@@ -10,17 +10,15 @@ $(document).ready(function() {
 				$("#backtotop").removeClass("showme");
 			}
 	});
-	
-	
-	
+		
 	$("#backtotop").click(function(){
 		$('body,html').animate({scrollTop:0},400);
 			return false;
 		});
 	});
 		
-	$(".select").click(function(){
-		$(".select").removeClass("active");
+	$("li.select").click(function(){
+		$("li.select").removeClass("active");
 		$(this).addClass("active");
 	});
 	
