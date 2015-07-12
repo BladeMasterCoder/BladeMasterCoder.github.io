@@ -333,7 +333,9 @@ figcaption {
 ul, ol {
   margin-left: 30px; }
 
-li{list-style-type: decimal;}
+ul, ol li{
+	list-style-type: decimal;
+}
 li > ul,
 li > ol {
   margin-bottom: 0; }
