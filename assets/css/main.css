@@ -436,10 +436,8 @@ pre {
   top:0;
   width:100%;
   z-index : 5000;
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #044e97;
   min-height: 3.5em;
-  max-height: 4em;
+  max-height: 3.5em;
   }
 
 .site-title {
