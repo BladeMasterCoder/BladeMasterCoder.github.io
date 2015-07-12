@@ -45,7 +45,7 @@ $(document).ready(function() {
       );
       
 	$(function() {
-		    $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+		    $('pre').addClass('prettyprint');
    		     prettyPrint();		
 	});
 	 
