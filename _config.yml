@@ -16,10 +16,15 @@ author:
   link: http://blademastercoder.github.io/
   weibo: http://weibo.com/u/2344559062
   github: https://github.com/BladeMasterCoder
+  github_username:  BladeMasterCoder
+  weibo_username:  BladeMasterCoder
 
 # 站点信息
-title: blademaster
-description: 高扬的博客
+title : blademaster's blog
+description: 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 url: http://blademastercoder.github.io/
 rss_url: /feed.xml
 
