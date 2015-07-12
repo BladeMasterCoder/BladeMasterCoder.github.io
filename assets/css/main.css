@@ -821,7 +821,7 @@ a.profile_gavatar .circle{
     text-decoration: none;
     font-size: 10px;
     text-align: center;
-    border: 1px solid #dadada;
+    border: 1px solid #cfb7c4;
 }
 .postbox a.readmore:hover {
     background-color: rgba(0,0,0,0.6);
