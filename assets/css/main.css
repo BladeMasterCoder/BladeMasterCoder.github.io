@@ -850,6 +850,11 @@ a.profile_gavatar .circle{
     color: #fff;
     padding: 6px;
 }
+.postbox a.readmore:visited {
+    background: transparent;
+    color: #fff;
+    padding: 5px 2px;
+}
 .postbox .allpost .title{
 	display: inline-block;
 	font-size: 20px;
