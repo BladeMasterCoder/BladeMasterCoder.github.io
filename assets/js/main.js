@@ -23,6 +23,11 @@ $(document).ready(function() {
 	    timeout: 10000
 	  });
        
+       $("li.select").click(function(){
+		$("li.select").removeClass("active");
+		$(this).addClass("active");
+	});
+       
       $(".circle").load(function(){
 	    $(".circle").addClass("show");
 	 });   	
@@ -41,7 +46,3 @@ $(document).ready(function() {
 	 
 });
 		
-$("li.select").click(function(){
-	$("li.select").removeClass("active");
-	$(this).addClass("active");
-});
