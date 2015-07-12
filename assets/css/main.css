@@ -889,9 +889,9 @@ a.profile_gavatar .circle{
 
 .post-content {
   letter-spacing: 1px;
-  font-size : 1.1em;
-  line-height : 1.5em;
-  margin-bottom: 30px; }
+  font-size : 1.em;
+  line-height : 30px;
+  margin-bottom: 25px; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
