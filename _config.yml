@@ -20,11 +20,11 @@ author:
   weibo_username:  BladeMasterCoder
 
 # 站点信息
-title : blademaster's blog
+title : KeepThink
 description: 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  一不小心迈入计算机行业，在程序猿的道路上艰难地前行，目标是成
+  为一名优秀的全栈工程师或者说资深码农。对很多东西都充满兴趣，
+  跑步游泳，近期目标是能跑半程马拉松，学会自由泳。
 url: http://blademastercoder.github.io/
 rss_url: /feed.xml
 
