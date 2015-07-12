@@ -785,6 +785,18 @@ a.profile_gavatar .circle{
   min-height : 50em;
   margin-bottom:1em;
 }
+@media (min-width: 768px) {
+	.page-content {
+	margin-left : 25%;}
+}
+@media (min-width: 992px) {
+	.page-content {
+	margin-left : 25%;}
+}
+@media (min-width: 1200px) {
+	.page-content {
+	margin-left : 25%;}
+}
 
 .page-heading {
   font-size: 20px; }
