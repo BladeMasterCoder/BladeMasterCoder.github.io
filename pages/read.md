@@ -13,17 +13,17 @@ permalink: /pages/read.html
 					<div class="bookpic-wrapper">	
 						<a href="{{page.url}}#{{ book.title }}"><img src="{{ book.cover }}" alt="cover" class="img-thumbnail">
 							<div class="booklabel">
-                                <div class="label-text center">
-                                    {% if book.status == '已读' %}
+                                						<div class="label-text center">
+                                   						    {% if book.status == '已读' %}
 									<span class="label label-success">{{ book.status }}</span>
 								    {% elsif book.status == '在读' %}
 									<span class="label label-info">{{ book.status }}</span>
 								    {% elsif book.status == '未读' %}
 									<span class="label label-default">{{ book.status }}</span>
 								    {% endif %}
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>						
+					                                      </div>
+					                                <div class="label-bg"></div>
+					                         </div>						
 						</a>
 					</div>
 				</div>
