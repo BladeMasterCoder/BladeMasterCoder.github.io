@@ -44,9 +44,9 @@ $(document).ready(function() {
                     }
       );
       
-	$(function() {
-		    $('pre').addClass('prettyprint');
-   		     prettyPrint();		
-	});
+//	$(function() {
+	//	    $('pre').addClass('prettyprint');
+   //		     prettyPrint();		
+//	});
 	 
 });
