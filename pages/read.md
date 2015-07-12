@@ -11,7 +11,7 @@ permalink: /pages/read.html
 				{% for book in page.books %}
 				<div class="bookpic">
 					<div class="bookpic-wrapper">	
-						<a href="{{page.url}}#{{ book.title }}"><img src="{{ book.cover }}" alt="cover" class="img-thumbnail">
+						<a href="{{page.url}}#{{ book.title }}"><img src="{{ book.cover }}" alt="cover">
 							<div class="booklabel">
                                 						<div class="label-text center">
                                    						    {% if book.status == '已读' %}
