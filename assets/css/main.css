@@ -461,10 +461,15 @@ pre {
   text-align:center;
   }
   .site-nav .nav{
-   list-style-type : none;}
+   list-style-type : none;
+   float: left;
+   position: relative;
+   left: 45%;}
    .site-nav .nav li{
     float : left;
-    min-width: 90px;}
+    min-width: 90px;
+    position: relative;
+    right: 50%;}
   .site-nav .page-link {
     padding : 0;
     color:#fff;
