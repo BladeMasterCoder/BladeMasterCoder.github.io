@@ -467,13 +467,13 @@ pre {
    left: 45%;}
    .site-nav .nav li{
     float : left;
-    min-width: 90px;
+    min-width: 80px;
     position: relative;
     right: 50%;}
   .site-nav .page-link {
     padding : 0;
     color:#fff;
-    min-width: 90px; }
+    min-width: 80px; }
     .site-nav .page-link:hover{
     background-color:#428bca;
     color:#fff;}
