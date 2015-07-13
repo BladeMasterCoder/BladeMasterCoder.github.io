@@ -498,6 +498,30 @@ pre {
         display: block;
         padding: 5px 10px; } }
 
+
+/**
+ * 手机屏幕上的导航
+ */
+.navbar-default{
+	  background-image: url(/assets/img/bg5.png);
+	  border-width : 0;
+}
+@media (min-width: 768px){
+	.navbar-collapse.collapse{
+		display : none !important;
+	}
+}
+@media (min-width: 768px)  and (max-width : 991px){
+	.navbar-toggle {
+		display: inline-block;
+	}
+}
+@media (min-width: 992px)
+	.navbar-toggle {
+		display: none;
+	}
+}
+
 /**
  * back to top icon
  */
