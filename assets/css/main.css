@@ -500,17 +500,41 @@ pre {
 
 
 /**
- * 手机屏幕上的导航
+ * 手机屏幕右上侧的导航
  */
+.phone-nav {
+  font-size: 1.2em ; 
+  color : #fff;
+  letter-spacing: 1px;
+  text-align:center;
+  }
+   .phone-nav  li{
+    min-width: 90px;}
+       .phone-nav  li a{
+   	 line-height : 2em;}
+	  .phone-nav .page-link {
+	    padding : 0;
+	    color:#fff ! important; }
+	    .phone-nav  li  a:hover{
+	    background-color:#428bca !important;
+	    color:#fff;}
+ 
+ 
+ .navbar-toggle{
+ 	position : fixed ;
+ 	right : 0.5em;
+ }
 .navbar-default{
 	  background-image: url(/assets/img/bg5.png);
 	  border-width : 0;
 }
-@media (min-width: 768px){
+
+@media (min-width: 992px){
 	.navbar-collapse.collapse{
 		display : none !important;
 	}
 }
+
 @media (min-width: 768px)  and (max-width : 991px){
 	.navbar-toggle {
 		display: inline-block;
@@ -521,6 +545,7 @@ pre {
 		display: none;
 	}
 }
+
 
 /**
  * back to top icon
