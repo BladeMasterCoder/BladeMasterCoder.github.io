@@ -464,11 +464,11 @@ pre {
    list-style-type : none;}
    .site-nav .nav li{
     float : left;
-    min-width: 100px;}
+    min-width: 90px;}
   .site-nav .page-link {
     padding : 0;
     color:#fff;
-    min-width: 100px; }
+    min-width: 90px; }
     .site-nav .page-link:hover{
     background-color:#428bca;
     color:#fff;}
