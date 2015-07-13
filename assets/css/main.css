@@ -498,10 +498,10 @@ pre {
         display: block;
         padding: 5px 10px; } }
 
-
 /**
- * 手机屏幕右上侧的导航
+ * 手机屏幕上的导航
  */
+ 
 .phone-nav {
   font-size: 1.2em ; 
   color : #fff;
@@ -529,11 +529,15 @@ pre {
 	  border-width : 0;
 }
 
+
+
 @media (min-width: 992px){
 	.navbar-collapse.collapse{
 		display : none !important;
 	}
 }
+
+
 
 @media (min-width: 768px)  and (max-width : 991px){
 	.navbar-toggle {
