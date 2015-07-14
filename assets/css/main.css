@@ -625,6 +625,7 @@ pre {
 	padding: 2em 2em;
 	opacity: 1;
 	border: 1px solid black;
+	min-height: 26.5em; 
 }
 .profile .overlay{
 	-moz-border-radius: 7px 7px 0 0; 
@@ -659,17 +660,17 @@ a.profile_gavatar .circle{
 }
 	
 .profile .address{
-	margin-top: 1.5em;
+	margin-top: 1em;
 }	
 .profile_desc{
-	margin-top: 1.5em;
+	margin-top: 1em;
 	letter-spacing: 1px;
 	font-size: 16px;
 	line-height: 2em;
 }
 
 .profile_social{
-	margin-top: 3em;
+	margin-top: 2em;
 }
  .profile_social .table{
 	width : 80%;
@@ -685,6 +686,7 @@ a.profile_gavatar .circle{
 	right: 0;
 	top: 5em;
 	z-index: 5000;
+	min-height : 26.5em;
 }
 .aside3 .socialInfo{
 	background : #fff;
