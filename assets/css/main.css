@@ -968,6 +968,25 @@ a.profile_gavatar .circle{
       .post-content h4 {
         font-size: 18px; } }
 
+/* 一些自定义的微小改动 */
+.footer-heading{
+	color : #828282;
+}
+.contact-list a{
+	color : #ba8f6c;
+}
+.sitedesc{
+	color : #828282;
+}
+.sitedesc a:link{
+	color : #ba8f6c;
+}
+.sitedesc a:visited{
+	color : #ba8f6c;
+}
+.sitedesc a:hover{
+	color : #ba8f6c;
+}
 
 /* Code blocks */
 .highlight {
