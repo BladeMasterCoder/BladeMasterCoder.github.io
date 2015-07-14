@@ -19,15 +19,15 @@ permalink: /pages/about.html
 	<hr>
 	<table class="table table-striped">
 		<tr>
-			<td><li>姓  名</li></td>    
+			<td>姓  名：</td>    
 			<td>高  扬 （1991）</td>
 		</tr>
 		<tr>
-			<td><li>学  历</li></td>    
+			<td>学  历：</td>    
 			<td>研究生</td>
 		</tr>
 		<tr>
-			<td><li>学  校</li></td>    
+			<td><学  校：</td>    
 			<td>南京大学计算机科学技术系</td>
 		</tr>
 	</table>
@@ -38,7 +38,7 @@ permalink: /pages/about.html
 	<table class="table table-striped">
 		<tr>
 			<td>
-				Email
+				Email：
 			</td>  
 			<td>
 				gycoderhh@gmail.com			
@@ -47,7 +47,7 @@ permalink: /pages/about.html
 
 		<tr>
 			<td>
-				github
+				github：
 			</td>  
 			<td>
 				<a href="{{ site.author.github }}" target="_blank">https://github.com/BladeMasterCoder</a>
@@ -56,7 +56,7 @@ permalink: /pages/about.html
 
 		<tr>
 			<td>
-				微博
+				微博：
 			</td> 
 			<td>
 				<a href="{{ site.author.weibo }}" target="_blank">http://weibo.com/u/2344559062</a>
