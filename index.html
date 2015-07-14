@@ -10,7 +10,7 @@ layout: default
 	<div class="row">
 		<div class="col-md-12 postbox">
 			<div class="allpost">
-				<div class="title"><a href="{{ post.url | prepend: site.baseurl }}" class="pjaxlink">{{ post.title }}</a></div>
+				<div class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 				<div class="info">
 					<i class="fa fa-calendar"></i>&nbsp;{{ post.date | date: "%b %-d, %Y" }}
 					{% if post.tags.size > 0 %}
