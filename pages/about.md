@@ -27,7 +27,7 @@ permalink: /pages/about.html
 			<td>研究生</td>
 		</tr>
 		<tr>
-			<td><学  校：</td>    
+			<td>学  校：</td>    
 			<td>南京大学计算机科学技术系</td>
 		</tr>
 	</table>
