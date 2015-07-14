@@ -38,7 +38,7 @@ permalink: /pages/about.html
 	<table class="table table-striped">
 		<tr>
 			<td>
-				<li>Email</li>
+				Email
 			</td>  
 			<td>
 				gycoderhh@gmail.com			
@@ -47,7 +47,7 @@ permalink: /pages/about.html
 
 		<tr>
 			<td>
-				<li>github</li>
+				github
 			</td>  
 			<td>
 				<a href="{{ site.author.github }}" target="_blank">https://github.com/BladeMasterCoder</a>
@@ -56,7 +56,7 @@ permalink: /pages/about.html
 
 		<tr>
 			<td>
-				<li>新浪微博</li>
+				微博
 			</td> 
 			<td>
 				<a href="{{ site.author.weibo }}" target="_blank">http://weibo.com/u/2344559062</a>
