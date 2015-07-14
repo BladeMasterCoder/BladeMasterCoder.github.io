@@ -9,7 +9,7 @@ permalink: /pages/about.html
 	<h3>关于博客</h3>
 	<hr>
 	<p>
-	本博客用<a href="http://jekyllrb.com/">jekyll</a>（可将纯文本转化为静态网站和博客的语言）、html、css等编写。博客内容用markdown语法编写，保存为markdown文件，jekyll会自动把markdown文件转化成html文件。博客内容部署在github服务器上，前端采用bootstrap栅格式布局，可自适应手机端浏览器。
+	本博客用<a href="http://jekyllrb.com/">jekyll</a>（可将纯文本转化为静态网站和博客的语言）、html、css等编写。博客部署在github服务器上，前端采用bootstrap栅格式布局，可自适应手机端浏览器。
 	</p>
 	<br>
 	
