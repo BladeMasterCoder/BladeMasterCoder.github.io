@@ -623,7 +623,7 @@ pre {
 .aside1 .profile{
 	background : #fff;
 	margin: 0 auto;
-	padding: 2em 2em;
+	padding: 2em 2em 0 2em;
 	opacity: 1;
 	border: 1px solid black;
 	min-height: 26.5em; 
@@ -692,9 +692,9 @@ a.profile_gavatar .circle{
 .aside3 .socialInfo{
 	background : #fff;
 	margin: 0 auto;
-	padding: 2em 2em;
+	padding: 2em 2em 0 2em;
 	border: 1px solid black;
-	min-height : 27em;
+	min-height : 26.5em;
 }
 
 /**
