@@ -921,6 +921,9 @@ a.profile_gavatar .circle{
 	display : block;
 	margin : 20px auto;
 }
+.pagination a:hover{
+	font-size:1.4em;
+}
 
 .postbox .allpost .info{
 	padding-left: 7px;
