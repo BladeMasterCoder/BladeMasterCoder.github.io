@@ -162,7 +162,7 @@ ul, ol, dl, figure,
 
 
 /**
- * 标签页
+ * 读书页
  */
 .bookpiclist{ 
 	width : 100%;
@@ -277,6 +277,12 @@ div.article a:hover,
 div.article a:focus {
   color: #ac4142;
 }	
+
+@media  (max-width: 992px) {
+	.home ul{
+		margin-left : 0;
+	}
+}
 
 
 /**
