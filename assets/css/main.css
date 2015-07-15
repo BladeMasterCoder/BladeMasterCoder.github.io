@@ -279,7 +279,7 @@ div.article a:focus {
 }	
 
 @media  (max-width: 992px) {
-	.home ul{
+	.tags{
 		margin-left : 0;
 	}
 }
@@ -295,6 +295,12 @@ div.article a:focus {
 	font-size: 1em;
 	line-height: 1.5em;
 	margin-bottom: 0.5em;   
+}
+
+@media  (max-width: 992px) {
+	.home ul{
+		margin-left : 0;
+	}
 }
 
 /**
