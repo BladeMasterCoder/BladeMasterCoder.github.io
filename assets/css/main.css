@@ -725,7 +725,11 @@ a.profile_gavatar .circle{
 .site-footer {
   border-top: 2px solid #e8e8e8;
   background-image: url(/assets/img/bg5.png);
-  padding: 30px 0; }
+  padding: 30px 0; 
+  position : absolute;
+  width : 100%;
+  z-index : 6000;
+  }
 
 .footer-heading {
   font-size: 18px;
@@ -857,7 +861,6 @@ a.profile_gavatar .circle{
   padding: 1em; 
   /*border : 1px solid black;*/
   min-height : 50em;
-  margin-bottom:1em;
 }
 @media (min-width: 992px) {
 	.page-content {
