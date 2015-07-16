@@ -448,8 +448,8 @@ pre {
   top:0;
   width:100%;
   z-index : 5000;
-  min-height: 3.5em;
-  max-height: 3.5em;
+  min-height: 5%;
+  max-height: 5%;
   }
 
 .site-title {
@@ -629,7 +629,8 @@ pre {
  	position: fixed;
  	left: 0;
 	top: 5em;
- 	z-index: 5000;	 
+ 	z-index: 5000;
+ 	height:85%;	 
 }
  
 .aside1 .profile{
@@ -639,6 +640,7 @@ pre {
 	opacity: 1;
 	border: 1px solid black;
 	min-height: 26.5em; 
+	height : 100%;
 }
 .profile .overlay{
 	-moz-border-radius: 7px 7px 0 0; 
@@ -700,6 +702,7 @@ a.profile_gavatar .circle{
 	top: 5em;
 	z-index: 5000;
 	min-height : 26.5em;
+	height : 85%;
 }
 .aside3 .socialInfo{
 	background : #fff;
@@ -707,6 +710,7 @@ a.profile_gavatar .circle{
 	padding: 2em 2em 0 2em;
 	border: 1px solid black;
 	min-height : 26.5em;
+	height : 100%;
 }
 
 /**
