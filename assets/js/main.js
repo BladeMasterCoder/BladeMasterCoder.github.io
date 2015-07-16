@@ -9,6 +9,7 @@ $(document).ready(function() {
 			{
 				$("#backtotop").removeClass("showme");
 			}
+		});
 	});
 		
 	$("#backtotop").click(function(){
