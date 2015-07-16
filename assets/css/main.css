@@ -859,6 +859,7 @@ a.profile_gavatar .circle{
 .page-content {
   background : #fff;
   padding: 1em; 
+  padding-bottom : 3em;
   /*border : 1px solid black;*/
   min-height : 50em;
 }
