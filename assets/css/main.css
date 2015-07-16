@@ -324,6 +324,9 @@ div.article a:focus {
 .recentuse{
 	margin-top : 5em;
 }
+.recentuse ul{
+	margin-left : 0; 
+}
 
 
 /**
