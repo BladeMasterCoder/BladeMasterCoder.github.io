@@ -10,11 +10,10 @@ $(document).ready(function() {
 				$("#backtotop").removeClass("showme");
 			}
 		});
-	});
 		
-	$("#backtotop").click(function(){
-		$('body,html').animate({scrollTop:0},400);
-			return false;
+		$("#backtotop").click(function(){
+			$('body,html').animate({scrollTop:0},400);
+				return false;
 		});
 	});
 
