@@ -638,7 +638,7 @@ pre {
 	margin: 0 auto;
 	padding: 2em 2em 0 2em;
 	opacity: 1;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	min-height: 26.5em; 
 	height : 100%;
 }
@@ -708,7 +708,7 @@ a.profile_gavatar .circle{
 	background : #fff;
 	margin: 0 auto;
 	padding: 2em 2em 0 2em;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	min-height : 26.5em;
 	height : 100%;
 }
@@ -849,7 +849,7 @@ a.profile_gavatar .circle{
 .page-content {
   background : #fff;
   padding: 1em; 
-  border : 1px solid black;
+  /*border : 1px solid black;*/
   min-height : 50em;
   margin-bottom:1em;
 }
