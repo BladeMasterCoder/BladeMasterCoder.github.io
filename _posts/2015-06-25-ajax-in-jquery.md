@@ -2,7 +2,7 @@
 layout: post
 title: jquery对ajax的支持
 category: 技术
-tags:  前端,jquery
+tags: [前端,jquery]
 description: 
 ---
 
