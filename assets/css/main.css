@@ -711,19 +711,16 @@ a.profile_gavatar .circle{
 	width: 80%;
 	margin: 0 auto;
 }
- .profile_social .table{
-	width : 80%;
-	margin:0 auto;
- }
- 
-.profile_social a,a:visited{
-	color : black;
-}
 
-.profile_social a:hover{
+.profile_social a{
 	color : #2a7ae2;
 }
- 
+
+.profile_social .table{
+	width : 80%;
+	margin:0 auto;
+}
+  
  
 /**
  * 右侧最近来访和最新评论
