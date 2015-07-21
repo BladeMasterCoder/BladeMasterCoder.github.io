@@ -716,6 +716,14 @@ a.profile_gavatar .circle{
 	color : #2a7ae2;
 }
 
+.profile_social a:visited{
+	color : #2a7ae2;
+}
+
+.profile_social a:hover{
+	color : #eaeaea;
+}
+
 .profile_social .table{
 	width : 80%;
 	margin:0 auto;
