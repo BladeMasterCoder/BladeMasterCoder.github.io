@@ -605,6 +605,7 @@ pre {
 	line-height : 50px;
 }
 
+
 .st-ui-search-input, .st-default-search-input{
 	display: inline-block;
 	width: 190px;
@@ -627,6 +628,10 @@ pre {
 	-moz-box-shadow: none;
 	box-shadow: none;
 	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.search-query:focus{
+	width: 290px;
 }
 
 /**
