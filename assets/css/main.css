@@ -1057,6 +1057,31 @@ a.profile_gavatar .circle{
 	color : #ba8f6c;
 }
 
+/*多说评论框*/
+#ds-reset .ds-avatar img {
+	-webkit-animation-name: rotateIn;
+	-moz-animation-name: rotateIn;
+	-o-animation-name: rotateIn;
+	animation-name: rotateIn;
+}
+#ds-reset .ds-avatar img, #ds-reset .ds-avatar img:hover {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 0s;
+	-moz-animation-duration: 0s;
+	-ms-animation-duration: 0s;
+	-o-animation-duration: 0s;
+	animation-duration: 0s;
+	-webkit-animation-duration: 0.7s;
+	-moz-animation-duration: 0.7s;
+	-ms-animation-duration: 0.7s;
+	-o-animation-duration: 0.7s;
+	animation-duration: 0.7s;
+}
+
 /* Code blocks */
 .highlight {
   margin: 1.715em 0; }
