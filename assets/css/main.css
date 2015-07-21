@@ -608,7 +608,7 @@ pre {
 
 .st-ui-search-input, .st-default-search-input{
 	display: inline-block;
-	width: 190px;
+	width: 40%;
 	height: 16px;
 	padding: 7px 11px 7px 7px;
 	border: 1px solid #bbb;
@@ -631,7 +631,7 @@ pre {
 }
 
 .search-query:focus{
-	width: 250px;	
+	width: 60%;	
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
