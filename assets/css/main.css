@@ -927,15 +927,15 @@ a.profile_gavatar .circle{
     text-align: center;
     border: 1px solid #cfb7c4;
 }
-.postbox a.readmore:hover {
-    background-color: rgba(0,0,0,0.6);
-    color: #fff;
-    padding: 6px;
-}
 .postbox a.readmore:visited {
     background: transparent;
     color: #428bca;
     padding: 5px 2px;
+}
+.postbox a.readmore:hover {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 6px;
 }
 .postbox .allpost .title{
 	display: inline-block;
