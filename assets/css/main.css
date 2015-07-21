@@ -716,6 +716,14 @@ a.profile_gavatar .circle{
 	margin:0 auto;
  }
  
+.profile_social a,a:visited{
+	color : black;
+}
+
+.profile_social a:hover{
+	color : #2a7ae2;
+}
+ 
  
 /**
  * 右侧最近来访和最新评论
