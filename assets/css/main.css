@@ -608,7 +608,7 @@ pre {
 
 .st-ui-search-input, .st-default-search-input{
 	display: inline-block;
-	width: 40%;
+	width: 40% !important;
 	height: 16px;
 	padding: 7px 11px 7px 7px;
 	border: 1px solid #bbb;
