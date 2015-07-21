@@ -895,6 +895,7 @@ a.profile_gavatar .circle{
   padding-bottom : 3em;
   /*border : 1px solid black;*/
   min-height : 50em;
+  margin-bottom : 1em;
 }
 /*
 @media (min-width: 992px) {
