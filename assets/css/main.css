@@ -1061,9 +1061,12 @@ a.profile_gavatar .circle{
 
 
 /*百度分享*/
+.bdshare{
+	margin-bottom : 2em;
+}
 .fenx{
 	float: left;
-	padding-top: 15px;
+	padding-top: 6px;
 }
 .fl{
 	float: left;
