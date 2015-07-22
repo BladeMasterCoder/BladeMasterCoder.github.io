@@ -1043,6 +1043,58 @@ a.profile_gavatar .circle{
 	color : #ba8f6c;
 }
 
+
+/*--------------------------------------------------
+------------------- Skills bar ---------------------
+---------------------------------------------------*/
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 22px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 22px;
+    line-height: 22px;
+}
+.skillbar-bar {
+    height: 22px;
+    width: 0;
+}
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;/*35*/
+    color: #444;
+    color: rgba(0, 0, 0, 0.4);
+}
+
 /*多说评论框*/ 
 
 

@@ -13,6 +13,42 @@ permalink: /pages/about.html
 	</p>
 	<br>
 	
+	<h3>IT能力</h3>
+	<hr>
+    <div class="skills">
+
+        <div class="skillbar clearfix" data-percent="80%">
+            <div class="skillbar-title"><span>Java</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div>
+
+        <div class="skillbar clearfix" data-percent="60%">
+            <div class="skillbar-title"><span>C++</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div>
+		
+        <div class="skillbar clearfix" data-percent="50%">
+            <div class="skillbar-title"><span>java script</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="skill-bar-percent">50%</div>
+        </div>
+
+        <div class="skillbar clearfix" data-percent="60%">
+            <div class="skillbar-title"><span>HTML</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div>
+		
+		<div class="skillbar clearfix" data-percent="60%">
+            <div class="skillbar-title"><span>CSS</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div>
+		
+    </div>	
+	
 
 	<br>
 	<h3>基本信息</h3>
