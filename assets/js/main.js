@@ -66,8 +66,7 @@ $(document).ready(function() {
                     }
       );
 	  
-	 $('.guanyu').click(function() { 
-
+	 $('li.guanyu').click(function() { 
         $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').animate({
                 width: $(this).attr('data-percent')
