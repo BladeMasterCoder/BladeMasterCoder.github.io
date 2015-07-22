@@ -6,7 +6,7 @@ tags: [Jekyll]
 description: 
 ---
 
-> 使用google-code-prettify来渲染代码高亮，本身库并不是很大，使用方便
+> 使用google-code-prettify来渲染代码高亮，使用方便
 
 Prettify使用
 
