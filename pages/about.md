@@ -13,7 +13,7 @@ permalink: /pages/about.html
 	</p>
 	<br>
 	
-	<h3>IT能力</h3>
+	<h3>IT技能</h3>
 	<hr>
     <div class="skills">
 
