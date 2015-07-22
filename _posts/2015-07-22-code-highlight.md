@@ -18,8 +18,8 @@ Prettify使用
 
 自己导入prettify.css和prettify.js，如下
 
-	<link rel="stylesheet" href="/public/js/prettify/prettify.css">
-	<script src="/public/js/prettify/prettify.js"></script>
+	<link rel="stylesheet" href="/assets/js/prettify/prettify.css">
+	<script src="/assets/js/prettify/prettify.js"></script>
 
 引入，linenums表示显示行号
 
