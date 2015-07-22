@@ -893,6 +893,8 @@ a.profile_gavatar .circle{
     margin-bottom: 30px; }
 
 .post-meta {
+  margin-right: 1em;
+  display: inline-block;
   font-size: 14px;
   color: #828282; }
 
