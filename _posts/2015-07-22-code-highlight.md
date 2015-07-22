@@ -21,7 +21,7 @@ Prettify使用
 	<link rel="stylesheet" href="/assets/js/prettify/prettify.css">
 	<script src="/assets/js/prettify/prettify.js"></script>
 
-引入，linenums表示显示行号
+调用 prettify.js 实现代码高亮，linenums表示显示行号，如果不想显示行号，就去掉。
 
 	<script type="text/javascript">
 	  $(function(){
