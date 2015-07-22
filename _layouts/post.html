@@ -12,6 +12,11 @@ layout: default
     {{ content }}
   </article>
   
+  <div>
+  上一篇 ： <a href = "{{ page.previous}}">{{ page.previous.title}}</a>
+  下一篇 ： <a href = "{{ page.next}}">{{ page.next.title}}</a>
+  </div>
+  
   {% include share.html %}
   {% include duoshuo.html %}
   
