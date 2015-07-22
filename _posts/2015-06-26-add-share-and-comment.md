@@ -18,13 +18,25 @@ description:
 	<!-- 百度分享 END -->
 
 
-**评论使用友言插件**
+**评论使用多说插件**
 
-需要现在友言网站上注册一个账号，这个账号可以在后台进行管理。然后在页面中引入如下代码。uid=2042092 是我在友言的用户id。
+需要现在多说网站上注册一个账号，这个账号可以在后台进行管理。然后在页面中引入如下代码。short_name需要酌情修改。
 
-	<!-- UY BEGIN -->
-	<div id="uyan_frame"></div>
-	<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2042092"></script>
-	<!-- UY END -->
+	<!-- 多说评论框 start -->
+   	<div class="ds-thread"  data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+	<!-- 多说评论框 end -->
+  	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"maydaycoder"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
 
 
