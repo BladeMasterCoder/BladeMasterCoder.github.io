@@ -909,14 +909,19 @@ a.profile_gavatar .circle{
 	width: 100%;
 	-moz-border-radius:7px; 
 	-webkit-border-radius: 7px;
-    	-webkit-box-sizing: border-box;
-    	-moz-box-sizing: border-box;
-    	box-sizing: border-box;
-    	float: left;
-    	padding: 15px;
-    	padding-top: 5px;
-    	border : 0.5px dotted black;
-    	margin-bottom : 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    padding-top: 5px;
+    margin-bottom : 2em;
+}
+
+@media (min-width: 992px){
+	.postbox{
+		border : 0.5px solid black;
+	}
 }
 
 .postbox a.readmore {
