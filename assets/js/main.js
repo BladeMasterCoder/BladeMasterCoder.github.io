@@ -16,7 +16,7 @@ $(document).ready(function() {
 				return false;
 		});
 		
-		$("pre").addClass("prettyprint");
+		$("pre").addClass("prettyprint linenums");
     		prettyPrint();
     		
 	});
