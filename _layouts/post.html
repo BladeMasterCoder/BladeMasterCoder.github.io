@@ -5,15 +5,17 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta"><i class="fa fa-calendar"></i>&nbsp;{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    {% if page.tags.size > 0 %}
-	<i class="fa fa-tags"></i>
-	<span class="index-post-tag">
-	{% for tag in page.tags %}
-		<a href="/pages/tags.html#{{tag}}">{{ tag}}</a>
-	{% endfor %}
-	</span>
-    {% endif %}
+    <div class="info">
+	    <p class="post-meta"><i class="fa fa-calendar"></i>&nbsp;{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	    {% if page.tags.size > 0 %}
+		<i class="fa fa-tags"></i>
+		<span class="index-post-tag">
+		{% for tag in page.tags %}
+			<a href="/pages/tags.html#{{tag}}">{{ tag}}</a>
+		{% endfor %}
+		</span>
+	    {% endif %}
+    </div>
   </header>
 
   <article class="post-content">
