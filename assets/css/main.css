@@ -1060,6 +1060,15 @@ a.profile_gavatar .circle{
 /*多说评论框*/ 
 
 
+/*百度分享*/
+.fenx{
+	float: left;
+	padding-top: 15px;
+}
+.fl{
+	float: left;
+}
+
 
 
 /* Code blocks */
