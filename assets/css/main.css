@@ -1060,6 +1060,12 @@ a.profile_gavatar .circle{
 /*多说评论框*/ 
 
 
+
+/*上一篇和下一篇*/ 
+.prevandnext{
+	margin-bottom: 1em;
+}	
+
 /*百度分享*/
 .bdshare{
 	margin-bottom: 3em;

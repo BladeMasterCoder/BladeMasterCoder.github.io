@@ -12,15 +12,15 @@ layout: default
     {{ content }}
   </article>
   
-  <div>
+  <div class="prevandnext">
 	  {% if page.previous %}
 	    <div>
-	    上一篇 ：<a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
+	    <span>上一篇 ：</span><a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
 	    </div>
 	  {% endif %}
 	  {% if page.next %}
 	    <div>
-	    下一篇 ：<a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">{{ page.next.title }}</a>
+	    <span>下一篇 ：</span><a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">{{ page.next.title }}</a>
 	    </div>
 	  {% endif %}
   </div>
