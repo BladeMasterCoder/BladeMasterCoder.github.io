@@ -26,7 +26,6 @@ description:
 -  重写（override）Object类的clone()方法。
 
 
-
 	class Person implements Cloneable{
 		
 		String name;
@@ -68,6 +67,8 @@ description:
 			System.out.println();
 		}		
 	}
+
+
 
 
 在main方法中，通过如下方式调用
