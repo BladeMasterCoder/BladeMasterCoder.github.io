@@ -23,9 +23,9 @@ description:
 需要现在多说网站上注册一个账号，这个账号可以在后台进行管理。然后在页面中引入如下代码。short_name需要酌情修改。
 
 	<!-- 多说评论框 start -->
-   	<div class="ds-thread"  data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+	<div class="ds-thread"  data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
 	<!-- 多说评论框 end -->
-  	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
 	var duoshuoQuery = {short_name:"maydaycoder"};
 	(function() {
