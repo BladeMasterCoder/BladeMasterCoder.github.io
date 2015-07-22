@@ -1082,6 +1082,7 @@ a.profile_gavatar .circle{
     line-height: 22px;
 }
 .skillbar-bar {
+    background: rgba(59, 89, 152, 0.8);
     height: 22px;
     width: 0;
 }
