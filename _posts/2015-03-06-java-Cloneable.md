@@ -22,9 +22,10 @@ description:
 
 要让一个对象进行克隆，其实就是两个步骤：
 
-- 1. 让该类实现java.lang.Cloneable接口；
-- 2. 重写（override）Object类的clone()方法。
-- 
+-  让该类实现java.lang.Cloneable接口；
+-  重写（override）Object类的clone()方法。
+
+
 
 	class Person implements Cloneable{
 		
@@ -65,9 +66,9 @@ description:
 			System.out.println("name\t" + this.name);
 			System.out.println("age\t" + this.age);
 			System.out.println();
-		}
-		
+		}		
 	}
+
 
 在main方法中，通过如下方式调用
 
