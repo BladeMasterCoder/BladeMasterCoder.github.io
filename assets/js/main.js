@@ -66,7 +66,7 @@ $(document).ready(function() {
                     }
       );
 	  
-	 $('.page-link[text='关于']').click(function() { 
+	 $('.guanyu').click(function() { 
 
         $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').width(0);
