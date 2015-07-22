@@ -1065,7 +1065,7 @@ a.profile_gavatar .circle{
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
 	overflow: visible;
 }
-#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self {
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self { 
 	border: 0 !important;
 }
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
