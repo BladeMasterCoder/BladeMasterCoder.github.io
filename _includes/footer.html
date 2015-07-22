@@ -14,9 +14,9 @@
 
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
-          {% if site.author.github_username %}
+          {% if site.author.github%}
           <li>
-            <a href="https://github.com/{{ site.author.github_username }}/{{ site.author.github_username }}.github.io"> 
+            <a href="{{ site.author.github}}"> 
               <i class="fa fa-github fa-2x"></i>
             </a>
           </li>
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="center sitedesc">
-    	Powered by <a href ="http://jekyllrb.com/">Jekyll</a>  |  © 2015 GY  |  Hosted on <a href="{{site.author.github}}">Github</a>
+    	Powered by <a href ="http://jekyllrb.com/">Jekyll</a>  |  © 2015 GY  |  Hosted on <a href="https://github.com/{{ site.author.github_username }}/{{ site.author.github_username }}.github.io"> >Github</a>
     </div>
   </div>
 	
