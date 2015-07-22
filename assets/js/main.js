@@ -65,6 +65,20 @@ $(document).ready(function() {
                         $(this).find('img').stop().animate({top: 0}, 300);
                     }
       );
+	  
+	 $('.page-link[text='关于']').click(function() { 
+
+        $('.skillbar').each(function() {
+            $(this).find('.skillbar-bar').width(0);
+        });
+
+        $('.skillbar').each(function() {
+            $(this).find('.skillbar-bar').animate({
+                width: $(this).attr('data-percent')
+            }, 2000);
+        });
+
+    });
       
 	 
 });

@@ -1071,6 +1071,7 @@ a.profile_gavatar .circle{
     left: 0;
     font-size: 11px;
     color: #fff;
+	background-color : rgba(59, 89, 152, 0.8);
     text-transform: capitalize;
 }
 .skillbar-title span {
