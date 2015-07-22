@@ -1057,31 +1057,73 @@ a.profile_gavatar .circle{
 	color : #ba8f6c;
 }
 
-/*多说评论框*/
-#ds-reset .ds-avatar img {
-	-webkit-animation-name: rotateIn;
-	-moz-animation-name: rotateIn;
-	-o-animation-name: rotateIn;
-	animation-name: rotateIn;
+/*多说评论框*/ 
+
+#ds-thread #ds-reset #ds-hot-posts {
+	border: 0;
+}
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
+	overflow: visible;
+}
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self {
+	border: 0 !important;
+}
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
+	overflow: visible;
+}
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self {
+	border: 0 !important;
+}
+#ds-thread #ds-reset .ds-post-self {
+	padding: 10px 0 10px 10px;
 }
 
-#ds-reset .ds-avatar img, #ds-reset .ds-avatar img:hover {
-	-webkit-animation-fill-mode: both;
-	-moz-animation-fill-mode: both;
-	-ms-animation-fill-mode: both;
-	-o-animation-fill-mode: both;
-	animation-fill-mode: both;
-	-webkit-animation-duration: 0s;
-	-moz-animation-duration: 0s;
-	-ms-animation-duration: 0s;
-	-o-animation-duration: 0s;
-	animation-duration: 0s;
-	-webkit-animation-duration: 0.7s;
-	-moz-animation-duration: 0.7s;
-	-ms-animation-duration: 0.7s;
-	-o-animation-duration: 0.7s;
-	animation-duration: 0.7s;
+#ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
+	position: absolute;
+	top: 26px;
+	left: -14px;
+	padding: 5px;
+	width: 36px;
+	height: 36px;
+	box-shadow: -1px 0 1px rgba(0,0,0,.15) inset;
+	border-radius: 46px;
+	background: #f8f8f8;
 }
+#ds-thread .ds-avatar a {
+	display: inline-block;
+	padding: 1px;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #b9baa6;
+	border-radius: 50%;
+	background-color: #fff !important;
+}
+
+#ds-reset .ds-avatar img {
+	width: 32px !important;
+	height: 32px !important;
+	border-radius: 32px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+	-webkit-transition: .4s all ease-in-out;
+	-moz-transition: .4s all ease-in-out;
+	-o-transition: .4s all ease-in-out;
+	-ms-transition: .4s all ease-in-out;
+	transition: .4s all ease-in-out;
+}
+
+
+
+#ds-thread #ds-reset .ds-comment-body {
+	-webkit-transition-delay: initial;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: initial;
+	padding: 15px 15px 15px 47px;
+	border-radius: 5px;
+	box-shadow: #B8B9B9 0 1px 3px;
+	border: white 1px solid;
+}
+
 
 /* Code blocks */
 .highlight {
