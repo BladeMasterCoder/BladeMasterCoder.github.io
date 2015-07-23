@@ -48,7 +48,7 @@ permalink: /pages/about.html
         </div>
 		
     </div>	
-	
+	<li class="guanyu">点我</li>
 	<br>
 	<h3>基本信息</h3>
 	<hr>
