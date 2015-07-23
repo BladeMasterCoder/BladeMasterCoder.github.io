@@ -1054,6 +1054,7 @@ a.profile_gavatar .circle{
     width: 100%;
     background: #eee;
     height: 22px;
+	border-radius: 5px;
     -webkit-transition: 0.4s linear;
     -moz-transition: 0.4s linear;
     -ms-transition: 0.4s linear;
@@ -1089,7 +1090,7 @@ a.profile_gavatar .circle{
     width: 0;
 }
 .skill-bar-percent {
-	border-radius: 5px;
+
     position: absolute;
     right: 10px;
     top: 0;
