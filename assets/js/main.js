@@ -24,6 +24,19 @@ $(document).ready(function() {
 	});
 
 	
+	$('li.guanyu').click(function() { 
+			$('.skillbar').each(function() {
+				$(this).find('.skillbar-bar').width(0);
+			});
+
+			$('.skillbar').each(function() {
+				$(this).find('.skillbar-bar').animate({
+					width: $(this).attr('data-percent');
+				}, 2000);
+			});
+
+	});
+	
 	$(document).pjax('.pjaxlink', '#pjax', {
 	    fragment: "#pjax",
 	    timeout: 10000
@@ -43,17 +56,17 @@ $(document).ready(function() {
 			      
 	  });
 
-       $("li.select").click(function(){
+    $("li.select").click(function(){
 				$("li.select").removeClass("active");
 				$(this).addClass("active");
 	});
 
-       $("li.phoneselect").click(function(){
+    $("li.phoneselect").click(function(){
 				$("div.navbar-collapse").removeClass("in");
 				$("button.navbar-toggle").addClass("collapsed");
 	});
        
-      $(".circle").load(function(){
+     $(".circle").load(function(){
 	    $(".circle").addClass("show");
 	 });   	
 
