@@ -50,6 +50,7 @@ permalink: /pages/about.html
     </div>	
 	
 	<script type="text/javascript">
+	$(function(){
 		$('div.skills').onload(function() {
 
 			$('div.skillbar').each(function() {
@@ -63,6 +64,7 @@ permalink: /pages/about.html
 			});
 
 		});
+	}) 
 	</script>
 
 	<br>
