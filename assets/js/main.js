@@ -1,6 +1,6 @@
 $(document).ready(function() {
 		
-	$(function () {
+
 		$(window).scroll(function(){
 			if ($(window).scrollTop()>100){
 				$("#backtotop").addClass("showme");
@@ -21,7 +21,7 @@ $(document).ready(function() {
 		
 
     		
-	});
+
 
 	
 	$('li.guanyu').click(function() { 
