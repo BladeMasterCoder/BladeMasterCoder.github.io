@@ -70,14 +70,14 @@ $(document).ready(function() {
                     }
       );
 	  
-	 $('li.guanyu').click(function() {
+	 $('div.skills').onload(function() {
 
         $('div.skillbar').each(function() {
-            $(this).find('.skillbar-bar').width(0);
+            $(this).find('div.skillbar-bar').width(0);
         });
 
         $('div.skillbar').each(function() {
-            $(this).find('.skillbar-bar').animate({
+            $(this).find('div.skillbar-bar').animate({
                 width: $(this).attr('data-percent')
             }, 2000);
         });
