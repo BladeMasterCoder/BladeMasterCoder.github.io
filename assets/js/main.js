@@ -70,7 +70,19 @@ $(document).ready(function() {
                     }
       );
 	  
+	 $('li.guanyu').click(function() {
 
+        $('div.skillbar').each(function() {
+            $(this).find('div.skillbar-bar').width(0);
+        });
+
+        $('div.skillbar').each(function() {
+            $(this).find('div.skillbar-bar').animate({
+                width: $(this).attr('data-percent')
+            }, 2000);
+        });
+
+    });
 	        
 	 
 });
