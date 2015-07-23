@@ -49,6 +49,7 @@ permalink: /pages/about.html
 		
     </div>	
 	<script type="text/javascript">
+	$(function () {
 	    $('div.skillbar').each(function() {
             $(this).find('div.skillbar-bar').width(0);
         });
@@ -58,6 +59,7 @@ permalink: /pages/about.html
                 width: $(this).attr('data-percent')
             }, 2000);
         });
+	})
 	</script>
 	
 	<br>
