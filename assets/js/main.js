@@ -70,7 +70,7 @@ $(document).ready(function() {
                     }
       );
 	  
-	 $('li.guanyu').click(function() {
+
 
         $('div.skillbar').each(function() {
             $(this).find('div.skillbar-bar').width(0);
@@ -82,7 +82,7 @@ $(document).ready(function() {
             }, 2000);
         });
 
-    });
+
 	        
 	 
 });
