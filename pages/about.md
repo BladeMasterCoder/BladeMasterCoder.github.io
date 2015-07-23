@@ -86,7 +86,7 @@ permalink: /pages/about.html
 				github：
 			</td>  
 			<td>
-				<a href="{{ site.author.github }}" target="_blank">https://github.com/BladeMasterCoder</a>
+				<a href="{{ site.author.github }}" target="_blank">github.com/BladeMasterCoder</a>
 			</td>  
 		</tr>
 
@@ -95,7 +95,7 @@ permalink: /pages/about.html
 				微博：
 			</td> 
 			<td>
-				<a href="{{ site.author.weibo }}" target="_blank">http://weibo.com/u/2344559062</a>
+				<a href="{{ site.author.weibo }}" target="_blank">weibo.com/u/2344559062</a>
 			</td> 
 		</tr>
 	</table>
