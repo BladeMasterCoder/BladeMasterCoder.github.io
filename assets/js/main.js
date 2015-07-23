@@ -17,7 +17,20 @@ $(document).ready(function() {
 		});
 		
 		$("pre").addClass("prettyprint linenums");
-    		prettyPrint();
+    	prettyPrint();
+		
+		$('li.guanyu').click(function() { 
+			$('.skillbar').each(function() {
+				$(this).find('.skillbar-bar').width(0);
+			});
+
+			$('.skillbar').each(function() {
+				$(this).find('.skillbar-bar').animate({
+					width: $(this).attr('data-percent');
+				}, 2000);
+			});
+
+		});
     		
 	});
 
@@ -65,20 +78,7 @@ $(document).ready(function() {
                         $(this).find('img').stop().animate({top: 0}, 300);
                     }
       );
-	  
-	 $('li.guanyu').click(function() { 
-        $('.skillbar').each(function() {
-            $(this).find('.skillbar-bar').width(0);
-        });
-
-        $('.skillbar').each(function() {
-            $(this).find('.skillbar-bar').animate({
-                width: $(this).attr('data-percent');
-            }, 2000);
-        });
-
-    });
-      
+	        
 	 
 });
 		
