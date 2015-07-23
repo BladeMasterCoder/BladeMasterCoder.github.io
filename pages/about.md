@@ -49,6 +49,21 @@ permalink: /pages/about.html
 		
     </div>	
 	
+	<script type="text/javascript">
+		$('div.skills').onload(function() {
+
+			$('div.skillbar').each(function() {
+				$(this).find('div.skillbar-bar').width(0);
+			});
+
+			$('div.skillbar').each(function() {
+				$(this).find('div.skillbar-bar').animate({
+					width: $(this).attr('data-percent')
+				}, 2000);
+			});
+
+		});
+	</script>
 
 	<br>
 	<h3>基本信息</h3>
