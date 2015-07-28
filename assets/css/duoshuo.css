@@ -53,12 +53,3 @@
 #ds-thread #ds-reset .ds-post-self {
 	padding: 10px 0 10px 10px;
 }
-#ds-thread .ds-avatar a {
-	display: inline-block;
-	padding: 1px;
-	width: 32px;
-	height: 32px;
-	border: 1px solid #b9baa6;
-	border-radius: 50%;
-	background-color: #fff !important;
-}
