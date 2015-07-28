@@ -1,8 +1,5 @@
 /*多说评论框*/ 
 
-#ds-thread {
-	padding: 20px;
-}
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
 	position: absolute;
 	top: 26px;
