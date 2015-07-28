@@ -51,6 +51,7 @@
 #ds-reset #ds-bubble #ds-ctx .ds-ctx-entry {padding:0;}
 #ds-reset #ds-bubble .ds-avatar, #ds-reset #ds-bubble #ds-ctx-bubble .ds-avatar a {position:static;padding:0;border:0; background:none;box-shadow:none;}
 #ds-reset #ds-bubble .ds-avatar img, #ds-reset #ds-bubble #ds-ctx-bubble .ds-avatar a {width:45px !important;height:45px !important;}
+#ds-reset #ds-bubble .ds-user-name{padding-left:13px;}
 
 #ds-reset .ds-comment-body #ds-ctx {border-left:1px solid #b9baa6;background-color:#e8e8dc !important}
 #ds-reset #ds-ctx {margin-right:-15px}
