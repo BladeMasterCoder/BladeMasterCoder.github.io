@@ -78,5 +78,9 @@ Prettify使用
 	  pre .atn, code .atn { color: #404 }
 	  pre .atv, code .atv { color: #060 }
 	}
+	p > code{
+		border : 1px solid;
+		margin: 0 2px;
+	}
 
 
