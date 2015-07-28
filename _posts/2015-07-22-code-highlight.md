@@ -16,7 +16,7 @@ Prettify使用
 
 2.包含css和js
 
-自己导入'prettify.css'和'prettify.js'，如下
+自己导入"prettify.css"和prettify.js，如下
 
 	<link rel="stylesheet" href="/assets/js/prettify/prettify.css">
 	<script src="/assets/js/prettify/prettify.js"></script>
