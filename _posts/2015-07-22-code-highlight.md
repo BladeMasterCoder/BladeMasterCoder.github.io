@@ -6,7 +6,7 @@ tags: [Jekyll]
 description: 
 ---
 
-> 使用google-code-prettify来渲染代码高亮，使用方便
+> 使用`google-code-prettify`来渲染代码高亮，使用方便
 
 Prettify使用
 
@@ -21,7 +21,7 @@ Prettify使用
 	<link rel="stylesheet" href="/assets/js/prettify/prettify.css">
 	<script src="/assets/js/prettify/prettify.js"></script>
 
-调用 prettify.js 实现代码高亮，linenums表示显示行号，如果不想显示行号，就去掉。
+调用 `prettify.js` 实现代码高亮，`linenums`表示显示行号，如果不想显示行号，就去掉。
 
 	<script type="text/javascript">
 	  $(function(){
@@ -29,19 +29,19 @@ Prettify使用
 	    prettyPrint();
 	  });
 	</script>
-这里导入了css和js后，就可以直接用markdown的tab的方式来导入代码段了
+这里导入了`css`和`js`后，就可以直接用`markdown`的`tab`的方式来导入代码段了
 
 3.显示行号
 
-默认的每五行显示一个行号，如果想每一行都显示行号，则需要修改prettify.css，list-style-type 由"none"改为 "decimal"
+默认的每五行显示一个行号，如果想每一行都显示行号，则需要修改`prettify.css`，`list-style-type` 由`none`改为 `decimal`
 
 	li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 { list-style-type: decimal;}
 
 4.主题样式
 
-如果对默认主题不满意，可自行修改prettify.css
+如果对默认主题不满意，可自行修改`prettify.css`
 
-我用的prettify.css完整如下
+我用的`prettify.css`完整如下
 
 	/* desert scheme ported from vim to google prettify */
 	pre.prettyprint { display: block; background-color: #333 }
