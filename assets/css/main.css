@@ -1132,7 +1132,7 @@ a.profile_gavatar .circle{
 }
 
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
-	overflow: visible;
+	overflow: visible !important;
 }
 #ds-thread #ds-reset .ds-comment-body {
 	-webkit-transition-delay: initial;
