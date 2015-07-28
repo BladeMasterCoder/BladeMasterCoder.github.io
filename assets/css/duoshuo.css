@@ -1,24 +1,24 @@
-/*¶àËµÆÀÂÛ¿ò*/ 
+/*å¤šè¯´è¯„è®ºæ¡†*/ 
 #ds-reset .ds-avatar img{   
-    -webkit-border-radius: 27px £»
-    -moz-border-radius:27px £»
+    -webkit-border-radius: 27px ï¼›
+    -moz-border-radius:27px ï¼›
     box-shadow: inset 0 -1px 0 #3333sf;
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
     -webkit-transition: -webkit-transform 0.4s ease-out;   
-    transition: transform 0.4s ease-out;/*±ä»¯Ê±¼äÉèÖÃÎª0.4Ãë(±ä»¯¶¯×÷¼´ÎªÏÂÃæµÄÍ¼ÏñĞı×ª360¶Á£©*/  
+    transition: transform 0.4s ease-out;/*å˜åŒ–æ—¶é—´è®¾ç½®ä¸º0.4ç§’(å˜åŒ–åŠ¨ä½œå³ä¸ºä¸‹é¢çš„å›¾åƒæ—‹è½¬360è¯»ï¼‰*/  
     -moz-transition: -moz-transform 0.4s ease-out;   
 }    
-#ds-reset .ds-avatar img:hover{/*ÉèÖÃÊó±êĞü¸¡ÔÚÍ·ÏñÊ±µÄCSSÑùÊ½*/  
+#ds-reset .ds-avatar img:hover{/*è®¾ç½®é¼ æ ‡æ‚¬æµ®åœ¨å¤´åƒæ—¶çš„CSSæ ·å¼*/  
     box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
     -webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
-    transform: rotateZ(360deg);/*Í¼ÏñĞı×ª360¶È*/  
+    transform: rotateZ(360deg);/*å›¾åƒæ—‹è½¬360åº¦*/  
     -webkit-transform: rotateZ(360deg);   
     -moz-transform: rotateZ(360deg);   
 }  
 
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
-	position: absolute £»
+	position: absolute ï¼›
 	top: 26px;
 	left: -14px;
 	width: 50px;
@@ -29,7 +29,7 @@
 }
 
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
-	overflow: visible£»
+	overflow: visibleï¼›
 }
 #ds-thread #ds-reset .ds-comment-body {
 	-webkit-transition-delay: initial;
