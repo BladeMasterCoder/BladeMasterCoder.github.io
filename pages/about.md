@@ -10,7 +10,7 @@ permalink: /pages/about.html
 	<hr>
 	<br>
 	<p>
-	本博客用<a href="http://jekyllrb.com/"> jekyll</a>（可将纯文本转化为静态网站和博客的语言）、`html`、`css`等编写。博客部署在`github`服务器上，前端采用`bootstrap`栅格式布局，可自适应移动端浏览器。
+	本博客用<a href="http://jekyllrb.com/"> <code>jekyll</code></a>（可将纯文本转化为静态网站和博客的语言）,<code>html</code>,<code>css</code>等编写。博客部署在<code>github</code>服务器上，前端采用<code>bootstrap</code>栅格式布局，可自适应移动端浏览器。
 	</p>
 	<br>
 	
