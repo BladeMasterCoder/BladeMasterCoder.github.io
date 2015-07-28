@@ -1,8 +1,5 @@
 /*多说评论框*/ 
 
-#ds-thread {
-	padding: 20px;
-}
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
 	position: absolute;
 	top: 26px;
@@ -36,20 +33,9 @@
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
 	overflow: visible;
 }
-#ds-thread #ds-reset .ds-comment-body {
-	-webkit-transition-delay: initial;
-	-webkit-transition-duration: 0.4s;
-	-webkit-transition-property: all;
-	-webkit-transition-timing-function: initial;
-	padding: 15px 15px 15px 47px;
-	border-radius: 5px;
-	box-shadow: #B8B9B9 0 1px 3px;
-	border: white 1px solid;
-}
+
 
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self {
 	border: 0 !important;
 }
-#ds-thread #ds-reset .ds-post-self {
-	padding: 10px 0 10px 10px;
-}
+
