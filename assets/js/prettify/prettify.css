@@ -34,6 +34,6 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
   pre .atv, code .atv { color: #060 }
 }
 
-p>code{
+p > code{
 	bodder : 1px solid;
 }
