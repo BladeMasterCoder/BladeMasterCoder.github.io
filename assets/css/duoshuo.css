@@ -10,15 +10,15 @@
 	background: #f8f8f8;
 }
 #ds-reset .ds-avatar img{   
-    -webkit-border-radius: 27px;
-    -moz-border-radius:27px;
+    -webkit-border-radius: 99em;
+    -moz-border-radius:99em;
     box-shadow: inset 0 -1px 0 #3333sf;
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
     -webkit-transition: -webkit-transform 0.4s ease-out;   
     transition: transform 0.4s ease-out;
     -moz-transition: -moz-transform 0.4s ease-out;  
-	border: 2px solid white;	
+	border: 4px solid white;	
 }    
 #ds-reset .ds-avatar img:hover{
     box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
