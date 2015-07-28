@@ -1,7 +1,7 @@
 /*多说评论框*/ 
 #ds-reset .ds-avatar img{   
-    -webkit-border-radius: 27px ；
-    -moz-border-radius:27px ；
+    -webkit-border-radius: 27px;
+    -moz-border-radius:27px;
     box-shadow: inset 0 -1px 0 #3333sf;
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
@@ -18,7 +18,7 @@
 }  
 
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
-	position: absolute ；
+	position: absolute;
 	top: 26px;
 	left: -14px;
 	width: 50px;
@@ -29,7 +29,7 @@
 }
 
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
-	overflow: visible；
+	overflow: visible;
 }
 #ds-thread #ds-reset .ds-comment-body {
 	-webkit-transition-delay: initial;
