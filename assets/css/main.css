@@ -1131,7 +1131,9 @@ a.profile_gavatar .circle{
 	border-radius: 46px;
 	background: #f8f8f8;
 }
-
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
+	overflow: visible;
+}
 #ds-thread #ds-reset .ds-comment-body {
 	-webkit-transition-delay: initial;
 	-webkit-transition-duration: 0.4s;
