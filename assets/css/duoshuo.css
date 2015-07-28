@@ -6,7 +6,7 @@
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
     -webkit-transition: -webkit-transform 0.4s ease-out;   
-    transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/  
+    transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360度）*/  
     -moz-transition: -moz-transform 0.4s ease-out;   
 }    
 #ds-reset .ds-avatar img:hover{/*设置鼠标悬浮在头像时的CSS样式*/  
@@ -40,4 +40,8 @@
 	border-radius: 5px;
 	box-shadow: #B8B9B9 0 1px 3px;
 	border: white 1px solid;
+}
+
+#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self {
+	border: 0 !important;
 }
