@@ -48,6 +48,11 @@
 #ds-thread #ds-reset .ds-post-self {
 	padding: 10px 0 10px 10px;
 }
+#ds-thread #ds-reset .ds-comments {
+	width: 100%;
+	border-bottom-width: 0px !important; 
+}
+
 .ds-post-self:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
 .ds-post-self:hover .ds-comment-body{background:#F0F0E3 !important;}
 
