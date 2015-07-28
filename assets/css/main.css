@@ -1120,6 +1120,18 @@ a.profile_gavatar .circle{
     -moz-transform: rotateZ(360deg);   
 }  
 
+#ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
+	position: absolute;
+	top: 26px;
+	left: -14px;
+	padding: 5px;
+	width: 36px;
+	height: 36px;
+	box-shadow: -1px 0 1px rgba(0,0,0,.15) inset;
+	border-radius: 46px;
+	background: #f8f8f8;
+}
+
 #ds-thread #ds-reset .ds-comment-body {
 	-webkit-transition-delay: initial;
 	-webkit-transition-duration: 0.4s;
