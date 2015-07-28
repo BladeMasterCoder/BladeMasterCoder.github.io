@@ -1,4 +1,20 @@
 /*多说评论框*/ 
+
+#ds-thread {
+	padding: 20px;
+}
+#ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
+	position: absolute;
+	top: 26px;
+	left: -14px;
+	padding: 5px;
+	width: 36px;
+	height: 36px;
+	box-shadow: -1px 0 1px rgba(0,0,0,.15) inset;
+	border-radius: 46px;
+	background: #f8f8f8;
+}
+
 #ds-reset .ds-avatar img{   
     -webkit-border-radius: 27px;
     -moz-border-radius:27px;
@@ -17,17 +33,6 @@
     -moz-transform: rotateZ(360deg);   
 }  
 
-#ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
-	position: absolute;
-	top: 26px;
-	left: -14px;
-	width: 50px;
-	height: 50px;
-	box-shadow: -1px 0 1px rgba(0,0,0,.15) inset;
-	border-radius: 46px;
-	background: #f8f8f8;
-}
-
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts {
 	overflow: visible;
 }
@@ -44,4 +49,16 @@
 
 #ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self {
 	border: 0 !important;
+}
+#ds-thread #ds-reset .ds-post-self {
+	padding: 10px 0 10px 10px;
+}
+#ds-thread .ds-avatar a {
+	display: inline-block;
+	padding: 1px;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #b9baa6;
+	border-radius: 50%;
+	background-color: #fff !important;
 }
