@@ -17,7 +17,8 @@
     -webkit-transition: 0.4s;      
     -webkit-transition: -webkit-transform 0.4s ease-out;   
     transition: transform 0.4s ease-out;
-    -moz-transition: -moz-transform 0.4s ease-out;   
+    -moz-transition: -moz-transform 0.4s ease-out;  
+	border: 2px solid white;	
 }    
 #ds-reset .ds-avatar img:hover{
     box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
