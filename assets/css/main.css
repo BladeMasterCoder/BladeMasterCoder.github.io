@@ -1025,6 +1025,7 @@ a.profile_gavatar .circle{
 
 /* 一些自定义的微小改动 */
 .footer-heading{
+	padding-left: 2em;
 	color : #828282;
 }
 .contact-list a{
