@@ -1103,8 +1103,8 @@ a.profile_gavatar .circle{
 
 /*多说评论框*/ 
 #ds-reset .ds-avatar img{   
-    -webkit-border-radius: 27px ！important;
-    -moz-border-radius:27px！important; 
+    -webkit-border-radius: 27px !important;
+    -moz-border-radius:27px !important; 
     box-shadow: inset 0 -1px 0 #3333sf;
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;   
     -webkit-transition: 0.4s;      
@@ -1119,6 +1119,18 @@ a.profile_gavatar .circle{
     -webkit-transform: rotateZ(360deg);   
     -moz-transform: rotateZ(360deg);   
 }  
+
+#ds-thread #ds-reset .ds-comment-body {
+	-webkit-transition-delay: initial;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: initial;
+	padding: 15px 15px 15px 47px;
+	border-radius: 5px;
+	box-shadow: #B8B9B9 0 1px 3px;
+	border: white 1px solid;
+}
+
 
 /*上一篇和下一篇*/ 
 .prevandnext{
