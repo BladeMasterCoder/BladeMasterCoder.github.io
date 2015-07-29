@@ -1026,6 +1026,7 @@ a.profile_gavatar .circle{
 
 .postbox .allpost .title a:hover{
     color:#b0a0aa;
+	padding-left: 0.7em;
     text-decoration:none;
 }
 .pagination{
