@@ -52,7 +52,7 @@ permalink: /pages/about.html
 
 	
 	<br>
-	<h3>基本信息</h3>
+	<h3><i class="fa fa-user"></i>基本信息</h3>
 	<hr>
 	<table class="table table-striped">
 		<tr>
