@@ -728,6 +728,10 @@ a.profile_gavatar .circle{
 	background : #fff;
 	margin-top: 1em;
 }
+
+.tag-cloud span{
+	margin : 3px;
+}
   
  
 /**
