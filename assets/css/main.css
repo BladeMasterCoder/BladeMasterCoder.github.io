@@ -333,6 +333,8 @@ div.article a:focus {
 	margin-top: 1em;
 	background: #fff;
 	padding: 2em;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
 }
 .recentuse ul{
 	margin-left : 0; 
