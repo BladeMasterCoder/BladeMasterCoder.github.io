@@ -296,6 +296,9 @@ div.article a:focus {
 	.tags{
 		margin-left : 0;
 	}
+	.row{
+		border : 1px solid;
+	}
 }
 
 
