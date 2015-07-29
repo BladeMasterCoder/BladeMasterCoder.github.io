@@ -730,6 +730,9 @@ a.profile_gavatar .circle{
 	-moz-border-radius:7px; 
 	-webkit-border-radius: 7px;
 }
+.tag-cloud tag-cloud-tags{
+	padding : 2em;
+}
 
 .tag-cloud span{
 	margin : 3px;
