@@ -244,7 +244,8 @@ div.page-tag {
 	  text-decoration: none;
 	  font-size: 1em;
 	  line-height: 1.5em;
-	  background-color: #eee;
+	  background-color: #ba8f6c;
+	  color : white;
 	  float: left;
 	  padding: 0.1em 0.6em;
 	  margin: 0 1em 1em 0;
@@ -254,7 +255,7 @@ div.page-tag {
 .page-tag a:focus {
 	  text-decoration: none; 
 	  color: #fff;
-	  background-color: #428bca;
+	  background-color: #ba8f6c;
 }
 
 .tags{
