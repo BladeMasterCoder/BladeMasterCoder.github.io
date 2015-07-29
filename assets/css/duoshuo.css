@@ -95,3 +95,9 @@
 	box-shadow: none;
 }
 
+#ds-recent-visitors .ds-avatar {
+	display: inline-block;
+	padding: 0 !important;
+	margin: 2px !important;
+}
+
