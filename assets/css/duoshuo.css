@@ -79,5 +79,20 @@
 #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-content {color:#787968}
 #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {color:#696A52;font-weight:bold}
 
+#ds-thread #ds-reset .ds-post-button {
+	font-weight: normal;
+	font-size: 12px;
+	text-shadow: none;
+	border: 0;
+	line-height: 23px;
+	width: 57px;
+	background: #00a3cf;
+	color: #fff;
+}
 
+#ds-thread #ds-reset button:hover, #ds-thread #ds-reset button:active, #ds-thread #ds-reset a.ds-unread-comments-count:hover, #ds-thread #ds-reset .ds-post-button:hover {
+	background: #40c8c9;
+	color: #fff;
+	box-shadow: none;
+}
 
