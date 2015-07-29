@@ -35,14 +35,12 @@
 				</div>
 				
 				<div class="tag-cloud">	
-					<p>标签云</p>
+					<p class="center "style="margin:0 auto;font-size:1.5em;padding-top:8px;">标签云</p>
 					<hr>
-					<div class="tag-cloud-tags">
-						<span class="index-post-tag">
+					<div class="page-tag">
 							{% for tag in site.tags %}
 								<a href="http://blademastercoder.github.io/pages/tags.html#{{tag[0]}}" name="{{tag[0]}}">{{ tag[0] }}({{tag[1].size}})</a>
 							{% endfor %}
-						</span>	
 					</div>					
 				</div>
 			</div>
