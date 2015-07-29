@@ -727,8 +727,8 @@ a.profile_gavatar .circle{
 .tag-cloud{
 	background : #fff;
 	margin-top: 1em;
-	-moz-border-radius:7px; 
-	-webkit-border-radius: 7px;
+	-moz-border-radius:7px 7px 0 0;
+	-webkit-border-radius: 7px 7px 0 0;
 }
 .tag-cloud .page-tag{
 	min-height: 12.5em;
@@ -737,7 +737,8 @@ a.profile_gavatar .circle{
 	padding-left: 1em;
 	padding-top: 1em;
 	float: left;
-	-webkit-border-radius: 7px;
+	-moz-border-radius:0 0 7px 7px;
+	-webkit-border-radius: 0 0 7px 7px;
 }
 
 /**
