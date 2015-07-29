@@ -729,7 +729,29 @@ a.profile_gavatar .circle{
 	width : 80%;
 	margin:0 auto;
 }
-  
+
+.icon_wb {
+	width: 54px;
+	height: 54px;
+	float: left;
+	background: url(/assets/img/wbqq.png) left top no-repeat;
+	margin: 0 10px 0 0;
+}
+.icon_qq {
+	width: 54px;
+	height: 54px;
+	float: left;
+	background: url(/assets/img/wbqq.png) -73px 0 no-repeat;
+	margin: 0 10px 0 0;
+}  
+
+.icon_weixin {
+	width: 54px;
+	height: 54px;
+	float: left;
+	background: url(/assets/img/wbqq.png) right top no-repeat;
+}
+
 /**
  * 左侧标签云
  */
