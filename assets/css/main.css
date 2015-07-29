@@ -730,8 +730,10 @@ a.profile_gavatar .circle{
 	-moz-border-radius:7px; 
 	-webkit-border-radius: 7px;
 }
-  
- 
+.tag-cloud .page-tag{
+	min-height : 10em;
+}
+
 /**
  * 右侧最近来访和最新评论
  */
