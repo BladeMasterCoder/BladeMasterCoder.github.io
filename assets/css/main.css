@@ -644,6 +644,7 @@ blockquote {
 }
  
 .aside1 .profile{
+	position: relative;
 	background : #fff;
 	margin: 0 auto;
 	padding: 2em 2em 0 2em;
