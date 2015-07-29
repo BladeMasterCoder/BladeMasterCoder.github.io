@@ -448,6 +448,7 @@ blockquote {
 .site-title {
   font-size: 1.4em;
   line-height: 2.2em;
+  vertical-align: middle;
   letter-spacing: 1px;
   margin : 0 auto;}
   margin : 0 auto;}
