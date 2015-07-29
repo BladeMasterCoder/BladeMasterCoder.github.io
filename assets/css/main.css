@@ -159,11 +159,12 @@ ul, ol, dl, figure,
 	text-decoration: none;
 }
 
-
+.sutehome{
+	margin:0 auto;
+}
 .home{
 	font-size: 2.9em;
 	color: white;
-	display: table-cell;
 	vertical-align: middle;
 	margin-right: 5px;
 }
