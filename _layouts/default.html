@@ -35,9 +35,13 @@
 				</div>
 				
 				<div class="tag-cloud">
-					{% for tag in site.tags %}
-						<a href="http://blademastercoder.github.io/pages/tags.html#{{tag[0]}}" name="{{tag[0]}}">{{ tag[0] }}({{tag[1].size}})</a>
-					{% endfor %}
+					
+					<span class="index-post-tag">
+						{% for tag in site.tags %}
+							<a href="http://blademastercoder.github.io/pages/tags.html#{{tag[0]}}" name="{{tag[0]}}">{{ tag[0] }}({{tag[1].size}})</a>
+						{% endfor %}
+					</span>
+								
 				</div>
 			</div>
 			
