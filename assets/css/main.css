@@ -1173,6 +1173,10 @@ a.profile_gavatar .circle{
 /*上一篇和下一篇*/ 
 .prevandnext{
 	margin-bottom: 1em;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid;
+	background: rgb(221, 238, 226);
 }	
 
 /*百度分享*/
