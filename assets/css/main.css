@@ -251,6 +251,11 @@ div.page-tag {
 	  margin: 0 1em 1em 0;
 	  border-radius: 8px;
 }
+.page-tag a:visited{
+	  text-decoration: none; 
+	  color: #fff;
+	  background-color: #ba8f6c;
+}
 .page-tag a:hover,
 .page-tag a:focus {
 	  text-decoration: none; 
