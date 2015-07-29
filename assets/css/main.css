@@ -720,6 +720,14 @@ a.profile_gavatar .circle{
 	margin:0 auto;
 }
   
+/**
+ * 左侧标签云
+ */
+.tag-cloud{
+	background : #fff;
+	margin-top: 1em;
+}
+  
  
 /**
  * 右侧最近来访和最新评论
