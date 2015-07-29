@@ -38,3 +38,8 @@ p > code{
 	border : 1px solid;
 	margin: 0 2px;
 }
+
+a > code{
+	border : 1px solid;
+	margin: 0 2px;
+}
