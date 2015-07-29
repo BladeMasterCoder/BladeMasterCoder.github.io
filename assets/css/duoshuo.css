@@ -1,10 +1,10 @@
 /*多说评论框*/ 
-
+/*
 #ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar {left: 0;top: 0; padding: 0;width: 32px !important;height: 32px !important; background: none;box-shadow: none; } 
 #ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar img {width: 32px !important;height: 32px !important; border-radius:50%;} 
 #ds-reset .ds-replybox a.ds-avatar,
 #ds-reset .ds-replybox .ds-avatar img { padding:0;width:50px !important;height:50px !important; border-radius:5px; border-width: 0px !important;}
-
+*/ 
 
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
 	position: absolute;
@@ -65,7 +65,7 @@
 }
 
 .ds-post-self:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
-.ds-post-self:hover .ds-comment-body{background:rgba(0,0,0,0.2) !important;}
+.ds-post-self:hover .ds-comment-body{background:#F0F0E3 !important;}
 
 #ds-reset #ds-bubble #ds-ctx .ds-ctx-entry {padding:0;}
 #ds-reset #ds-bubble .ds-avatar, #ds-reset #ds-bubble #ds-ctx-bubble .ds-avatar a {position:static;padding:0;border:0; background:none;box-shadow:none;}
