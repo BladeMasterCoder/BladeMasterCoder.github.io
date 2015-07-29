@@ -727,6 +727,8 @@ a.profile_gavatar .circle{
 .tag-cloud{
 	background : #fff;
 	margin-top: 1em;
+	-moz-border-radius:7px; 
+	-webkit-border-radius: 7px;
 }
 
 .tag-cloud span{
