@@ -5,6 +5,8 @@
 #ds-reset .ds-replybox a.ds-avatar,
 #ds-reset .ds-replybox .ds-avatar img { padding:0;width:50px !important;height:50px !important; border-radius:5px; border-width: 0px !important;}
 */ 
+#ds-reset .ds-replybox a.ds-avatar,
+#ds-reset .ds-replybox .ds-avatar img { padding:0;width:50px !important;height:50px !important; border-radius:5px; border-width: 0px !important;}
 
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
 	position: absolute;
