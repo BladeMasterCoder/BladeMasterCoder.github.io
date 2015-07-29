@@ -650,7 +650,7 @@ blockquote {
 	padding: 2em 2em 0 2em;
 	opacity: 1;
 	/*border: 1px solid black;*/
-	min-height: 35em; 
+	min-height: 30em; 
 	height : 100%;
 }
 .profile .overlay{
