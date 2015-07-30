@@ -645,13 +645,8 @@ blockquote {
  * Profile elements style
  */
 .aside1{
-	/*
- 	position: fixed;
- 	left: 0;
-	top: 5em;
- 	z-index: 5000;
- 	height:85%;	 
-	*/
+	padding-left: 1em; 
+	padding-right: 1em; 
 }
  
 .aside1 .profile{
@@ -797,12 +792,8 @@ a.profile_gavatar .circle{
  * 右侧最近来访和最新评论
  */
 .aside3{
-	/*
-	position: fixed;
-	right: 0;
-	top: 5em;
-	z-index: 5000;
-	*/
+	padding-left: 1em;
+	padding-right: 1em;
 	min-height : 35em;
 	height : 85%;
 }
