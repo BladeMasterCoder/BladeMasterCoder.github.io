@@ -16,14 +16,13 @@ permalink: /pages/tags.html
 	{% for tag in site.tags %}
 	<div class="target-fix" id = "{{tag[0]}}" name="{{tag[0]}}">
 		<h1 class="tag-name" >{{tag[0]}}</h1>
-		<div class="tags">
+		<ul class="tags">
 			{% for post in tag[1] %}
-				<div class="article">
-					<span class="datetime">{{ post.date | date:"%Y-%m-%d" }} </span>&raquo; 
-					<a href="{{ post.url }}">{{ post.title }}</a>
-				</div>
+				<li class="article">					
+					<a href="{{ post.url }}"><span class="datetime">{{ post.date | date:"%Y-%m-%d" }} </span>&raquo; {{ post.title }}</a>
+				</li>
 			{% endfor %}	
-		</div>
+		</ul>
 	</div>	
 	{% endfor %}
 </div>	
