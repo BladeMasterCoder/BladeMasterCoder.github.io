@@ -1,6 +1,13 @@
 $(document).ready(function() {
 		
 	$(function () {
+		
+		$('.ds-thread-title').each(function() {
+    			 var last = $(this).find('a').attr('href').lastIndexOf('#');
+    			 var href = $(this).find('a').attr('href').substring(7,last);
+    			 $(this).find('a').attr('href',href);
+    		});
+		
 		$(window).scroll(function(){
 			if ($(window).scrollTop()>100){
 				$("#backtotop").addClass("showme");
@@ -22,11 +29,7 @@ $(document).ready(function() {
 		
 		$('.navbar-wrapper').stickUp();
     		
-    		$('.ds-thread-title').each(function() {
-    			 var last = $(this).find('a').attr('href').lastIndexOf('#');
-    			 var href = $(this).find('a').attr('href').substring(7,last)+'#ds-thread';
-    			 $(this).find('a').attr('href',href);
-    		});
+
 	});
 
 	
@@ -55,9 +58,6 @@ $(document).ready(function() {
 				$("li.select").removeClass("active");
 				$(this).addClass("active");
 	});
-	$("li.ds-comment").click(function(){
-		window.location = $(this).find('ds-thread-title a').attr('href');
-	});	
 
        $("li.phoneselect").click(function(){
 				$("div.navbar-collapse").removeClass("in");
