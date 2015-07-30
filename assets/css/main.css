@@ -293,7 +293,7 @@ div.article a:hover,
 div.article a:focus {
   color: #ac4142;
 }	
-div.article:hover  .div.article{
+div.article:hover  div.article{
    color: #428bca;
    border-left : 4px solid #e94c4c;
    background-color: #f5f5f5;
