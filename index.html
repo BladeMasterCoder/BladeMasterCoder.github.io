@@ -12,7 +12,7 @@ layout: default
 			<div class="allpost">
 				<div class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 				<div class="info">
-					<i class="fa fa-calendar"></i>&nbsp;{{ post.date | date: "%b %-d, %Y" }}
+					<i class="fa fa-calendar"></i>&nbsp;{{ post.date | date:"%Y-%m-%d" }}
 					{% if post.tags.size > 0 %}
 				      <i class="fa fa-tags"></i>
 					<span class="index-post-tag">
