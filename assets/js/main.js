@@ -80,6 +80,6 @@ $(document).ready(function() {
         }, 2000);
     });    
 
-	$('.navbar-wrapper').stickUp(){};
+	$('.tag-cloud-text').stickUp(){};
 });
 		
