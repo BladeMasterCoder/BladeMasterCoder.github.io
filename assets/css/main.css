@@ -760,6 +760,14 @@ a.profile_gavatar .circle{
 .tag-cloud-text{
 	margin-top: 1em; 
 } 
+.tag-cloud-text p{
+	margin:0 auto;
+	font-size:1.5em;
+	padding:3px;
+	color: white;
+	border-radius: 7px 7px 0 0;
+	background: rgb(192, 173, 189);
+}
  
 .tag-cloud{
 	background : #fff;
