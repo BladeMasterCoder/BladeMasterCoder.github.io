@@ -755,12 +755,13 @@ a.profile_gavatar .circle{
  */
 .tag-cloud-text{
 	margin-top: 1em; 
-	letter-spacing: 1px;
+	letter-spacing: 5px;
 } 
 .tag-cloud-text p{
 	margin:0 auto;
 	font-size:1.5em;
 	padding:3px;
+	opacity: 0.8;
 	color: white;
 	border-radius: 7px 7px 0 0;
 	background-image: url(/assets/img/bg5.png);
