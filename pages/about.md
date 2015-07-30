@@ -30,10 +30,10 @@ permalink: /pages/about.html
             <div class="skill-bar-percent">60%</div>
         </div>
 		
-        <div class="skillbar clearfix" data-percent="50%">
+        <div class="skillbar clearfix" data-percent="60%">
             <div class="skillbar-title"><span>java script</span></div>
             <div class="skillbar-bar"></div>
-            <div class="skill-bar-percent">50%</div>
+            <div class="skill-bar-percent">60%</div>
         </div>
 
         <div class="skillbar clearfix" data-percent="60%">
