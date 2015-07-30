@@ -56,6 +56,9 @@ $(document).ready(function() {
 				$("li.select").removeClass("active");
 				$(this).addClass("active");
 	});
+	$("li.ds-comment").click(function(){
+		window.location = $(this).find('ds-thread-title a').attr('href');
+	});	
 
        $("li.phoneselect").click(function(){
 				$("div.navbar-collapse").removeClass("in");
