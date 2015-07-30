@@ -2,11 +2,6 @@ $(document).ready(function() {
 		
 	$(function () {
 		
-		$('.ds-thread-title').each(function() {
-    			 var last = $(this).find('a').attr('href').lastIndexOf('#');
-    			 var href = $(this).find('a').attr('href').substring(7,last);
-    			 $(this).find('a').attr('href',href);
-    		});
 		
 		$(window).scroll(function(){
 			if ($(window).scrollTop()>100){
