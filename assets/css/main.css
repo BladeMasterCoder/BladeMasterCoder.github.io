@@ -279,21 +279,21 @@ h1.tag-name {
   border-bottom: 1px solid #eee;
   margin-bottom : 0.5em;
 }
-div.article {
+li.article {
    margin-bottom: 0.5em;   
    padding-left : 4em;
 }
-div.article span {
+li.article span {
   font-size: 1em;
 }
-div.article a {
+li.article a {
   font-size: 1em;
 }
-div.article a:hover,
-div.article a:focus {
+li.article a:hover,
+li.article a:focus {
   color: #ac4142;
 }	
-div.article:hover{
+li.article:hover{
    color: #428bca;
    border-left : 4px solid #e94c4c;
    background-color: #f5f5f5;
