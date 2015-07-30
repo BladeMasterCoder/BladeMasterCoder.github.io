@@ -771,6 +771,7 @@ a.profile_gavatar .circle{
 	width: -webkit-calc(25% - 2em);
 	width : calc(25% - 2em);
 	margin-top: 4em;
+	border-radius: 7px;
 }
  
 .tag-cloud{
