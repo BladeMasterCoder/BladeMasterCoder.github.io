@@ -80,8 +80,6 @@ $(document).ready(function() {
         }, 2000);
     });    
 
-	$('.navbar-wrapper').stickUp(){
-				$(this).addClass("isStickup");
-	});
+	$('.navbar-wrapper').stickUp(){};
 });
 		
