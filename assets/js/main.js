@@ -23,9 +23,9 @@ $(document).ready(function() {
 		$('.navbar-wrapper').stickUp();
     		
     		$('.ds-thread-title').each(function() {
-    			 var last = $(this).find('a').attr('href').lastindexof('#');
+    			 var last = $(this).find('a').attr('href').lastIndexOf('#');
     			 alert(last);
-    			 var href = $(this).find('a').attr('href').substring(7);
+    			 var href = $(this).find('a').attr('href').substring(7,last)+'ds-thread';
     			 $(this).find('a').attr('href',href);
     		});
 	});
