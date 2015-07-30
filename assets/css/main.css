@@ -773,6 +773,7 @@ a.profile_gavatar .circle{
 	opacity: 0.8;
 	border-radius: 7px 7px 0 0;
 	background : white;
+	border-bottom: 2px solid;
 }
 .tag-cloud-text a{
 	text-decoration:none;
@@ -785,6 +786,9 @@ a.profile_gavatar .circle{
 	width: -webkit-calc(25% - 2em);
 	width : calc(25% - 2em);
 	margin-top: 4em;
+}
+.isStuck p{
+	border:2px solid;
 }
  
 .tag-cloud{
