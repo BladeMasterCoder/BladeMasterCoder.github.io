@@ -755,6 +755,7 @@ a.profile_gavatar .circle{
  */
 .tag-cloud-text{
 	margin-top: 1em; 
+	letter-spacing: 1px;
 } 
 .tag-cloud-text p{
 	margin:0 auto;
@@ -762,7 +763,7 @@ a.profile_gavatar .circle{
 	padding:3px;
 	color: white;
 	border-radius: 7px 7px 0 0;
-	background: rgb(73, 156, 189);
+	background-image: url(/assets/img/bg5.png);
 }
 .tag-cloud-text a{
 	text-decoration:none;
