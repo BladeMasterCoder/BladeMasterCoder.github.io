@@ -1,60 +1,52 @@
-.pln {
-  color: #4d4d4c; }
+/*
+Mellow, A Google Prettify Theme
+A clean theme for displaying code with Google Prettify
 
-.str {
-  color: #718c00; }
+Created by: Jesse Jones
+http://jessejones.me
+@jessedesigns
 
-.kwd {
-  color: #8959a8; }
+*/
 
-.com {
-  color: #8e908c;
-  font-style: italic; }
+/* Pretty printing styles. Used with prettify.js. */
 
-.typ {
-  color: #f5871f; }
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #000 }  /* plain text */
 
-.lit {
-  color: #eab700; }
+@media screen {
+    .str { color: #b62b28; }  /* string content */
+    .kwd { color: #494db9; }  /* a keyword */
+    .com { color: #32c421; }  /* a comment */
+    .typ { color: #bbbbbb; }  /* a type name */
+    .lit { color: #361bbe; }  /* a literal value */
+    /* punctuation, lisp open bracket, lisp close bracket */
+    .pun, .opn, .clo { color: #bbbbbb }
+    .tag { color: #361bbe; }  /* a markup tag name */
+    .atn { color: #b8b68d; }  /* a markup attribute name */
+    .atv { color: #b62b28; }  /* a markup attribute value */
+    .dec, .var { color: #b8b68d; }  /* a declaration; a variable name */
+    .fun { color: #e77b28; }  /* a function name */
+}
 
-.pun {
-  color: #4d4d4c; }
+/* Print styles */
+@media print, projection {
+    .str { color: #b62b28 }
+    .kwd { color: #494db9; font-weight: bold }
+    .com { color: #32c421; font-style: italic }
+    .typ { color: #000; font-weight: bold }
+    .lit { color: #361bbe; }
+    .pun, .opn, .clo { color: #999999 }
+    .tag { color: #361bbe; font-weight: bold }
+    .atn { color: #b8b68d; }
+    .atv { color: #b62b28; }
+}
 
-.opn {
-  color: #4d4d4c; }
-
-.clo {
-  color: #4d4d4c; }
-
-.tag {
-  color: #c82829; }
-
-.atn {
-  color: #eab700; }
-
-.atv {
-  color: #3e999f; }
-
-.dec {
-  color: #f5871f; }
-
-.var {
-  color: #c82829; }
-
-.fun {
-  color: #c82829; }
-
-/* Put a border around prettyprinted code snippets. */
-pre.prettyprint {
-  background-color: #ffffff;
-  padding: 10px;
-  border: 1px solid #E1E1E8; }
+/* Put a border around prettyprinted code snippets. Apply border-radius. */
+pre.prettyprint { background:#ffffff; }
 
 /* Specify class=linenums on a pre to get line numbering */
-ol.linenums {
-  color: #8e908c;
-  margin: 0 0 0 40px; }
+ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
 
-ol.linenums li {
-  line-height: 18px;
-  padding-left: 12px; }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
