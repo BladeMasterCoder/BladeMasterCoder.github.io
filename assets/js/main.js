@@ -22,6 +22,10 @@ $(document).ready(function() {
 		
 		$('.navbar-wrapper').stickUp();
     		
+    		$('.ds-thread-title').each(function() {
+    			 var href = $(this).find('a').attr('href').substring(8);
+    			 alert(href);
+    		});
 	});
 
 	
