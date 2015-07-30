@@ -17,9 +17,10 @@ $(document).ready(function() {
 		});
 		
 		$("pre").addClass("prettyprint linenums");
-    	prettyPrint();
+    		prettyPrint();
 		
-
+		
+		$('.navbar-wrapper').stickUp();
     		
 	});
 
@@ -80,6 +81,5 @@ $(document).ready(function() {
         }, 2000);
     });    
 
-	$('.tag-cloud-text').stickUp(){};
 });
 		
