@@ -280,7 +280,6 @@ h1.tag-name {
   margin-bottom : 0.5em;
 }
 li.article {
-   margin-bottom: 0.5em;   
    padding-left : 4em;
    list-style-type: none;
 }
@@ -291,9 +290,13 @@ li.article a {
   font-size: 1em;
 }	
 li.article a:hover{
-   color: #428bca;
-   border-left : 4px solid #e94c4c;
-   background-color: #f5f5f5;
+	padding: 5px 20px;
+	margin-left: -4em;
+	/* margin-right: -4em; */
+	display: block;
+      color: #428bca;
+      box-shadow: 4px 0 #e94c4c inset;
+      background-color: #f5f5f5;
 }
 
 
