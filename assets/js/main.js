@@ -80,7 +80,8 @@ $(document).ready(function() {
         }, 2000);
     });    
 
-	$('.navbar-wrapper').stickUp();
-	 
+	$('.navbar-wrapper').stickUp(){
+				$(this).addClass("isStickup");
+	});
 });
 		

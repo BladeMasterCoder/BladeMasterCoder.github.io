@@ -768,6 +768,12 @@ a.profile_gavatar .circle{
 	border-radius: 7px 7px 0 0;
 	background: rgb(192, 173, 189);
 }
+
+.isStickup{
+	position : absolute;
+	top : 4em;
+	left : 1em;
+}
  
 .tag-cloud{
 	background : #fff;
