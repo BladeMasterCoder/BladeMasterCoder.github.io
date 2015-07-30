@@ -764,6 +764,8 @@ a.profile_gavatar .circle{
 	background: rgb(87, 87, 92);
 }
 .navbar-wrapper {
+	width: -webkit-calc(25% - 2em);
+	width : calc(25% - 2em);
 	position: relative;
 	z-index: 15;
 }
