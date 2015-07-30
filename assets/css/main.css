@@ -764,12 +764,11 @@ a.profile_gavatar .circle{
 	background: rgb(87, 87, 92);
 }
 .navbar-wrapper {
-	margin-top: 4em;
 	position: relative;
 	z-index: 15;
 }
 .isStuck{
-	
+	margin-top: 4em;
 }
  
 .tag-cloud{
