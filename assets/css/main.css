@@ -768,7 +768,14 @@ a.profile_gavatar .circle{
 	border-radius: 7px 7px 0 0;
 	background: rgb(87, 87, 92);
 }
-
+.navbar-wrapper {
+	margin-top: 4em;
+	position: relative;
+	z-index: 15;
+}
+.isStuck{
+	
+}
  
 .tag-cloud{
 	background : #fff;
