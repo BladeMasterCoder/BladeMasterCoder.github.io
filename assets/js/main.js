@@ -80,10 +80,7 @@ $(document).ready(function() {
         }, 2000);
     });    
 
-	$('.navbar-wrapper').stickUp({
-        //enabling marginTop with the 'auto' setting 
-        marginTop: 'auto'
-    });
+	$('.navbar-wrapper').stickUp();
 	 
 });
 		
