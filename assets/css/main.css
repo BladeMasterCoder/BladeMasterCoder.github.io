@@ -89,8 +89,9 @@ ul, ol, dl, figure,
 }
 
 .box-shadow{
-	-moz-border-radius:7px; 
-	-webkit-border-radius: 7px;
+	border-radius:7px !important;
+	-moz-border-radius:7px !important;
+	-webkit-border-radius: 7px !important;
 	/*-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.75);
 	-moz-box-shadow: 0 2px 102px rgba(0,0,0,.75);
 	box-shadow: 0 2px 10px rgba(0,0,0,.75);
