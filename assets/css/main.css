@@ -771,9 +771,8 @@ a.profile_gavatar .circle{
 	font-size:1.5em;
 	padding:3px;
 	opacity: 0.8;
-	color: white;
 	border-radius: 7px 7px 0 0;
-	background-image: url(/assets/img/bg5.png);
+	background : white;
 }
 .tag-cloud-text a{
 	text-decoration:none;
