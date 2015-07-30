@@ -267,6 +267,7 @@ div.page-tag {
 .tags{
 	margin-left: 0;
 	padding-left : 0;
+	border-left: 2px solid #e94c4c;
 }
 .target-fix{
      padding-top:6em;    
@@ -297,7 +298,7 @@ li.article a {
 }	
 li.article a:hover{
 	color: #428bca;
-      box-shadow: 4px 0 #e94c4c inset;
+      box-shadow: 3px 0 #e94c4c inset;
       background-color: #f5f5f5;
 }
 
