@@ -78,7 +78,9 @@ $(document).ready(function() {
         $(this).find('div.skillbar-bar').animate({
             width: $(this).attr('data-percent')
         }, 2000);
-    });        
+    });    
+
+	$('.navbar-wrapper').stickUp();
 	 
 });
 		
