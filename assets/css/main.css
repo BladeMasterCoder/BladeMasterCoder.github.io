@@ -282,18 +282,15 @@ h1.tag-name {
 li.article {
    margin-bottom: 0.5em;   
    padding-left : 4em;
+   list-style-type: none;
 }
 li.article span {
   font-size: 1em;
 }
 li.article a {
   font-size: 1em;
-}
-li.article a:hover,
-li.article a:focus {
-  color: #ac4142;
 }	
-li.article:hover{
+li.article a:hover{
    color: #428bca;
    border-left : 4px solid #e94c4c;
    background-color: #f5f5f5;
