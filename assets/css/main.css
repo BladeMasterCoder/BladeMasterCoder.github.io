@@ -757,9 +757,12 @@ a.profile_gavatar .circle{
 /**
  * 左侧标签云
  */
+.tag-cloud-text{
+	margin-top: 1em; 
+} 
+ 
 .tag-cloud{
 	background : #fff;
-	margin-top: 1em;
 	-moz-border-radius:7px 7px 0 0;
 	-webkit-border-radius: 7px 7px 0 0;
 }
