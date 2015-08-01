@@ -496,12 +496,12 @@ blockquote {
    list-style-type : none;
    float: left;
    position: relative;
-   left: 45%;}
+   margin-left:0;
+   width:100%;}
    .site-nav .nav li{
     float : left;
-    min-width: 80px;
-    position: relative;
-    right: 50%;}
+    min-width: 24.7%;
+    position: relative;}
   .site-nav .page-link {
     padding : 0;
     color:#fff;
