@@ -60,15 +60,18 @@ layout: default
   
   <div class="prevandnext">
     	  {% if page.next %}
-	    <div style="margin-bottom : 0.5em;">
-	    <span>上一篇 ：</span><a href="{{ site.url }}{{ page.next.url }}"  title="{{ page.next.title }}">{{ page.next.title }}</a>
+	    <div style="margin:0.5em;">
+	    <span>上一篇 ：</span><a class="pjaxlink" href="{{ site.url }}{{ page.next.url }}"  title="{{ page.next.title }}">{{ page.next.title }}</a>
 	    </div>
 	  {% endif %}
   	  {% if page.previous %}
-	    <div style="margin-bottom : 0.5em;">
-	    <span>下一篇 ：</span><a href="{{ site.url }}{{ page.previous.url }}"  title="{{ page.previous.title }}">{{ page.previous.title }}</a>
+	    <div style="margin:0.5em;">
+	    <span>下一篇 ：</span><a class="pjaxlink" href="{{ site.url }}{{ page.previous.url }}"  title="{{ page.previous.title }}">{{ page.previous.title }}</a>
 	    </div>
 	  {% endif %}
+	  	<div style="margin:0.5em;">
+			<span> 版权所有，转载时必须以链接形式注明原始出处</span>
+	    </div>
   </div>
     {% include share.html %}
     {% include duoshuo.html %}
