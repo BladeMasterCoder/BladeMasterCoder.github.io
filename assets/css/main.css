@@ -557,8 +557,8 @@ blockquote {
 	text-indent: -9999px;
 	margin: 0 8px;
 	opacity: 0.5;
-	width: 28px;
-	height: 28px;
+	width: 2.5em;
+	height: 2.5em;
 	border-radius: 50%;
 	-webkit-transition: all 0.28s ease;
 	transition: all 0.28s ease;
