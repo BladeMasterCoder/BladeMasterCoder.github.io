@@ -18,13 +18,8 @@ $(document).ready(function() {
 				return false;
 		});
 		
-		$("pre").addClass("prettyprint linenums");
-    		prettyPrint();
-		
-		
 		$('.navbar-wrapper').stickUp();
-    		
-
+		
 	});
 
 	
@@ -40,7 +35,9 @@ $(document).ready(function() {
 	});
 	    
 	 $(document).on('pjax:complete', function() {
-	 	 		 pajx_loadDuodsuo();//pjax加载完成之后调用重载多说函数
+	 	 		$("pre").addClass("prettyprint linenums");
+    				prettyPrint();
+	 	 		pajx_loadDuodsuo();//pjax加载完成之后调用重载多说函数
 	 	 		$(".pjax_loading").css("display", "none");
 		             $('.bookpiclist .bookpic').hover(
 			                    function() {
