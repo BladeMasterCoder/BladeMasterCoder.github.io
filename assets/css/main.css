@@ -544,8 +544,8 @@ blockquote {
 	left: 45%;
 	display : none;
 	z-index: 999999;
-	width: 8em;
-	height: 8em;
+	width: 10%;
+	height: 10%;
 	background: url(/assets/img/pjax_loading.gif) 50% 50% no-repeat;
 }
 }
