@@ -20,7 +20,7 @@ $(document).ready(function() {
 		
 		$("pre").addClass("prettyprint linenums");
     		prettyPrint();
-    		skillbar();
+    		
 		$('.navbar-wrapper').stickUp();
 	});
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
       );
 	  
 
-	
+	skillbar()
 });
 		
 function pajx_loadDuodsuo(){   
@@ -94,6 +94,14 @@ function pajx_loadDuodsuo(){
 
 
 function skillbar(){
- 
+    $('div.skillbar').each(function() {
+        $(this).find('div.skillbar-bar').width(0);
+    });
+
+    $('div.skillbar').each(function() {
+        $(this).find('div.skillbar-bar').animate({
+            width: $(this).attr('data-percent')
+        }, 2000);
+    });    
 
 }
