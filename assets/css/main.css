@@ -305,9 +305,12 @@ li.article a:hover,li.article a:focus{
 
 
 @media  (max-width: 992px) {
+	li.article {
+   		padding-left : 0.5em;
+   	}
 	li.article a {
-	  	margin-left: -1em;
-		padding-left: 1em;
+	  	margin-left: -0.5em;
+		padding-left: 0.5em;
 	}
 	.postbox{
 		border : 0.5px solid;
