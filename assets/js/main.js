@@ -40,6 +40,7 @@ $(document).ready(function() {
 	 $(document).on('pjax:complete', function() {
 	 	 		$("pre").addClass("prettyprint linenums");
     				prettyPrint();
+    				skillbar();
 	 	 		pajx_loadDuodsuo();//pjax加载完成之后调用重载多说函数
 	 	 		$(".pjax_loading").css("display", "none");
 	 	 		window._bd_share_main.init();
@@ -76,15 +77,7 @@ $(document).ready(function() {
                     }
       );
 	  
-	$('div.skillbar').each(function() {
-        $(this).find('div.skillbar-bar').width(0);
-    });
 
-    $('div.skillbar').each(function() {
-        $(this).find('div.skillbar-bar').animate({
-            width: $(this).attr('data-percent')
-        }, 2000);
-    });    
 
 });
 		
@@ -97,4 +90,18 @@ function pajx_loadDuodsuo(){
         DUOSHUO.EmbedThread(el);
         $(dus).html(el);
     }
+}
+
+
+function skillbar(){
+    $('div.skillbar').each(function() {
+        $(this).find('div.skillbar-bar').width(0);
+    });
+
+    $('div.skillbar').each(function() {
+        $(this).find('div.skillbar-bar').animate({
+            width: $(this).attr('data-percent')
+        }, 2000);
+    });    
+
 }
