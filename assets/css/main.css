@@ -511,8 +511,11 @@ blockquote {
     color:#fff;
     min-width: 80px; }
     .site-nav .page-link:hover{
-    background-color:#428bca;
+    background-color:#506274;
     color:#fff;}
+    .active{
+    	background-color:#506274;
+    }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
