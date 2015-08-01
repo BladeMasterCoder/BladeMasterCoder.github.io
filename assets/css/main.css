@@ -566,13 +566,17 @@ blockquote {
 }
 
 .profile_social a.github {
-	background: url(http://cdn.w3cplus.com/cdn/farfuture/nR3ZTSLclu77FXdico9JlP6OBoKjvwSkODJE6ugm52o/mtime:1414079823/sites/all/themes/w3cplusV2/images/github.png) center no-repeat #afb6ca;
+	background: url(/assets/img/social/github.png) center no-repeat #afb6ca;
 	border: 1px solid #afb6ca;
 }
 
 .profile_social a.weibo{
-	background: url(http://cdn.w3cplus.com/cdn/farfuture/ZFG0-FZLnhxK5a2lji6i_aIkBzG9O4UNpElbt7QS9PI/mtime:1414079824/sites/all/themes/w3cplusV2/images/weibo.png) center no-repeat #aaf;
+	background: url(/assets/img/social/weibo.png)center no-repeat #aaf;
 	border: 1px solid #aaf;
+}
+.profile_social a.rss{
+	background: url(/assets/img/social/rss/png) center no-repeat #ef7522;
+	border: 1px solid #ef7522;
 }
 /**
  * 手机屏幕上的导航
