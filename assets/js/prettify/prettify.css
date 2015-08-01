@@ -35,12 +35,14 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 }
 
 p > code{
-	border : 1px solid;
+	background-color: rgba(255,228,181,0.16667);
+	border: 1px solid rgba(0,0,0,0.33333);
 	margin: 0 2px;
 }
 
 a > code{
-	border : 1px solid;
+	background-color: rgba(255,228,181,0.16667);
+	border: 1px solid rgba(0,0,0,0.33333);
 	margin: 0 2px;
 	color: #2a7ae2;
 }
