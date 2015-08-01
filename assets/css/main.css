@@ -536,6 +536,19 @@ blockquote {
         display: block;
         padding: 5px 10px; } }
 
+
+
+.pjax_loading{
+	position: fixed;
+	top: 45%;
+	left: 45%;
+	z-index: 999999;
+	width: 124px;
+	height: 124px;
+	background: url(/assets/img/pjax_loading.gif) 50% 50% no-repeat;
+}
+}
+
 /**
  * 手机屏幕上的导航
  */
