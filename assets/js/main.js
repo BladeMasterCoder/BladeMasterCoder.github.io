@@ -22,7 +22,7 @@ $(document).ready(function() {
     		prettyPrint();
     		
 		$('.navbar-wrapper').stickUp();
-		
+		$(".pjax_loading").css("display", "none");
 	});
 
 	
@@ -97,5 +97,4 @@ function pajx_loadDuodsuo(){
         DUOSHUO.EmbedThread(el);
         $(dus).html(el);
     }
-    $(".pjax_loading").css("display", "none");
 }
