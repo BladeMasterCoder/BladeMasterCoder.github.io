@@ -42,6 +42,7 @@ $(document).ready(function() {
     				prettyPrint();
 	 	 		pajx_loadDuodsuo();//pjax加载完成之后调用重载多说函数
 	 	 	//	$(".pjax_loading").css("display", "none");
+	 	 		window._bd_share_main.init();
 		             $('.bookpiclist .bookpic').hover(
 			                    function() {
 			                        $(this).find('.booklabel').stop().animate({bottom: 0}, 200);
