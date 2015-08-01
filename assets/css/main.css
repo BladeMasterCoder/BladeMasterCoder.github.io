@@ -487,6 +487,10 @@ blockquote {
     color: #fff; }
    .site-title:hover{
     text-decoration: none; }
+ 
+.active{
+    	background-color:#506274;
+} 
     
 .site-nav {
   font-size: 1.2em ; 
@@ -513,9 +517,7 @@ blockquote {
     .site-nav .page-link:hover{
     background-color:#506274;
     color:#fff;}
-    .active{
-    	background-color:#506274;
-    }
+
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
