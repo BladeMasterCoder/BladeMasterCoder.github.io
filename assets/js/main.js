@@ -18,6 +18,9 @@ $(document).ready(function() {
 				return false;
 		});
 		
+		$("pre").addClass("prettyprint linenums");
+    		prettyPrint();
+    		
 		$('.navbar-wrapper').stickUp();
 		
 	});
