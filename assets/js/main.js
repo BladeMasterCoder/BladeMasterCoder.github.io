@@ -49,10 +49,6 @@ $(document).ready(function() {
 			      
 	  });
 
-    $("li.select").click(function(){
-				$("li.select").removeClass("active");
-				$(this).addClass("active");
-	});
 
        $("li.phoneselect").click(function(){
 				$("div.navbar-collapse").removeClass("in");
