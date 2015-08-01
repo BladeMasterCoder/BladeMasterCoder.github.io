@@ -10,21 +10,21 @@ layout: default
 	<div class="row">
 		<div class="col-md-12 postbox">
 			<div class="allpost">
-				<div class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+				<div class="title"><a class="pjaxlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 				<div class="info">
 					<i class="fa fa-calendar"></i>&nbsp;{{ post.date | date:"%Y-%m-%d" }}
 					{% if post.tags.size > 0 %}
 				      <i class="fa fa-tags"></i>
 					<span class="index-post-tag">
 						{% for tag in post.tags %}
-							<a href="/pages/tags.html#{{tag}}">{{ tag}}</a>
+							<a class="pjaxlink" href="/pages/tags.html#{{tag}}">{{ tag}}</a>
 						{% endfor %}
 					</span>
 					{% endif %}
 				</div>
 				<div class="contentAbstract">{{ post.excerpt }}</div>				
 			</div>
-			<a href="{{ post.url | prepend: site.baseurl }}"  class="readmore">Read More <i class="glyphicon glyphicon-chevron-right"></i></a>
+			<a href="{{ post.url | prepend: site.baseurl }}"  class="readmore pjaxlink">Read More <i class="glyphicon glyphicon-chevron-right"></i></a>
 		</div>
 	</div>
    {% endfor %}
