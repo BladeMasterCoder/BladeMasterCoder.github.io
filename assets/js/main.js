@@ -88,7 +88,7 @@ $(document).ready(function() {
 });
 		
 function pajx_loadDuodsuo(){   
-    var dus=$(".ds-thread");
+    var dus=$('.ds-thread');
     if($(dus).length==1){
         var el = document.createElement('div');
         el.setAttribute('data-thread-key',$(dus).attr("data-thread-key"));//必选参数
