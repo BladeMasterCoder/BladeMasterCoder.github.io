@@ -6,7 +6,7 @@ permalink: /pages/tags.html
 
 <div class="page-tag">
 	{% for tag in site.tags %}
-		<a href="#{{tag[0]}}" name="{{tag[0]}}">{{ tag[0] }}({{tag[1].size}})</a>
+		<a class="pjaxlink"  href="#{{tag[0]}}" name="{{tag[0]}}">{{ tag[0] }}({{tag[1].size}})</a>
 	{% endfor %}
 </div>
 
@@ -19,7 +19,7 @@ permalink: /pages/tags.html
 		<ul class="tags">
 			{% for post in tag[1] %}
 				<li class="article">					
-					<a href="{{ post.url }}"><span class="datetime">{{ post.date | date:"%Y-%m-%d" }} </span>&raquo; {{ post.title }}</a>
+					<a  class="pjaxlink"  href="{{ post.url }}"><span class="datetime">{{ post.date | date:"%Y-%m-%d" }} </span>&raquo; {{ post.title }}</a>
 				</li>
 			{% endfor %}	
 		</ul>

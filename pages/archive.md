@@ -15,7 +15,7 @@ permalink: /pages/archive.html
 	      <ul>
 	    {% endif %}
 	    <li class="archive_span"><span>{{ post.date | date: "%Y年-%m月-%d日" }}</span> &raquo; 
-	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      <a class="pjaxlink"  href="{{ post.url }}">{{ post.title }}</a>
 	    </li>
 	  
 	    {% if forloop.last %}
