@@ -297,7 +297,7 @@ li.article a {
 	display: block;
       color: #666;
 }	
-li.article a:hover{
+li.article a:hover,li.article a:focus{
 	color: #428bca;
       box-shadow: 3px 0 #e94c4c inset;
       background-color: #f5f5f5;
@@ -306,7 +306,8 @@ li.article a:hover{
 
 @media  (max-width: 992px) {
 	li.article a {
-		padding-left: 0;
+	  	margin-left: -1em;
+		padding-left: 1em;
 	}
 	.postbox{
 		border : 0.5px solid;
