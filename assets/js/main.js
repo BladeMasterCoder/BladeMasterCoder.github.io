@@ -22,7 +22,6 @@ $(document).ready(function() {
     		prettyPrint();
     		
 		$('.navbar-wrapper').stickUp();
-		$(".pjax_loading").css("display", "none");
 	});
 
 	
@@ -33,16 +32,16 @@ $(document).ready(function() {
 	    timeout: 10000
 	  });
 	    
-
+	/*
 	$(document).on('pjax:send', function() { //pjax链接点击后显示加载动画；
 	    $(".pjax_loading").css("display", "block");
 	});
-
+	*/
 	 $(document).on('pjax:complete', function() {
 	 	 		$("pre").addClass("prettyprint linenums");
     				prettyPrint();
 	 	 		pajx_loadDuodsuo();//pjax加载完成之后调用重载多说函数
-	 	 		$(".pjax_loading").css("display", "none");
+	 	 	//	$(".pjax_loading").css("display", "none");
 		             $('.bookpiclist .bookpic').hover(
 			                    function() {
 			                        $(this).find('.booklabel').stop().animate({bottom: 0}, 200);
