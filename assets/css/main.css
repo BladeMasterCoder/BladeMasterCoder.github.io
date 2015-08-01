@@ -566,13 +566,13 @@ blockquote {
 }
 
 .profile_social a.github {
-	background: url(/assets/img/social/github.png) center no-repeat #afb6ca;
-	border: 1px solid #afb6ca;
+	background: url(/assets/img/social/github.png) center no-repeat #ef7522;
+	border: 1px solid #ef7522;
 }
 
 .profile_social a.weibo{
-	background: url(/assets/img/social/weibo.png)center no-repeat #aaf;
-	border: 1px solid #aaf;
+	background: url(/assets/img/social/weibo.png)center no-repeat #580641;
+	border: 1px solid #580641;
 }
 .profile_social a.rss{
 	background: url(/assets/img/social/rss.png) center no-repeat #ef7522;
