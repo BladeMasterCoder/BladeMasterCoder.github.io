@@ -20,7 +20,7 @@ $(document).ready(function() {
 		
 		$("pre").addClass("prettyprint linenums");
     		prettyPrint();
-    		
+    		skillbar();
 		$('.navbar-wrapper').stickUp();
 	});
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
       );
 	  
 
-	skillbar();
+	
 });
 		
 function pajx_loadDuodsuo(){   
