@@ -539,13 +539,12 @@ blockquote {
 
 
 .pjax_loading{
-	position: fixed;
-	top: 45%;
-	left: 45%;
+margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 	display : none;
 	z-index: 999999;
-	width: 10%;
-	
+
 	background: url(/assets/img/pjax_loading.gif) 50% 50% no-repeat;
 }
 }
