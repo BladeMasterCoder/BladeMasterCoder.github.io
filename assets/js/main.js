@@ -35,7 +35,12 @@ $(document).ready(function() {
 	    timeout: 10000
 	  });
 	    
+	$(document).on('pjax:send', function() { //pjax链接点击后显示加载动画；
+	    $(".pjax_loading").css("display", "block");
+	});
+	    
 	 $(document).on('pjax:complete', function() {
+	 	 		$(".pjax_loading").css("display", "none");
 		             $('.bookpiclist .bookpic').hover(
 			                    function() {
 			                        $(this).find('.booklabel').stop().animate({bottom: 0}, 200);
@@ -46,7 +51,7 @@ $(document).ready(function() {
 			                        $(this).find('img').stop().animate({top: 0}, 300);
 			                    }
 			      );
-			      
+			      pajx_loadDuodsuo();//pjax加载完成之后调用重载多说函数			      
 	  });
 
 
@@ -82,3 +87,14 @@ $(document).ready(function() {
 
 });
 		
+function pajx_loadDuodsuo(){
+    var duoshuoQuery = {short_name:"maydaycoder"};
+    var dus=$(".ds-thread");
+    if($(dus).length==1){
+        var el = document.createElement('div');
+        el.setAttribute('data-thread-key',$(dus).attr("data-thread-key"));//必选参数
+        el.setAttribute('data-url',$(dus).attr("data-url"));
+        DUOSHUO.EmbedThread(el);
+        $(dus).html(el);
+    }
+}
