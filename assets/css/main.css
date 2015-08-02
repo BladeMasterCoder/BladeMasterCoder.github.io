@@ -347,8 +347,15 @@ li.article a:hover,li.article a:focus{
 /**
  * 最近访客和最新评论
  */
+ .recentcome{
+ 	background: white;
+	padding: 1em 1.5em;
+ }
+ 
 .comment{
-	margin-top : 3em;
+	margin-top: 1em;
+	background: white;
+	padding: 1em 1.5em;
 }
 .ds-recent-visitors, .ds-recent-comments{
 	margin-left : 0 ; 
