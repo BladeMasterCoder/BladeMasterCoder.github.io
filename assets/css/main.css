@@ -772,9 +772,10 @@ a.profile_gavatar .circle{
 .profile .address{
 	margin-top: 1em;
 	border-bottom : 1px solid;
+	padding-bottom : 0.5em;
 }	
 .profile_desc{
-	margin-top: 3em;
+	margin-top: 2em;
 	letter-spacing: 1px;
 	font-size: 1em;
 	line-height: 2em;
