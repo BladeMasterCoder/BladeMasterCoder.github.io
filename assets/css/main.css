@@ -362,6 +362,7 @@ li.article a:hover,li.article a:focus{
 	-webkit-border-radius: 7px;
 }
 .recentuse ul{
+	margin-top: 8px;
 	margin-left: 1em;
 	padding-left: 0;
 }
