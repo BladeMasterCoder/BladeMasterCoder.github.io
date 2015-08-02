@@ -557,12 +557,17 @@ blockquote {
 	text-indent: -9999px;
 	margin: 0 8px;
 	opacity: 0.5;
-	width: 2.5em;
-	height: 2.5em;
+	width: 1.7em;
+	height: 1.7em;
 	border-radius: 50%;
 	-webkit-transition: all 0.28s ease;
 	transition: all 0.28s ease;
-
+}
+.profile_social a:visited{
+	opacity: 0.5;
+}
+.profile_social a:hover{
+	opacity: 0.8;
 }
 
 .profile_social a.github {
