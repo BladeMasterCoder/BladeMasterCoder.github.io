@@ -715,7 +715,7 @@ blockquote {
  * Profile elements style
  */
 .aside1{
-	padding-left: 1em; 
+	padding-left: 4em; 
 	padding-right: 1em; 
 }
  
@@ -843,8 +843,8 @@ a.profile_gavatar .circle{
 	z-index: 15;
 }
 .isStuck{
-	width: -webkit-calc(25% - 2em);
-	width : calc(25% - 2em);
+	width: -webkit-calc(25% - 5em);
+	width : calc(25% - 5em);
 	margin-top: 4em;
 }
 .isStuck p{
@@ -872,7 +872,7 @@ a.profile_gavatar .circle{
  */
 .aside3{
 	padding-left: 1em;
-	padding-right: 1em;
+	padding-right: 4em;
 	min-height : 35em;
 	height : 85%;
 }
