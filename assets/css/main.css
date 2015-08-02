@@ -762,6 +762,7 @@ a.profile_gavatar .circle{
 	
 .profile .address{
 	margin-top: 1em;
+	border-bottom : 1px solid;
 }	
 .profile_desc{
 	margin-top: 1em;
