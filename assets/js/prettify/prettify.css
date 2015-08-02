@@ -35,7 +35,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 }
 
 p > code{
-	margin: 0 2px;
+	margin: 0 3px;
 	background: #ddd;
 	border: 1px solid #ccc;
 	border-radius: 2px;
@@ -44,7 +44,7 @@ p > code{
 }
 
 a > code{
-	margin: 0 2px;
+	margin: 0 3px;
 	background: #ddd;
 	border: 1px solid #ccc;
 	border-radius: 2px;
