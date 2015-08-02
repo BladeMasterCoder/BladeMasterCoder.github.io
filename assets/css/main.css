@@ -765,14 +765,13 @@ a.profile_gavatar .circle{
 	border-bottom : 1px solid;
 }	
 .profile_desc{
-	margin-top: 1em;
+	margin-top: 3em;
 	letter-spacing: 1px;
 	font-size: 1em;
 	line-height: 2em;
 }
 
 .profile_social{
-	/*margin-top: 2em;*/
 	position: absolute;
 	bottom: 2em;
 	left: 10%;
