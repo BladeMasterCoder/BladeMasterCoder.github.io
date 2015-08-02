@@ -747,8 +747,8 @@ blockquote {
 }
 a.profile_gavatar{
 	position: relative;
-	width: 128px;
-	height: 128px;
+	width: 8em;
+	height: 8em;
 	margin: 0 auto;
 	overflow: hidden;
 	background : #fff;
@@ -760,6 +760,7 @@ a.profile_gavatar{
 }
 a.profile_gavatar .circle{
 	opacity: 1;
+	width : 100%;
 	-webkit-border-radius: 99em;
 	-moz-border-radius: 99em;
 	border-radius: 99em;
