@@ -760,7 +760,7 @@ a.profile_gavatar{
 }
 a.profile_gavatar .circle{
 	opacity: 1;
-	width : 100%;
+	height: 100%;
 	-webkit-border-radius: 99em;
 	-moz-border-radius: 99em;
 	border-radius: 99em;
