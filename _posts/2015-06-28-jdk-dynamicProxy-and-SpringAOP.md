@@ -20,7 +20,7 @@ description:
 
 2、`java.lang.reflect.Proxy` 类，这个类中都是静态方法，主要使用一个方法
 
-	public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces,InvocationHandler invocationHandler)	throws IllegalArgumentException
+	public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces,InvocationHandler invocationHandler throws IllegalArgumentException
 
 
 动态代理完整示例：
