@@ -928,6 +928,27 @@ a.profile_gavatar .circle{
 	-webkit-transition: all 0.28s ease;
 	transition: all 0.28s ease;
 }
+
+.social-media-list a:visited{
+	opacity: 0.5;
+}
+.social-media-list a:hover{
+	opacity: 0.8;
+}
+
+.social-media-list a.github {
+	background: url(/assets/img/social/github.png) center no-repeat #291B91;
+	border: 1px solid #291B91;
+}
+
+.social-media-list a.weibo{
+	background: url(/assets/img/social/weibo.png)center no-repeat #580641;
+	border: 1px solid #580641;
+}
+.social-media-list a.rss{
+	background: url(/assets/img/social/rss.png) center no-repeat #ef7522;
+	border: 1px solid #ef7522;
+}
   
 .footer-col-wrapper {
   font-size: 15px;
