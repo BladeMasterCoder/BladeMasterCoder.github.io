@@ -920,10 +920,10 @@ a.profile_gavatar .circle{
 	vertical-align: middle;
 	zoom: 1;
 	text-indent: -9999px;
-	margin: 0 8px;
+	margin: 5px 8px;
 	opacity: 0.5;
-	width: 1.7em;
-	height: 1.7em;
+	width: 2em;
+	height: 2em;
 	border-radius: 50%;
 	-webkit-transition: all 0.28s ease;
 	transition: all 0.28s ease;
