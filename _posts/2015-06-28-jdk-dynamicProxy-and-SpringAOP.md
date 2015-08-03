@@ -14,13 +14,11 @@ description:
 
 在java中实现jdk的动态代理要依靠一个接口和一个类
 
-- `java.lang.reflect.InvocationHandler` 接口，这个接口下只有一个方法
-
+1、`java.lang.reflect.InvocationHandler` 接口，这个接口下只有一个方法
 
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable;
 
-- `java.lang.reflect.Proxy` 类，这个类中都是静态方法，主要使用一个方法
-
+2、`java.lang.reflect.Proxy` 类，这个类中都是静态方法，主要使用一个方法
 
 	public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces,InvocationHandler invocationHandler)	throws IllegalArgumentException
 
