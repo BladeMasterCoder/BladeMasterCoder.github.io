@@ -915,7 +915,20 @@ a.profile_gavatar .circle{
 .social-media-list {
   list-style: none;
   margin-left: 0; }
-
+.social-media-list a{
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	text-indent: -9999px;
+	margin: 0 8px;
+	opacity: 0.5;
+	width: 1.7em;
+	height: 1.7em;
+	border-radius: 50%;
+	-webkit-transition: all 0.28s ease;
+	transition: all 0.28s ease;
+}
+  
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
