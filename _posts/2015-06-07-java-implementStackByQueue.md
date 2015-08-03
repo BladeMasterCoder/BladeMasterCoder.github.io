@@ -8,7 +8,6 @@ description:
 
 
 ><a id="single_image" href="/assets/img/blogimg/queue.png"><img src="/assets/img/blogimg/queue.png" kesrc="/assets/img/blogimg/queue.png" alt=""></a>
-
 >用两个队列实现一个栈，实现栈的push压栈,pop出栈,top查看栈顶元素以及是否为空等基本操作。
 
 
