@@ -64,7 +64,7 @@
 }
 
 .ds-post-self:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
-.ds-post-self:hover .ds-comment-body{background:#F0F0E3 !important;}
+.ds-post-self:hover .ds-comment-body{background:#F5F5F5 !important;}
 
 #ds-reset #ds-bubble #ds-ctx .ds-ctx-entry {padding:0;}
 #ds-reset #ds-bubble .ds-avatar, #ds-reset #ds-bubble #ds-ctx-bubble .ds-avatar a {position:static;padding:0;border:0; background:none;box-shadow:none;}
