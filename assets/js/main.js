@@ -22,6 +22,7 @@ $(document).ready(function() {
     		prettyPrint();
     		
 		$('.navbar-wrapper').stickUp();
+		$("a#single_image").fancybox();
 	});
 
 	
