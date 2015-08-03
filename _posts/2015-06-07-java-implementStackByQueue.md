@@ -7,13 +7,14 @@ description:
 ---
 
 
+><a id="single_image" href="/assets/img/blogimg/queue.png"><img src="/assets/img/blogimg/queue.png" kesrc="/assets/img/blogimg/queue.png" alt=""></a>
+
 >用两个队列实现一个栈，实现栈的push压栈,pop出栈,top查看栈顶元素以及是否为空等基本操作。
 
 
-基本思想如图所示： 
+基本思想如上图所示： 
 
-![](/assets/img/blogimg/queue.png)
-<a id="single_image" href="/assets/img/blogimg/queue.png"><img src="/assets/img/blogimg/queue.png" kesrc="/assets/img/blogimg/queue.png" alt=""></a>
+
 
 在push的时候，往非空的那个队列添加（刚刚初始化的时候，两个队列都为空，随便往哪个队列push都行 上图步骤1和步骤3
 
