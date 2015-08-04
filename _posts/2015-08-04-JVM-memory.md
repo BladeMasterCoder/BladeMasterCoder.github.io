@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll中的代码高亮
 category: 技术
-tags: [Jekyll]
+tags: [Java,JVM]
 description: 
 ---
 
@@ -10,11 +10,11 @@ description:
 
 Prettify使用
 
-##1.下载代码##
+1.下载代码
 
 直接到[google-code-prettify](http://code.google.com/p/google-code-prettify/)官网下载代码，然后将它们放到项目下
 
-##2.包含css和js##
+2.包含css和js
 
 自己导入`prettify.css`和`prettify.js`，如下
 
@@ -32,13 +32,13 @@ Prettify使用
 	
 这里导入了`css`和`js`后，就可以直接用`markdown`的`tab`的方式来导入代码段了
 
-##3.显示行号##
+3.显示行号
 
 默认的每五行显示一个行号，如果想每一行都显示行号，则需要修改`prettify.css`，`list-style-type` 由`none`改为 `decimal`
 
 	li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 { list-style-type: decimal;}
 
-##4.主题样式##
+4.主题样式
 
 如果对默认主题不满意，可自行修改`prettify.css`
 
