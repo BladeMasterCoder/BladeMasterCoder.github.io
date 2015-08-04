@@ -355,7 +355,7 @@ li.article a:hover,li.article a:focus{
 .comment{
 	margin-top: 1em;
 	background: white;
-	padding: 1em 1.5em;
+	padding: 1em 0.5em 0.5em 1em;
 }
 .ds-recent-visitors, .ds-recent-comments{
 	margin-left : 0 ; 
@@ -364,7 +364,7 @@ li.article a:hover,li.article a:focus{
 .recentuse{
 	margin-top: 1em;
 	background: #fff;
-	padding: 2em;
+	padding: 1em 0.5em 0.5em 1em;
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 }
