@@ -784,7 +784,7 @@ a.profile_gavatar .circle{
 
 @media (min-width: 992px){
 	.profile_desc{
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	.profile .overlay{
 		margin: -2em -2em -3em -2em;	
