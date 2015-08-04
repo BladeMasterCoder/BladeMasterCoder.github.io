@@ -41,6 +41,11 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 	line-height: 20px;
 	margin-left: 0;
 }
+.prettyprint.linenums, pre.prettyprint.linenums {
+	-webkit-box-shadow: inset 40px 0 0 #39382E,inset 41px 0 0 #464741;
+	-moz-box-shadow: inset 40px 0 0 #39382E,inset 41px 0 0 #464741;
+	box-shadow: inset 40px 0 0 #39382E,inset 41px 0 0 #464741;
+}
 
 p > code{
 	margin: 0 3px;
