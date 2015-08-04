@@ -11,7 +11,6 @@ $(document).ready(function() {
 			{
 				$("#backtotop").removeClass("showme");
 			}
-			showArticle();
 		});
 		
 		$("#backtotop").click(function(){
@@ -23,8 +22,7 @@ $(document).ready(function() {
     		prettyPrint();
     		
 		$('.navbar-wrapper').stickUp();
-		$("a#single_image").fancybox();
-		showArticle();		
+		$("a#single_image").fancybox();		
 	});
 
 	
@@ -81,7 +79,7 @@ $(document).ready(function() {
       );
 	  
 
-	skillbar()
+	skillbar();
 });
 		
 function pajx_loadDuodsuo(){   
@@ -108,15 +106,4 @@ function skillbar(){
     });    
 
 }
-function showArticle(){
-	$(".article").each(function(){
-			if( $(this).offset().top <= $(window).scrollTop()+$(window).height() && !($(this).hasClass('show')) ) {
-				$(this).removeClass("hidden").addClass("show");
-				$(this).addClass("is-hiddened");
-			}else{
-				if(!$(this).hasClass("is-hiddened")){
-					$(this).addClass("hidden");
-				}
-			}
-	});
-}
+
