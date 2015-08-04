@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Jekyll中的代码高亮
+title: 深入理解JVM虚拟机（JAVA内存区域与内存溢出异常）
 category: 技术
 tags: [Java,JVM]
 description: 
 ---
 
-> 使用`google-code-prettify`来渲染代码高亮，使用方便
+> 阅读 <<深入理解JAV虚拟机--JVM高级特性与最佳实践>>和Java虚拟机规范，结合一些自己的理解
 
 Prettify使用
 
