@@ -44,8 +44,7 @@ Prettify使用
 
 我用的`prettify.css`完整如下
 
-	/* desert scheme ported from vim to google prettify */
-	pre.prettyprint { display: block; background-color: #333 }
+	pre.prettyprint { display: block; background-color: #333;font-size:14px; }
 	pre .nocode { background-color: none; color: #000 }
 	pre .str { color: #ffa0a0 } /* string  - pink */
 	pre .kwd { color: #f0e68c; font-weight: bold }
@@ -60,7 +59,7 @@ Prettify使用
 	pre .dec { color: #98fb98 } /* decimal         - lightgreen */
 	
 	/* Specify class=linenums on a pre to get line numbering */
-	ol.linenums { margin-top: 0; margin-bottom: 0; padding-left:1em;color: #AEAEAE } /* IE indents via margin-left */
+	ol.linenums { margin-top: 5px; margin-bottom: 5px; padding-left:5px;color: #AEAEAE } /* IE indents via margin-left */
 	
 	li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 { list-style-type: decimal;}
 	/* Alternate shading for lines */
@@ -79,9 +78,35 @@ Prettify使用
 	  pre .atn, code .atn { color: #404 }
 	  pre .atv, code .atv { color: #060 }
 	}
+	
+	
+	.prettyprint.linenums ol li, pre.prettyprint.linenums ol li {
+		padding-left: 12px;
+		color: #bebec5;
+		line-height: 20px;
+		margin-left: 0;
+	}
+	.prettyprint.linenums, pre.prettyprint.linenums {
+		-webkit-box-shadow: inset 40px 0 0 #3D4C53,inset 41px 0 0 #464741;
+		-moz-box-shadow: inset 40px 0 0 #3D4C53,inset 41px 0 0 #464741;
+		box-shadow: inset 40px 0 0 #3D4C53,inset 41px 0 0 #464741;
+	}
+	
 	p > code{
-		border : 1px solid;
-		margin: 0 2px;
+		margin: 0 3px;
+		background: #ddd;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		color: rgba(0,0,0,0.6);
+		font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+	}
+	
+	a > code{
+		margin: 0 3px;
+		background: #ddd;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		color: #2a7ae2;
 	}
 
 
