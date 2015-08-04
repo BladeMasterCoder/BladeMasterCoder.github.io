@@ -1216,26 +1216,21 @@ a.profile_gavatar .circle{
     .post-title {
       font-size: 36px; } }
 
-.post-content {
-  letter-spacing: 1px;
-  font-size : 1em;
-  line-height : 30px;
-  margin-bottom: 3em; }
-  .post-content h2 {
-    font-size: 32px; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 28px; } }
-  .post-content h3 {
-    font-size: 26px; }
-    @media screen and (max-width: 800px) {
-      .post-content h3 {
-        font-size: 22px; } }
-  .post-content h4 {
-    font-size: 20px; }
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        font-size: 18px; } }
+.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{
+	border-radius: 5px;
+	color: white;
+	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+	font-size: 1.5em;
+	margin: 15px 0 !important;
+	padding: 10px 20px 10px 10px;
+	background: #3B95B8;
+}
+
+.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{
+	font-size: 1.35em;
+	width: 50%;
+	padding: 5px 20px 5px 10px;
+}
 
 /* 一些自定义的微小改动 */
 .footer-heading{
