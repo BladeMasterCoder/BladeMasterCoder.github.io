@@ -1221,11 +1221,10 @@ a.profile_gavatar .circle{
 	/* color: white; */
 	/* font-family: "微软雅黑" , "宋体" , "黑体" ,Arial; */
 	font-size: 1.3em;
-	font-weight: 200;
+	letter-spacing: 1px;
 	font-weight: 700;
 	margin: 1em 0 1em 0;
 	padding: 5px;
-	/* background: #3B95B8; */
 	border-left: 4px solid #3B95B8;
 	border-bottom: 1px solid #3B95B8;
 }
