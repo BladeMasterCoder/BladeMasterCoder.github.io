@@ -6,8 +6,8 @@ tags: [Java,JVM]
 description: 
 ---
 
->JAVA虚拟机运行时数据区
-><a id="single_image" href="/assets/img/blogimg/java_memory.png"><img src="/assets/img/blogimg/java_memory.png" kesrc="/assets/img/blogimg/java_memory.png" alt=""></a>
+> JAVA虚拟机运行时数据区
+><a class="group" href="/assets/img/blogimg/java_memory.png"><img src="/assets/img/blogimg/java_memory.png" alt=""></a>
 > 阅读 <<深入理解JAV虚拟机--JVM高级特性与最佳实践>>和[Java虚拟机规范](http://docs.oracle.com/javase/specs/jvms/se8/html/index.html)，结合一些自己的理解
 
 
@@ -30,7 +30,11 @@ Java虚拟机管理的内存包含以下几个运行时数据区域。
 
 ## 1.2、Java虚拟机栈 ##
 
-和PC一样，它也是线程私有的，生命周期与线程相同。供线程调用方法
+和PC一样，它也是线程私有的，生命周期与线程相同。 虚拟机栈描述的是java中方法调用执行的内存模型，每个方法执行的同时都会创建一个栈帧（Stack Frame）
+
+<a class="group" href="/assets/img/blogimg/StackFrame.png"><img src="/assets/img/blogimg/StackFrame.png" alt=""></a>
+
+	
 
 
 
