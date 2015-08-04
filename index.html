@@ -34,7 +34,7 @@ layout: default
 	{% if paginator.total_pages > 1 %}
 		<div class="pagination center">
 			  {% if paginator.previous_page %}
-			    <a class="pjaxlink"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-right:5px;">上一页</span></a>
+			    <a class="pjaxlink"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="glyphicon glyphicon-chevron-left"></i><span class="x1" style="margin-right:5px;">上一页</span></a>
 			  {% endif %}<i class="icon-angle-left"></i>
 
 			  {% for page in (1..paginator.total_pages) %}
@@ -48,7 +48,7 @@ layout: default
 			  {% endfor %}
 
 			  {% if paginator.next_page %}
-			   	 <a class="pjaxlink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;">下一页</span><i class="icon-angle-right"></i></a>
+			   	 <a class="pjaxlink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;">下一页</span><i class="glyphicon glyphicon-chevron-right"></i></a>
 			  {% endif %}
 		</div>
 	{% endif %}
