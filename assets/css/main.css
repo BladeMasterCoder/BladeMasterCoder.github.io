@@ -782,7 +782,7 @@ a.profile_gavatar .circle{
 	line-height: 2em;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1200px){
 	.profile_desc{
 		font-size: 0.9em;
 	}
