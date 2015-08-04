@@ -743,12 +743,12 @@ blockquote {
 	height: 5.5em;
 	background-image: url(/assets/img/bg5.png);
 	opacity: 0.7;
-	margin: -2em -2em -4em -2em;
+	margin: -2em -2em -3em -2em;
 }
 a.profile_gavatar{
 	position: relative;
-	width: 8em;
-	height: 8em;
+	width: 6em;
+	height: 6em;
 	margin: 0 auto;
 	overflow: hidden;
 	background : #fff;
