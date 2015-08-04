@@ -1129,7 +1129,7 @@ a.profile_gavatar .circle{
     margin-bottom : 2em;
 }
 
-@media (min-width: 992px){
+@media (max-width: 992px){
 	.postbox{
 		border : 0.5px solid black;
 	}
