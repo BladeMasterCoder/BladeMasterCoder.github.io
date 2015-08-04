@@ -1230,15 +1230,15 @@ a.profile_gavatar .circle{
 	letter-spacing: 1px;
 	font-weight: 700;
 	margin: 1em 0 1em 0;
-	padding: 5px;
+	padding: 5px 5px 5px 15px;
 	border-left: 4px solid #3B95B8;
 	border-bottom: 1px solid #3B95B8;
 }
 
 .post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{
 	font-size: 1.15em;
-	width: 50%;
-	padding: 5px;
+	width: 60%;
+	padding: 5px 5px 5px 15px;
 }
 
 /* 一些自定义的微小改动 */
