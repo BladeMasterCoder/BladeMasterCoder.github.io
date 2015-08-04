@@ -44,7 +44,7 @@ Prettify使用
 
 如果对默认主题不满意，可自定义`prettify.css`。
 
-我在prettify主题、`desert`的基础上自定义的`prettify.css`完整如下。
+我在prettify的主题`desert`的基础上自定义的`prettify.css`完整如下。
 
 	pre.prettyprint { display: block; background-color: #333;font-size:14px; }
 	pre .nocode { background-color: none; color: #000 }
