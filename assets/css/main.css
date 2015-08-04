@@ -267,7 +267,7 @@ div.page-tag {
 .tags{
 	margin-left: 0;
 	padding-left : 0;
-	border-left: 2px solid #e94c4c;
+	border-left: 2px solid #3B95B8;
 }
 .target-fix{
      padding-top:4em;    
@@ -299,7 +299,7 @@ li.article a {
 }	
 li.article a:hover,li.article a:focus{
 	color: #428bca;
-      box-shadow: 3px 0 #e94c4c inset;
+      box-shadow: 3px 0 #3B95B8 inset;
       background-color: #f5f5f5;
 }
 

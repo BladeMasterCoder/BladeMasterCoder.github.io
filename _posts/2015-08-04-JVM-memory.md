@@ -30,7 +30,7 @@ Prettify使用
 	  });
 	</script>
 	
-这里导入了`css`和`js`后，就可以直接用`markdown`的`tab`的方式来导入代码段了
+这里导入了css和js后，就可以直接用`markdown`的`tab`的方式来导入代码段了
 
 3.显示行号
 
