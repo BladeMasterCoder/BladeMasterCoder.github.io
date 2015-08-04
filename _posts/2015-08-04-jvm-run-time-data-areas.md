@@ -25,14 +25,20 @@ Java虚拟机管理的内存包含以下几个运行时数据区域。
 
 如果线程正在执行的是一个JAVA方法，PC记录的就是下一条需要执行的字节码指令地址（行号），而如果正在执行是一个native方法，则值为空。
 
-注： 这是JVM虚拟机中没有规定任何 `OutOfMemoryError` 的区域。
+注： 这是JVM虚拟机中没有规定任何 `OutOfMemoryError` 的区域
 
 
 ## 1.2、Java虚拟机栈 ##
 
-和PC一样，它也是线程私有的，生命周期与线程相同。 虚拟机栈描述的是java中方法调用执行的内存模型，每个方法执行的同时都会创建一个栈帧（Stack Frame）
+和PC一样，它也是线程私有的，生命周期与线程相同。 虚拟机栈描述的是java中方法调用执行的内存模型，每个方法执行的同时都会创建一个栈帧（Stack Frame），栈帧中存储着`局部变量表`、`操作数`、	`方法出口`、`引用`、`动态链接`等信息，每一个方法从调用到执行完成的过程，就对应着栈帧在虚拟机栈中入栈道出栈的过程
 
 <a class="group" rel="group1" href="/assets/img/blogimg/StackFrame.png"><img src="/assets/img/blogimg/StackFrame.png" alt=""></a>
+
+局部变量表中存储着8种基本数据类型（boolean,byte,char,short,int,float,long,double）、对象引用（一个指向堆中对象起始地址的指针，或者是指向代表对象的句柄）、还有返回地址类型（ReturnAddress,指向了一条字节码指令的地址）。
+
+我们一般的说的栈就是指这一块区域。
+
+## 1.3、本地方法栈 ##
 
 	
 
