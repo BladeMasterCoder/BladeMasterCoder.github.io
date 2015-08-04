@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">全部文章</h1>
 
    {% for post in paginator.posts %}
-	<div class="row">
+	<div class="row article">
 		<div class="col-md-12 postbox">
 			<div class="allpost">
 				<div class="title"><a class="pjaxlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>

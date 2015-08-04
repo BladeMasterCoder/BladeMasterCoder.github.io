@@ -11,6 +11,7 @@ $(document).ready(function() {
 			{
 				$("#backtotop").removeClass("showme");
 			}
+			showArticle();
 		});
 		
 		$("#backtotop").click(function(){
@@ -23,6 +24,7 @@ $(document).ready(function() {
     		
 		$('.navbar-wrapper').stickUp();
 		$("a#single_image").fancybox();
+		showArticle();		
 	});
 
 	
@@ -105,4 +107,16 @@ function skillbar(){
         }, 2000);
     });    
 
+}
+function showArticle(){
+	$(".article").each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height() && !($(this).hasClass('show')) ) {
+				$(this).removeClass("hidden").addClass("show");
+				$(this).addClass("is-hiddened");
+			}else{
+				if(!$(this).hasClass("is-hiddened")){
+					$(this).addClass("hidden");
+				}
+			}
+	});
 }
