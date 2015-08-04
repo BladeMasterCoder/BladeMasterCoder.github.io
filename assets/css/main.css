@@ -427,6 +427,7 @@ a {
  */
 blockquote {
   color: #828282;
+  line-height : 1.8em;
   border-left: 4px solid #e8e8e8;
   padding-left: 15px;
   font-size: 1em; }
@@ -1206,7 +1207,7 @@ a.profile_gavatar .circle{
  * Posts
  */
  .post-content{
- 	line-height : 1.7em;
+ 	line-height : 1.8em;
  	letter-spacing : 1px;
  }
  
