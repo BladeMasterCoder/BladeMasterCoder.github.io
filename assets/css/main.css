@@ -1205,6 +1205,11 @@ a.profile_gavatar .circle{
 /**
  * Posts
  */
+ .post-content{
+ 	line-height : 1.7em;
+ 	letter-spacing : 1px;
+ }
+ 
 .post-header {
   margin-top: 1em; }
 

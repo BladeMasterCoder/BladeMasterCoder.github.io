@@ -6,9 +6,12 @@ tags: [Java,JVM]
 description: 
 ---
 
+>JAVA虚拟机运行时数据区
+><a id="single_image" href="/assets/img/blogimg/java_memory.png"><img src="/assets/img/blogimg/java_memory.png" kesrc="/assets/img/blogimg/java_memory.png" alt=""></a>
 > 阅读 <<深入理解JAV虚拟机--JVM高级特性与最佳实践>>和Java虚拟机规范，结合一些自己的理解
 
-Prettify使用
+
+Java运行时的
 
 1.下载代码
 
