@@ -1042,12 +1042,19 @@ a.profile_gavatar .circle{
 }
  
  
+ 
+ 
 /**
  * Page content
  */
+ 
+.aside2{
+	padding-right : 2em;
+}
+ 
 .page-content {
   background : #fff;
-  padding: 1em; 
+  padding: 1em 3em; 
   padding-bottom : 3em;
   /*border : 1px solid black;*/
   min-height : 50em;
