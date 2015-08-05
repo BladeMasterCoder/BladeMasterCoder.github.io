@@ -1205,6 +1205,7 @@ a.profile_gavatar .circle{
 
 .post-title {
   font-size: 2em;
+  padding-top: 10px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
