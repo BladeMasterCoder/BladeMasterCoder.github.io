@@ -1071,12 +1071,12 @@ a.profile_gavatar .circle{
   min-height : 50em;
   margin-bottom : 1em;
 }
-/*
-@media (min-width: 992px) {
+
+@media (max-width: 992px) {
 	.page-content {
-	margin-left : 25%;}
+		padding: 1em 1em; 
+	}
 }
-*/
 
 .page-heading {
   font-size: 20px; }
