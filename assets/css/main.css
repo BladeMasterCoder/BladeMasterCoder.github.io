@@ -1202,6 +1202,14 @@ a.profile_gavatar .circle{
   border-left: 6px solid;
   margin-left: -3em;
   padding-left: 3em;}
+ 
+@media (max-width: 992px) {
+	.post-header  {
+		margin-left: -1.5em;
+		padding-left: 1.5em;
+	}
+} 
+  
 
 .post-title {
   font-size: 2em;
