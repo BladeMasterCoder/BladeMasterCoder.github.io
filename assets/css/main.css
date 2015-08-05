@@ -243,8 +243,7 @@ div.page-tag {
 }
 .page-tag a {
 	text-decoration: none;
-	background-color: #ba8f6c;
-	color : white;
+	color : black;
 	float: left;
 	margin: 0 1em 1em 0;
 	padding: 5px 10px;
