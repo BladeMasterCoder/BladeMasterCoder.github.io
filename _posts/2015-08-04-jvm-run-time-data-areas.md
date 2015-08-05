@@ -34,9 +34,8 @@ Java虚拟机管理的内存包含以下几个运行时数据区域。
 
 <a class="group" rel="group1" href="/assets/img/blogimg/StackFrame.png"><img src="/assets/img/blogimg/StackFrame.png" alt=""></a>
 
-局部变量表中存储着8种基本数据类型`boolean`、`byte`、`char`、
-`short`、`int`、`float`、
-`long`、`double`，对象引用（一个指向堆中对象起始地址的指针，或者是指向代表对象的句柄），还有返回地址类型（ReturnAddress,指向了一条字节码指令的地址）。
+局部变量表中存储着8种基本数据类型`boolean`、`byte`、`char`、`short`、
+`int`、`float`、`long`、`double`，对象引用（一个指向堆中对象起始地址的指针，或者是指向代表对象的句柄），还有返回地址类型（ReturnAddress,指向了一条字节码指令的地址）。
 
 我们一般的说的栈就是指这一块区域。
 
