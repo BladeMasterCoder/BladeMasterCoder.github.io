@@ -568,7 +568,7 @@ blockquote {
 .profile_social{
 	position : fixed ;
 	left:0;
-	top : 40%;
+	top : 30%;
 }
 @media (max-width: 992px){
 	.profile_social{
