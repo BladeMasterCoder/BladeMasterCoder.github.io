@@ -787,10 +787,6 @@ a.profile_gavatar .circle{
 	-webkit-border-radius: 99em;
 	-moz-border-radius: 99em;
 	border-radius: 99em;
-	-webkit-transition: all 0.5s ease-in;
-	-moz-transition: all 0.5s ease-in;
-	-ms-transition: all 0.5s ease-in;
-	transition: all 0.5s ease-in;
 }
 	
 .profile .address{
