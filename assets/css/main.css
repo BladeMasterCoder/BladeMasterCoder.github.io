@@ -356,7 +356,7 @@ li.article a:hover,li.article a:focus{
 .comment{
 	margin-top: 1em;
 	background: white;
-	padding: 1em 0.5em 0.5em 1em;
+	padding: 1em 2em;
 }
 .ds-recent-visitors, .ds-recent-comments{
 	margin-left : 0 ; 
