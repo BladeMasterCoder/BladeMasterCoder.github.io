@@ -1197,7 +1197,11 @@ a.profile_gavatar .circle{
 
  
 .post-header {
-  margin-top: 1em; }
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-left: 6px solid;
+  margin-left: -3em;
+  padding-left: 3em;}
 
 .post-title {
   font-size: 2em;
