@@ -1199,6 +1199,9 @@ a.profile_gavatar .circle{
  	letter-spacing : 1px;
 }
 
+div.contentAbstract img{
+	width : 60%;
+}
  
 .post-header {
   margin-top: 1em;
