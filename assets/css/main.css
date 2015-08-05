@@ -1216,6 +1216,12 @@ a.profile_gavatar .circle{
   padding-top: 10px;
   letter-spacing: -1px;
   line-height: 1; }
+  
+  @media (max-width: 992px) {
+		.post-title  {
+			font-size: 1.5em;
+		}
+	} 
 
 .post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{
 	/* border-radius: 5px; */
