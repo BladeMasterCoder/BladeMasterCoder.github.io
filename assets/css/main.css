@@ -1052,6 +1052,13 @@ a.profile_gavatar .circle{
 	padding-right : 2em;
 	padding-left : 0;
 }
+
+@media (max-width: 992px) {
+	.aside2{
+		padding-right : 0;
+		padding-left : 0;
+	}
+}
  
 .page-content {
   background : #fff;
