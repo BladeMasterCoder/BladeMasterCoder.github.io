@@ -802,52 +802,6 @@ a.profile_gavatar .circle{
 	}
 }
 
-.profile_social{
-	position: absolute;
-	bottom: 2em;
-	left: 10%;
-	width: 80%;
-	margin: 0 auto;
-}
-
-.profile_social a{
-	color : #2a7ae2;
-}
-
-.profile_social a:visited{
-	color : #2a7ae2;
-}
-
-.profile_social a:hover{
-	color : black;
-}
-
-.profile_social .table{
-	width : 80%;
-	margin:0 auto;
-}
-
-.icon_wb {
-	width: 54px;
-	height: 54px;
-	float: left;
-	background: url(/assets/img/wbqq.png) left top no-repeat;
-	margin: 0 10px 0 0;
-}
-.icon_qq {
-	width: 54px;
-	height: 54px;
-	float: left;
-	background: url(/assets/img/wbqq.png) -73px 0 no-repeat;
-	margin: 0 10px 0 0;
-}  
-
-.icon_weixin {
-	width: 54px;
-	height: 54px;
-	float: left;
-	background: url(/assets/img/wbqq.png) right top no-repeat;
-}
 
 /**
  * 左侧标签云
