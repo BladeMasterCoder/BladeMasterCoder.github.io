@@ -1186,10 +1186,15 @@ a.profile_gavatar .circle{
 /**
  * Posts
  */
- .post-content{
+ 
+.post-content{
  	line-height : 1.8em;
  	letter-spacing : 1px;
- }
+}
+
+.post-content  a  img{
+	text-align : center;
+}
  
 .post-header {
   margin-top: 1em; }
