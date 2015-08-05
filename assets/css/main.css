@@ -561,16 +561,16 @@ blockquote {
 
 .profile_social{
 	position : fixed ;
-	left:1em:
-	top : 50%;
+	left:0;
+	top : 40%;
 }
 
 .profile_social a{
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
 	zoom: 1;
 	text-indent: -9999px;
-	margin: 0 8px;
+	margin: 20px 8px;
 	opacity: 0.5;
 	width: 1.7em;
 	height: 1.7em;
