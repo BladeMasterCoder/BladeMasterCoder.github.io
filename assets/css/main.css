@@ -851,7 +851,6 @@ a.profile_gavatar .circle{
 	background : #fff;
 	-moz-border-radius:7px 7px 0 0;
 	-webkit-border-radius: 7px 7px 0 0;
-	min-height: 19em;
 }
 .tag-cloud .page-tag{
 	min-height: 12.5em;
