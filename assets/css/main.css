@@ -242,15 +242,19 @@ div.page-tag {
   	text-align: center;
 }
 .page-tag a {
-	  text-decoration: none;
-	  font-size: 0.9em;
-	  line-height: 1.5em;
-	  background-color: #ba8f6c;
-	  color : white;
-	  float: left;
-	  padding: 0.1em 0.6em;
-	  margin: 0 1em 1em 0;
-	  border-radius: 8px;
+	text-decoration: none;
+	background-color: #ba8f6c;
+	color : white;
+	float: left;
+	margin: 0 1em 1em 0;
+	padding: 5px 10px;
+	border: 1px solid #d9d9d9;
+	border-radius: 14px;
+	box-sizing: border-box;
+	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5;
 }
 .page-tag a:visited{
 	  text-decoration: none; 
