@@ -735,7 +735,7 @@ blockquote {
  * Profile elements style
  */
 .aside1{
-	padding-left: 3em; 
+	padding-left: 4em; 
 	padding-right: 1em; 
 }
  
@@ -746,7 +746,7 @@ blockquote {
 	padding: 2em 2em 0 2em;
 	opacity: 1;
 	/*border: 1px solid black;*/
-	min-height: 30em; 
+	min-height: 27em; 
 	height : 100%;
 }
 .profile .overlay{
