@@ -564,6 +564,11 @@ blockquote {
 	left:0;
 	top : 40%;
 }
+@media (max-width: 992px){
+	.profile_social{
+		display : none;
+	}
+}
 
 .profile_social a{
 	display: block;
@@ -875,7 +880,7 @@ a.profile_gavatar .circle{
 .site-footer {
   border-top: 2px solid #e8e8e8;
   background-image: url(/assets/img/bg5.png);
-  padding: 30px 0; 
+  padding: 20px 0; 
   position : absolute;
   width : 100%;
   z-index : 6000;
