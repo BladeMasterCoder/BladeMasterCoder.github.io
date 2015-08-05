@@ -559,6 +559,12 @@ blockquote {
 	background: url(/assets/img/pjax_loading.gif) 50% 50% no-repeat;
 }
 
+.profile_social{
+	position : fixed ;
+	left:1em:
+	top : 50%;
+}
+
 .profile_social a{
 	display: inline-block;
 	vertical-align: middle;
