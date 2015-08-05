@@ -180,7 +180,7 @@ ul, ol, dl, figure,
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
-    width:31%;
+    width: 150px;
     margin:1%;
     float:left;
     overflow:hidden;
