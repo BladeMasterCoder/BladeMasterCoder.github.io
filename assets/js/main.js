@@ -22,6 +22,7 @@ $(document).ready(function() {
     		prettyPrint();
     		
 		$('.navbar-wrapper').stickUp();
+		$('[data-toggle="tooltip"]').tooltip();
 		$("a#single_image").fancybox();		
 		$("a.group").fancybox({
 	        'transitionIn'  :   'elastic',
