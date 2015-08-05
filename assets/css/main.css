@@ -258,13 +258,11 @@ div.page-tag {
 .page-tag a:visited{
 	  text-decoration: none; 
 	  color: #fff;
-	  background-color: #ba8f6c;
 }
 .page-tag a:hover,
 .page-tag a:focus {
 	  text-decoration: none; 
 	  color: #fff;
-	  background-color: #ba8f6c;
 }
 
 .tags{
