@@ -665,18 +665,18 @@ blockquote {
  * back to top icon
  */
 #backtotop{
-	height: 50px;
+
 	position: fixed;
 	bottom: 55px;
 	right: -60px;
 	z-index: 9999;
 	font-size: 3.5em;
-	/*
+	
 	-moz-transition: all 1s ease;
 	-webkit-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
-	*/
+	
 }
 #backtotop a{
 	color: black;
@@ -695,11 +695,11 @@ blockquote {
 
 #backtotop.showme{
 	right: 12px;
-/*	-moz-transform: scale(1) rotate(-360deg) translate(0px);
+	-moz-transform: scale(1) rotate(-360deg) translate(0px);
 	-webkit-transform: scale(1) rotate(-360deg) translate(0px);
 	-o-transform: scale(1) rotate(-360deg) translate(0px);
 	transform: scale(1) rotate(-360deg) translate(0px);
-	*/
+	
 }
 
 #backtotop .bttbg{
