@@ -594,10 +594,6 @@ blockquote {
 }
 .profile_social a:hover{
 	opacity: 0.8;
-	-moz-transform: scale(1) rotate(-360deg) translate(0px);
-	-webkit-transform: scale(1) rotate(-360deg) translate(0px);
-	-o-transform: scale(1) rotate(-360deg) translate(0px);
-	transform: scale(1) rotate(-360deg) translate(0px);
 }
 
 .profile_social a.github {
@@ -810,6 +806,13 @@ a.profile_gavatar .circle{
 	-webkit-border-radius: 99em;
 	-moz-border-radius: 99em;
 	border-radius: 99em;
+}
+
+div.gavatar a:hover{
+	-moz-transform: scale(1) rotate(-360deg) translate(0px);
+	-webkit-transform: scale(1) rotate(-360deg) translate(0px);
+	-o-transform: scale(1) rotate(-360deg) translate(0px);
+	transform: scale(1) rotate(-360deg) translate(0px);
 }
 	
 .profile .address{
