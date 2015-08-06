@@ -1101,6 +1101,8 @@ div.gavatar a:hover{
   min-height : 50em;
   margin-bottom : 1em;
   border-radius: 7px;
+  float: left;
+  width: 100%;
 }
 
 @media (max-width: 992px) {
