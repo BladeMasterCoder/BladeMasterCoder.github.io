@@ -101,8 +101,13 @@
 	margin: 2px !important;
 }
 
+#ds-smilies-tooltip {
+	width: 410px;
+}
+
 #ds-smilies-tooltip .ds-smilies-container{
 	height : 160px;
+	padding: 5px;
 }
 
 #ds-reset form{
