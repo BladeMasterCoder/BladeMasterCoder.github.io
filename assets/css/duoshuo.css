@@ -101,7 +101,7 @@
 	margin: 2px !important;
 }
 
-tooltip .ds-smilies-container {
+#ds-smilies-tooltip .ds-smilies-container{
 	height : 160px;
 }
 
