@@ -101,3 +101,10 @@
 	margin: 2px !important;
 }
 
+tooltip .ds-smilies-container {
+	height : 160px;
+}
+
+.ds-replybox form{
+	margin-left : 5px;
+}
