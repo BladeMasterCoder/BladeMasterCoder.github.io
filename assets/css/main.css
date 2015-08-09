@@ -1189,8 +1189,8 @@ div.gavatar a:hover{
 	padding-left: 0.5em;
 }
 @media (max-width: 992px){
-	.postbox .allpost .title{{
-		font-size: 1.4em;
+	.postbox .allpost .title{
+		font-size:  1.4em;
 	}
 }
 
