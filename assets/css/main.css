@@ -1188,6 +1188,12 @@ div.gavatar a:hover{
 	border-left: 3px solid black;
 	padding-left: 0.5em;
 }
+@media (max-width: 992px){
+	.postbox .allpost .title{{
+		font-size: 1.4em;
+	}
+}
+
 .postbox .allpost .title a{
 	color:#696969;
 }
