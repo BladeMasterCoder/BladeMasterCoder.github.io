@@ -485,8 +485,6 @@ blockquote {
   top:0;
   width:100%;
   z-index : 5000;
-  min-height: 5%;
-  max-height: 5%;
   }
 
 .site-title {
