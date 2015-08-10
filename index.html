@@ -39,7 +39,7 @@ layout: default
 
 			  <!--{% for page in (paginator.page-1..paginator.total_pages) %} -->
 			  
-			  {% for page in (paginator.page-1..paginator.page+1) %}
+			  {% for page in (1..3) %}
 				    {% if page == paginator.page %}
 				      <span class="active_page x1">{{ page }}</span>
 				    {% elsif page == 1 %}
