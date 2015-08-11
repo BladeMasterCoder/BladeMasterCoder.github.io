@@ -98,6 +98,10 @@ ul, ol, dl, figure,
 	*/
 }
 
+.navbar-header{
+	padding-top:4px;
+}
+
 .index-post-tag a{
 	  font-size: 1em;
 	  line-height: 1em;
