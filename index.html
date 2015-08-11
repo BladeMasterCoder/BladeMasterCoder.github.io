@@ -36,8 +36,6 @@ layout: default
 			  {% if paginator.previous_page %}
 			    <a class="pjaxlink"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-right:5px;"><i class="glyphicon glyphicon-chevron-left"></i> 上一页</span></a>
 			  {% endif %}
-
-			  <!--{% for page in (paginator.page-1..paginator.total_pages) %} -->
 			  
 			  {% for page in (paginator.page-1..paginator.total_pages) %}
 				    {% if page == paginator.page %}
