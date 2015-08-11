@@ -105,7 +105,7 @@ permalink: /pages/about.html
 
 
 	<br>
-	<h3>个人简介</h3>
+	<h3><i class="fa fa-info"></i>&nbsp;个人简介</h3>
 	<hr>
 	<br>
 	<p>
