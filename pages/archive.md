@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive
+title: 归档
 permalink: /pages/archive.html
 ---
 <div class="home">

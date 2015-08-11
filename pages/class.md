@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Class
+title: 分类
 permalink: /pages/class.html
 ---
 <div>

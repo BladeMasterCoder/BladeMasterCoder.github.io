@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: 关于
 permalink: /pages/about.html
 ---
 
