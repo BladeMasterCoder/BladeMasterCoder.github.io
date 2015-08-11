@@ -6,7 +6,7 @@ permalink: /pages/about.html
 
 <div class="about">
 
-	<h3>关于博客</h3>
+	<h3><i class="fa fa-windows"></i>&nbsp;关于博客</h3>
 	<hr>
 	<br>
 	<p>
