@@ -15,8 +15,9 @@ permalink: /pages/about.html
 	</p>
 	<br>
 	
-	<h3>IT技能</h3>
+	<h3><i class="fa fa-laptop"></i>&nbsp;IT技能</h3>
 	<hr>
+	<br>
     <div class="skills">
 
         <div class="skillbar clearfix" data-percent="80%">
@@ -71,7 +72,7 @@ permalink: /pages/about.html
 	</table>
 
 	<br>
-	<h3>联系方式</h3>
+	<h3><i class="fa fa-phone-square"></i>&nbsp;联系方式</h3>
 	<hr>
 	<table class="table table-striped">
 		<tr>
@@ -112,7 +113,7 @@ permalink: /pages/about.html
 	</p>
 	<br>
 
-	<h3>人生理想</h3>
+	<h3><i class="fa fa-heart"></i>&nbsp;人生理想</h3>
 	<hr>
 	<br>
 	<p>
