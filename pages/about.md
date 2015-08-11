@@ -10,7 +10,8 @@ permalink: /pages/about.html
 	<hr>
 	<br>
 	<p>
-	本博客用<a href="http://jekyllrb.com/"><code>jekyll</code></a>（可将纯文本转化为静态网站和博客的语言）,<code>html</code>,<code>css</code>等编写。博客部署在<code>github</code>服务器上，前端采用<code>bootstrap</code>栅格式布局，可自适应移动端浏览器。
+	博客用<a href="http://jekyllrb.com/"><code>jekyll</code></a>（可将纯文本转化为静态网站和博客的语言）,<code>html</code>,<code>css</code>等构建。博客部署在<code>github</code>服务器上，前端采用<code>bootstrap</code>栅格式布局，可自适应移动端浏览器。
+	写博客的目的很单纯，就是记笔记，方便在不同终端上随时查看，偶尔也会记录身边发生的事情。
 	</p>
 	<br>
 	
@@ -111,11 +112,11 @@ permalink: /pages/about.html
 	</p>
 	<br>
 
-	<h3>座右铭</h3>
+	<h3>人生理想</h3>
 	<hr>
 	<br>
 	<p>
-	世界这么大 我想去看看
+	世界这么大 到处去看看
 	</p>
 	<br>
 	<br> 
