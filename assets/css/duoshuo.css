@@ -113,3 +113,8 @@
 #ds-reset form{
 	margin-left : 5px;
 }
+
+#ds-thread #ds-reset .ds-replybox img{
+	border-radius: 0;
+	border: 0px;
+}
