@@ -97,7 +97,9 @@ ul, ol, dl, figure,
 	box-shadow: 0 2px 10px rgba(0,0,0,.75);
 	*/
 }
-
+.navbar{
+	border-radius: 0;
+}
 .navbar-header{
 	padding-top:4px;
 }
