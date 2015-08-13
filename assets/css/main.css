@@ -1376,10 +1376,9 @@ div.contentAbstract img{
 .prevandnext{
 	margin-bottom: 1em;
 	margin-top: 1em;
-	border-radius: 10px;
+	border-radius: 7px;
 	padding: 10px;
-	border: 1px solid;
-	background: rgb(221, 238, 226);
+	background: white;
 }	
 
 /*百度分享*/
