@@ -1205,6 +1205,7 @@ div.gavatar a:hover{
 	display: block;
 	clear: both;
 	font-size: 1.2em;
+	font-weight: bold;
 	margin-bottom: -8px;
 	color: #FFF !important;
 	-webkit-transform: rotate(45deg);
