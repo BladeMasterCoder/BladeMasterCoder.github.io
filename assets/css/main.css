@@ -1116,6 +1116,9 @@ div.gavatar a:hover{
 .post{
   background : #fff;
   padding: 1em 3em; 
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 4px;
 }
 
 @media (max-width: 992px) {
@@ -1389,6 +1392,8 @@ div.contentAbstract img{
 	border-radius: 7px;
 	padding: 1em 3em;
 	background: white;
+	margin-left: -15px;
+    margin-right: -15px;
 }	
 
 /*百度分享*/
