@@ -1152,15 +1152,13 @@ div.gavatar a:hover{
  
 .postbox{
 	width: 100%;
-	-moz-border-radius:7px; 
-	-webkit-border-radius: 7px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius: 4px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    float: left;
-	padding: 20px 15px;
-	padding-bottom: 40px;
-    margin-bottom : 2em;
+	padding: 3em;
+    margin-bottom : 3em;
 	background : #fff;
 }
 
