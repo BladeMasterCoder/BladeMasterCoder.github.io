@@ -1193,6 +1193,10 @@ div.gavatar a:hover{
 	transform-origin: 0 100%;
 }
 
+.postbox .post-format-icon a:hover{
+	text-decoration:none;
+}
+
 .postbox .post-format-icon a.item-date span {
 	display: block;
 	clear: both;
