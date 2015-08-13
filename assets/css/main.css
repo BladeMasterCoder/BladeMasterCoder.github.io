@@ -1198,8 +1198,7 @@ div.gavatar a:hover{
 	font-size: 1.7em;
 	text-align: left;
 	width: 100%;
-	margin: 0.5em auto;
-	border-bottom: 1px solid #DDD;
+	margin-bottom:1em;
 	border-left: 3px solid black;
 	padding-left: 0.5em;
 }
