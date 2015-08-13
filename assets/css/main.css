@@ -1158,14 +1158,15 @@ div.gavatar a:hover{
  
 .postbox{
 	width: 100%;
-	-moz-border-radius:4px; 
-	-webkit-border-radius: 4px;
+	-moz-border-radius:0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	padding: 40px 50px;
     margin-bottom : 40px;
 	background : #fff;
+	border-top: 5px solid #3B5998;
 }
 .postbox .post-format-icon{
 	display: block;
@@ -1193,11 +1194,21 @@ div.gavatar a:hover{
 }
 
 .postbox .post-format-icon a.item-date span {
-	padding-top: 7px;
-	margin-bottom: -6px;
-	font-size: 26px !important;
-	font-weight: bold;
+	display: block;
+	clear: both;
+	font-size: 1.5em;
+	margin-bottom: -8px;
 	color: #FFF !important;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 20% 80%;
+	-moz-transform-origin: 20% 80%;
+	-ms-transform-origin: 20% 80%;
+	-o-transform-origin: 20% 80%;
+	transform-origin: 20% 80%;
 }
 
 @media (max-width: 992px){
