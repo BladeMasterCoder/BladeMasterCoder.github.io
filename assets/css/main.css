@@ -1157,8 +1157,8 @@ div.gavatar a:hover{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-	padding: 3em;
-    margin-bottom : 3em;
+	padding: 40px 50px;
+    margin-bottom : 40px;
 	background : #fff;
 }
 
