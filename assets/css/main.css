@@ -1198,7 +1198,6 @@ div.gavatar a:hover{
 	font-size: 1.7em;
 	text-align: left;
 	width: 100%;
-	margin-bottom:1em;
 	border-left: 3px solid black;
 	padding-left: 0.5em;
 }
@@ -1230,6 +1229,7 @@ div.gavatar a:hover{
 	line-height: 14px;
 	font-size: 14px;
   	color: #828282;
+	margin-top: 1em;
 }
 .postbox .allpost .contentAbstract{
 	padding-top:1em;
