@@ -1106,6 +1106,15 @@ div.gavatar a:hover{
   width: 100%;
 }
 
+.page-content row{
+	padding-left : 1em;
+	padding-right : 1em;
+}
+
+.postbox{
+	background : #fff;
+}
+
 .post{
   background : #fff;
   padding: 1em 3em; 
@@ -1116,6 +1125,7 @@ div.gavatar a:hover{
 		padding: 1em 1.5em; 
 	}
 }
+
 
 .page-heading {
   font-size: 20px; }
