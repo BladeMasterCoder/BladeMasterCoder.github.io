@@ -1087,8 +1087,8 @@ div.gavatar a:hover{
  */
  
 .aside2{
-	padding-right : 2em;
-	padding-left : 0;
+	padding-right : 4em;
+	padding-left : 2em;
 }
 
 @media (max-width: 992px) {
