@@ -1222,7 +1222,7 @@ div.gavatar a:hover{
 .postbox a.readmore {
     position: relative;
     border-radius: 8px;
-    float: left;
+    float: right;
     margin-top: 20px;
     display: inline-block;
     width: 150px;
