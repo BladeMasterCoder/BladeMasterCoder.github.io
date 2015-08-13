@@ -31,4 +31,5 @@ permalink: /pages/read.html
 				{% endif %}
 		{% endfor %}
 	</div>
+	<div class="clear"></div>
 </div>

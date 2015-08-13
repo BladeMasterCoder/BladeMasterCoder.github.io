@@ -354,6 +354,7 @@ li.article a:hover,li.article a:focus{
 	margin: 0 -15px 2em -15px;
 	padding: 2em 3em;
 	background: white;
+	min-height: 50em;
 }
 
 /**
