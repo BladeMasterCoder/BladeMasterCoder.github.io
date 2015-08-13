@@ -1193,6 +1193,9 @@ div.gavatar a:hover{
 	transform-origin: 0 100%;
 }
 
+.postbox .post-format-icon a:visited{
+	text-decoration:none;
+}
 .postbox .post-format-icon a:hover{
 	text-decoration:none;
 }
