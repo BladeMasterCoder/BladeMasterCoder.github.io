@@ -1203,7 +1203,7 @@ div.gavatar a:hover{
 .postbox .post-format-icon a.item-date span {
 	display: block;
 	clear: both;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin-bottom: -8px;
 	color: #FFF !important;
 	-webkit-transform: rotate(45deg);
@@ -1252,7 +1252,7 @@ div.gavatar a:hover{
 	font-size: 1.7em;
 	text-align: left;
 	width: 100%;
-	border-left: 4px solid black;
+	/*border-left: 4px solid black;*/
 	padding-left: 0.5em;
 	margin-bottom:0.4em;
 	letter-spacing: 1px;
