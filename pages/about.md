@@ -4,7 +4,7 @@ title: 关于
 permalink: /pages/about.html
 ---
 
-<div class="about">
+<div class="home">
 
 	<h3><i class="fa fa-windows"></i>&nbsp;关于博客</h3>
 	<hr>
