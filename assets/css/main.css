@@ -1099,18 +1099,20 @@ div.gavatar a:hover{
 }
  
 .page-content {
-  background : #fff;
-  padding: 1em 3em; 
   padding-bottom : 3em;
   min-height : 50em;
   margin-bottom : 1em;
   border-radius: 7px;
-  float: left;
   width: 100%;
 }
 
+.post{
+  background : #fff;
+  padding: 1em 3em; 
+}
+
 @media (max-width: 992px) {
-	.page-content {
+	.post {
 		padding: 1em 1.5em; 
 	}
 }
