@@ -1170,7 +1170,7 @@ div.gavatar a:hover{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-	padding: 40px 50px;
+	padding: 40px 50px 60px 50px;
     margin-bottom: 50px;
 	background : #fff;
 	border-top: 5px solid #636263
@@ -1232,7 +1232,6 @@ div.gavatar a:hover{
     position: relative;
     border-radius: 8px;
     float: right;
-    margin-top: 20px;
     display: inline-block;
     width: 150px;
     padding: 5px 2px;
