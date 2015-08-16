@@ -358,6 +358,12 @@ li.article a:hover,li.article a:focus{
 	border-radius: 4px;
 }
 
+@media  (max-width: 992px) {
+	.home {
+		padding: 1em 1.5em;
+	}
+}
+
 /**
  * 最近访客和最新评论
  */
