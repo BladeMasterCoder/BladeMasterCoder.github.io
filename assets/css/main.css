@@ -351,7 +351,7 @@ li.article a:hover,li.article a:focus{
  * 
  */
 .home{
-	margin: 0 -15px 2em -15px;
+	margin: 0 0 2em 0;
 	padding: 2em 3em;
 	background: white;
 	min-height: 50em;
@@ -1090,8 +1090,8 @@ div.gavatar a:hover{
  */
  
 .aside2{
-	padding-right : 4em;
-	padding-left : 2em;
+	padding-right : 3em;
+	padding-left : 1em;
 }
 
 @media (max-width: 992px) {
