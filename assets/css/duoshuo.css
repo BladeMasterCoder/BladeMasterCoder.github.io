@@ -12,6 +12,14 @@
 	border-radius: 4px; 
 }
 
+
+@media  (max-width: 992px) {
+	#ds-thread {
+		padding: 1em 1.5em;
+	}
+}
+
+
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {
 	position: absolute;
 	top: 26px;
