@@ -4,7 +4,7 @@ title: 标签
 permalink: /pages/tags.html
 ---
 
-<div class="tagsPage">
+<div class="home">
 	<div class="page-tag">
 		{% for tag in site.tags %}
 			<a class="pjaxlink"  href="#{{tag[0]}}" name="{{tag[0]}}">{{ tag[0] }}({{tag[1].size}})</a>
