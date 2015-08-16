@@ -3,7 +3,7 @@ layout: default
 title: 分类
 permalink: /pages/class.html
 ---
-<div>
+<div class="home">
 
 	{% for category in site.categories %} 
 	      		<div class="panel panel-primary">
