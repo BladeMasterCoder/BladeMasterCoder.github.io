@@ -1172,6 +1172,7 @@ div.gavatar a:hover{
     margin-bottom: 50px;
 	background : #fff;
 	border-top: 5px solid #636263
+	position: relative;
 }
 .postbox .post-format-icon{
 	display: block;
