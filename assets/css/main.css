@@ -389,6 +389,13 @@ li.article a:hover,li.article a:focus{
 	padding-left: 0;
 }
 
+.friendlink{
+	margin-top: 1em;
+	background: #fff;
+	padding: 1em 2em;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
 
 /**
  * Images
