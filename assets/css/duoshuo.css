@@ -3,15 +3,13 @@
 #ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar {left: 0;top: 0; padding: 0;width: 32px !important;height: 32px !important; background: none;box-shadow: none; } 
 #ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar img {width: 32px !important;height: 32px !important; border-radius:50%;} 
 #ds-reset .ds-replybox a.ds-avatar,
-#ds-reset .ds-replybox .ds-avatar img { padding:0;width:50px !important;height:50px !important; border-radius:5px; border-width: 0px !important;}
+#ds-reset .ds-replybox .ds-avatar img {  padding:0;width:50px !important;height:50px !important; border-radius:5px; border-width: 0px !important;}
 */ 
 
 #ds-thread{
 	background: white;
 	padding: 1.5em 3em 3em 3em;
-	border-radius: 4px;
-	margin-left: -15px;
-    margin-right: -15px;
+	border-radius: 4px; 
 }
 
 #ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar {

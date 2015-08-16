@@ -5,8 +5,8 @@ layout: default
 <div>
 
    {% for post in paginator.posts %}
-	<div class="row">
-		<div class="col-md-12 postbox">
+
+		<div class="postbox">
 			<div class="post-format-icon">
                 <a class="item-date pjaxlink" href="{{ post.url | prepend: site.baseurl }}"><span>{{post.category}}</span></a>
             </div>
@@ -28,7 +28,7 @@ layout: default
 			</div>
 			<a href="{{ post.url | prepend: site.baseurl }}"  class="readmore pjaxlink">Read More <i class="glyphicon glyphicon-chevron-right"></i></a>
 		</div>
-	</div>
+
    {% endfor %}
 
 
