@@ -8,7 +8,7 @@ description:
 
 > 一些日常使用linux，会用到的命令。做一个简单的总结，也方便忘记的时候查看。
 
-# 目录和文件处理 #
+# 1.目录和文件处理 #
 
 1.mkdir
 建立目录
@@ -59,7 +59,7 @@ description:
 用法：history
 
 
-# 文本处理 #
+# 2.文本处理 #
 
 1.cat
 显示文件内容
@@ -88,7 +88,7 @@ description:
 例：sort ­r magicLinux.txt
 
 
-# 系统管理 #
+# 3.系统管理 #
 
 1.chmod
 控制用户对文件的权限
@@ -107,7 +107,7 @@ su - 是完整的切换到一个用户环境
 例：su master
 
 
-# 进程管理 #
+# 4.进程管理 #
 
 1.ps
 强悍的进程查看命令
@@ -124,7 +124,7 @@ su - 是完整的切换到一个用户环境
 用法：jobs
 
 
-# 档案 #
+# 5.档案 #
 
 1.tar
 压缩和解压
@@ -142,7 +142,7 @@ tar ­xvf /home/archive.tar （解压）
 用法：unzip filename
 例：unzip original.zip
 
-# 网络 #
+# 6.网络 #
 
 1.ssh
 远程登录的客户端
@@ -155,7 +155,7 @@ tar ­xvf /home/archive.tar （解压）
 例：scp file1.txt master@114.212.82.189:/home/file1.txt
 
 
-# 扩展 #
+# 7.扩展 #
 
 1.reboot
 重启系统
