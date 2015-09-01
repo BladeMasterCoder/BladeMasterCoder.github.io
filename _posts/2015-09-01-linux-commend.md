@@ -39,7 +39,7 @@ description:
 用法：cp [OPTION]... SOURCE DEST  
 例：cp  test1.txt test2.txt
 
-7. mv
+7.mv
 移动（重命名）文件
 用法：mv [OPTION]... SOURCE DEST
 例：mv old new
