@@ -19,12 +19,15 @@ description:
 # 2、html书写规范 #
 
 2.1 为每个HTML页面的第一行添加标准模式（standard mode）的声明，确保在每个浏览器中拥有一致的展现。
+
 	<!DOCTYPE html>
 
 2.2 文档类型声明统一为HTML5声明类型，编码统一为UTF-8。
+
 	<meta charset="UTF-8">
 
 2.3 <HEAD>中添加信息。
+
 	<meta name="author" content="smile@kang.cool">//作者
 	<meta name="description" content="hello">//网页描述
 	<meta name="keywords" content="a,b,c">//关键字,“，”分隔
@@ -37,6 +40,7 @@ description:
 	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">//网页不会被缓存
 
 2.4 非特殊情况下CSS样式文件外链至HEAD之间，JAVASCRIPT文件外链至页面底部
+
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -50,12 +54,15 @@ description:
 	</html>
 
 2.5 引入JAVASCRIPT库文件，文件名须包含库名称及版本号及是否为压缩版。
+
 	jQuery-1.8.3.min.js
 
 2.6 引入JAVASCRIPT插件, 文件名格式为库名称+.+插件名称
+
 	jQuery.cookie.js
 
 2.7 HTML属性应当按照以下给出的顺序依次排列，来确保代码的易读性。
+
 	class
 	id 、 name
 	data-*
@@ -64,11 +71,13 @@ description:
 	aria-*、 role
 
 2.8 书写链接地址时避免重定向。
+
 	href="http://www.kahn1990.com/" //即在URL地址后面加“/”
 
 编码均遵循XHTML标准,
 标签、属性、属性命名由小写英文、数字和_组成，且所有标签必须闭合，属性值必须用双引号"",
 避免使用中文拼音尽量简易并要求语义化。
+
 	CLASS --> nHeadTitle --> CLASS遵循小驼峰命名法（little camel-case）
 	ID --> n_head_title --> ID遵循名称+_
 	NAME --> N_Head_Title --> NAME属性命名遵循首个字母大写+_
@@ -91,11 +100,13 @@ cursor:hand;）放到另一个文件中，再用下面的方法导入。
 	<![endif]-->
 
 3.2 CSS样式新建或修改尽量遵循以下原则。
+
 	根据新建样式的适用范围分为三级：全站级、产品级、页面级。
 	尽量通过继承和层叠重用已有样式。
 	不要轻易改动全站级CSS。改动后，要经过全面测试。
 
 3.3 CSS属性显示顺序。
+
 	显示属性
 	元素位置
 	元素属性
@@ -140,13 +151,19 @@ cursor:hand;）放到另一个文件中，再用下面的方法导入。
 	border-radius: 15px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 *//标准属性
 
 3.6 使用选择器时，命名比较短的词汇或者缩写的不允许直接定义样式。
+
 	.hd,.bd,.td{};//如这些命名
+
 可用上级节点进行限定。
+
 	.recommend-mod .hd
+
 多选择器规则之间换行，即当样式针对多个选择器时每个选择器占一行。
+
 	button.btn,
 	input.btn,
 	input[type="button"] {…};
+
 优化CSS选择器。
 	#header a { color: #444; };/*CSS选择器是从右边到左边进行匹配*/
 
