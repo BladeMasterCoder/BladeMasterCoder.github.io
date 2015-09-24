@@ -130,15 +130,15 @@ permalink: /pages/about.html
         // 路径配置
         require.config({
             paths: {
-                echarts: '/assets/js'
+                echarts: '/assets/js/dist'
             }
         });
         
         // 使用
         require(
-            [
-                'echarts',
-                'echarts/pie' // 使用柱状图就加载bar模块，按需加载
+            [ 
+				'echarts',
+                'echarts/chart/pie' // 使用柱状图就加载bar模块，按需加载
             ],
             function (ec) {
                 // 基于准备好的dom，初始化echarts图表
