@@ -19,7 +19,7 @@ permalink: /pages/about.html
 	<hr>
 	<br>
     <div class="skills">
-    	    <div id="main" style="height:400px"></div>
+   	<div id="main" style="height:400px"></div>
 	<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script type="text/javascript">
         // 路径配置
@@ -55,7 +55,7 @@ permalink: /pages/about.html
 				        data:['java','javascript','html','css','c++']
 				    },
 				    toolbox: {
-				        show : true,
+				        show : false,
 				        feature : {
 				            mark : {show: true},
 				            dataView : {show: true, readOnly: false},
@@ -206,7 +206,7 @@ permalink: /pages/about.html
 	<br>
 	<br> 
 	<br>
-	
+
 </div>
 
 
