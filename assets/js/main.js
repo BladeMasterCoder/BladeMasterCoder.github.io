@@ -20,6 +20,7 @@ $(document).ready(function() {
 		
 		$("pre").addClass("prettyprint linenums");
     		prettyPrint();
+			pjax_loadChart();
     		
 		$('.navbar-wrapper').stickUp();
 		$("a#single_image").fancybox();		
