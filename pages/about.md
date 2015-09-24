@@ -206,7 +206,8 @@ permalink: /pages/about.html
 	<br>
 	<br> 
 	<br>
-
+	
+</div>
 
 
 <div>
