@@ -50,8 +50,13 @@ $(document).ready(function() {
 					prettyPrint();
 					skillbar();
 	 	 		pajx_loadDuoshuo();//pjax加载完成之后调用重载多说函数
-				pjax_loadChart();
+				
 	 	 		$(".pjax_loading").css("display", "none");
+				
+				pjax_loadChart();
+				
+				
+				
 	 	 		window._bd_share_main.init();
 		             $('.bookpiclist .bookpic').hover(
 			                    function() {
