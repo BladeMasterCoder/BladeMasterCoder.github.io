@@ -61,7 +61,7 @@ permalink: /pages/about.html
 				    calculable : true,
 				    series : [
 				        {
-				            name:'访问来源',
+				            name:'IT技能',
 				            type:'pie',
 				            radius : '55%',
 				            center: ['50%', '60%'],
