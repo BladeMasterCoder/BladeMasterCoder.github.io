@@ -47,8 +47,8 @@ $(document).ready(function() {
 	
 	 $(document).on('pjax:complete', function() {
 	 	 		$("pre").addClass("prettyprint linenums");
-    			prettyPrint();
-    			skillbar();
+					prettyPrint();
+					skillbar();
 	 	 		pajx_loadDuoshuo();//pjax加载完成之后调用重载多说函数
 				pjax_loadChart();
 	 	 		$(".pjax_loading").css("display", "none");
