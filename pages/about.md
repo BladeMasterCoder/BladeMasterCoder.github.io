@@ -122,12 +122,6 @@ permalink: /pages/about.html
 	<br>
 	<br> 
 	<br>
-	
-	
-</div>
-<div>
-{% include duoshuo.html %}
-</div>
 
 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
     <div id="main" style="height:400px"></div>
@@ -209,4 +203,10 @@ permalink: /pages/about.html
                 myChart.setOption(option); 
             }
         );
-    </script>
+    </script>	
+	
+</div>
+<div>
+{% include duoshuo.html %}
+</div>
+
