@@ -48,18 +48,13 @@ $(document).ready(function() {
 	
 	 $(document).on('pjax:complete', function() {
 	 	 		$("pre").addClass("prettyprint linenums");
-					prettyPrint();
-					skillbar();
+				prettyPrint();
+				skillbar();
 	 	 		pajx_loadDuoshuo();//pjax加载完成之后调用重载多说函数
 				
 	 	 		$(".pjax_loading").css("display", "none");
-				
-				pjax_loadChart();
-				
-				
-				
-	 	 		window._bd_share_main.init();
-		             $('.bookpiclist .bookpic').hover(
+ 	 		
+		        $('.bookpiclist .bookpic').hover(
 			                    function() {
 			                        $(this).find('.booklabel').stop().animate({bottom: 0}, 200);
 			                        $(this).find('img').stop().animate({top: -30}, 500);
@@ -68,7 +63,9 @@ $(document).ready(function() {
 			                        $(this).find('.booklabel').stop().animate({bottom: -40}, 200);
 			                        $(this).find('img').stop().animate({top: 0}, 300);
 			                    }
-			      );			     			      
+			    );
+				window._bd_share_main.init();				  
+				pjax_loadChart();				  
 	  });
 
 
