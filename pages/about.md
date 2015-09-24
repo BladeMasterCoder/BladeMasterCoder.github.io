@@ -52,7 +52,7 @@ permalink: /pages/about.html
 				    legend: {
 				        orient : 'vertical',
 				        x : 'left',
-				        data:['java','javascript','html','css','c++']
+				        data:['java','javascript','html','css','c++','数据挖掘']
 				    },
 				    toolbox: {
 				        show : false,
@@ -83,11 +83,12 @@ permalink: /pages/about.html
 				            radius : '55%',
 				            center: ['50%', '60%'],
 				            data:[
-				                {value:80, name:'java'},
+				                {value:90, name:'java'},
 				                {value:60, name:'javascript'},
 				                {value:65, name:'html'},
 				                {value:65, name:'css'},
 				                {value:70, name:'c++'}
+				                {value:60, name:'数据挖掘'}
 				            ]
 				        }
 				    ]
