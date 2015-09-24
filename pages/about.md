@@ -87,7 +87,7 @@ permalink: /pages/about.html
 				                {value:60, name:'javascript'},
 				                {value:65, name:'html'},
 				                {value:65, name:'css'},
-				                {value:70, name:'c++'}
+				                {value:70, name:'c++'},
 				                {value:60, name:'data mining'}
 				            ]
 				        }
