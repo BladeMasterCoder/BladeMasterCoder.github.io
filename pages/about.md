@@ -125,7 +125,7 @@ permalink: /pages/about.html
 
 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
     <div id="main" style="height:400px"></div>
-
+	<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script type="text/javascript">
         // 路径配置
         require.config({
