@@ -56,23 +56,6 @@ permalink: /pages/about.html
 				    },
 				    toolbox: {
 				        show : false,
-				        feature : {
-				            mark : {show: true},
-				            dataView : {show: true, readOnly: false},
-				            magicType : {
-				                show: true, 
-				                type: ['pie', 'funnel'],
-				                option: {
-				                    funnel: {
-				                        x: '25%',
-				                        width: '50%',
-				                        funnelAlign: 'left',
-				                        max: 1548
-				                    }
-				                }
-				            },
-				            restore : {show: true},
-				            saveAsImage : {show: true}
 				        }
 				    },
 				    calculable : true,
@@ -83,11 +66,11 @@ permalink: /pages/about.html
 				            radius : '55%',
 				            center: ['50%', '60%'],
 				            data:[
-				                {value:335, name:'java'},
-				                {value:310, name:'javascript'},
-				                {value:234, name:'html'},
-				                {value:135, name:'css'},
-				                {value:1548, name:'c++'}
+				                {value:80, name:'java'},
+				                {value:60, name:'javascript'},
+				                {value:65, name:'html'},
+				                {value:65, name:'css'},
+				                {value:70, name:'c++'}
 				            ]
 				        }
 				    ]
