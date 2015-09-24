@@ -101,9 +101,8 @@ permalink: /pages/about.html
         );
     </script>	
 	
-</div>
 
-    
+
     <!--
         <div class="skillbar clearfix" data-percent="80%">
             <div class="skillbar-title"><span>Java</span></div>
