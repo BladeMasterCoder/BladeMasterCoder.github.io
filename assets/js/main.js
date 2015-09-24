@@ -64,8 +64,9 @@ $(document).ready(function() {
 			                        $(this).find('img').stop().animate({top: 0}, 300);
 			                    }
 			    );
-				window._bd_share_main.init();				  
-				pjax_loadChart();				  
+				pjax_loadChart();
+							  
+								  
 	  });
 
 
