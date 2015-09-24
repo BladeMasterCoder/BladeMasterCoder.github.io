@@ -138,7 +138,7 @@ permalink: /pages/about.html
         require(
             [
                 'echarts',
-                'pie' // 使用柱状图就加载bar模块，按需加载
+                'echarts/pie' // 使用柱状图就加载bar模块，按需加载
             ],
             function (ec) {
                 // 基于准备好的dom，初始化echarts图表
