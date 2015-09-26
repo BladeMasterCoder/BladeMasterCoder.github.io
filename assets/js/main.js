@@ -116,11 +116,11 @@ function pajx_loadDuoshuo(){
 
 function hookDUOSHUO_tp(){
 
-        var _D_post=DUOSHUO.templates.post;
-        DUOSHUO.templates.post=function (e,t){
-            var rs=_D_post(e,t);
-            if(e.agent&&/^Mozilla/.test(e.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.agent)+'</div><p>');
-            return rs;
+        var _D_post=DUOSHUO.templates.post
+                DUOSHUO.templates.post=function (e,t){
+                    var rs=_D_post(e,t);
+                    if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
+                    return rs;
         }
 }
 	
