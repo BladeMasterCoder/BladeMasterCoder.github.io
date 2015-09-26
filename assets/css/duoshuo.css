@@ -173,14 +173,14 @@
   background-color: #428bca !important;
   border-color: #357ebd !important;
 }
-.theme-next .this_ua.browser.baidu,
-.theme-next .this_ua.browser.UCBrowser,
-.theme-next .this_ua.browser.Opera {
+.this_ua.browser.baidu,
+.this_ua.browser.UCBrowser,
+.this_ua.browser.Opera {
   background-color: #d9534f !important;
   border-color: #d43f3a !important;
 }
-.theme-next .this_ua.browser.Android,
-.theme-next .this_ua.browser.QQBrowser {
+.this_ua.browser.Android,
+.this_ua.browser.QQBrowser {
   background-color: #78ace9 !important;
   border-color: #4cae4c !important;
 }
