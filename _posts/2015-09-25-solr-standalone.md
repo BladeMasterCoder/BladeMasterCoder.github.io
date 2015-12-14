@@ -28,8 +28,7 @@ description:
 	    <dataSource name="slave1"
              type="JdbcDataSource" 
              driver="com.mysql.jdbc.Driver"  
-             url="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8"  
-  	     	 user="test"  
+             url="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8"  user="test"  
              password="test"
              batchSize="-1"/>
 
@@ -40,8 +39,8 @@ description:
 	                deltaQuery="select id from item where inputtime > '${dataimporter.item.last_index_time}">
             	
 				<field column="ID" name="id" />           
-            	<field column="CATEGORY" name="category" /> 
-            	<field column="SOURCE" name="source" /> 
+				<field column="CATEGORY" name="category" /> 
+				<field column="SOURCE" name="source" /> 
 
 	            <entity name="feature" pk="ID"
 	                    query="select description from feature where ID='${item.ID}'">
