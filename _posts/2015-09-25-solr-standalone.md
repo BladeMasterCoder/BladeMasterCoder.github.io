@@ -22,7 +22,7 @@ description:
 
 3、将solr-dataimportscheduler-modified.jar中 dataimport.properties 取出并根据实际情况修改,然后放到 solrhome/conf里。注意不是自己创建的solrhome/oollection1/conf目录下。
 
-4.data-config.xml配置示例
+4.data-config.xml配置
 
 	<dataConfig>
 	    <dataSource name="slave1"
