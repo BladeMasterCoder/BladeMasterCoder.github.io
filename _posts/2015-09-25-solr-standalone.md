@@ -10,7 +10,7 @@ description:
 
 
 1、将solr-dataimporthandler-x.x.x.jar、solr-dataimporthandler-extras-x.x.x.jar和solr-dataimportscheduler-modified.jar包放到solr的lib目录下。
-其中：由于官方提供的apache-solr-dataimportscheduler-1.0.jar有一个bug，增量索引的post请求无法正常发送，网上找到了solr-dataimportscheduler-modified.jar修复了这个bug，可以到我的网盘[http://pan.baidu.com/s/1mhl1StM](solr-dataimportscheduler-modified.jar)下载。
+其中：由于官方提供的apache-solr-dataimportscheduler-1.0.jar有一个bug，增量索引的post请求无法正常发送，网上找到了solr-dataimportscheduler-modified.jar修复了这个bug，可以到我的网盘[http://pan.baidu.com/s/1mhl1StM](http://pan.baidu.com/s/1mhl1StM)下载。
 
 2、修改solr.war中WEB-INF/web.xml, 在servlet节点前面增加: 
 
