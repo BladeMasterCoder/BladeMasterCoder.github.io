@@ -9,7 +9,11 @@ description:
 > Solr官方提供了很强大的 [Data Import Request Handler](http://wiki.apache.org/solr/DataImportHandler)，并且提供了一个简单的schedule,我们基于此可以做自动增量索引。
 
 
-$$a^2 + b^2 = c^2$$
+
+$$
+a^2 + b^2 = c^2
+$$
+
 
 1、将solr-dataimporthandler-x.x.x.jar、solr-dataimporthandler-extras-x.x.x.jar和solr-dataimportscheduler-modified.jar包放到solr的lib目录下。
 其中：由于官方提供的apache-solr-dataimportscheduler-1.0.jar有一个bug，增量索引的post请求无法正常发送，网上找到了solr-dataimportscheduler-modified.jar修复了这个bug，可以到我的网盘[http://pan.baidu.com/s/1mhl1StM](http://pan.baidu.com/s/1mhl1StM)下载。
