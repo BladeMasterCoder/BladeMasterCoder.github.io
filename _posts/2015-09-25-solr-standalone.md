@@ -28,8 +28,8 @@ description:
 	    <dataSource name="slave1"
              type="JdbcDataSource" 
              driver="com.mysql.jdbc.Driver"  
-             url="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8"  
-			 user="test"  
+             url="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8"
+             user="test" 
              password="test"
              batchSize="-1"/>
 
