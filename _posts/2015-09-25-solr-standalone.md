@@ -42,10 +42,10 @@ description:
 				<field column="CATEGORY" name="category" /> 
 				<field column="SOURCE" name="source" /> 
 
-	            <entity name="feature" pk="ID"
-	                    query="select description from feature where ID='${item.ID}'">
+				<entity name="feature" pk="ID"
+						query="select description from feature where ID='${item.ID}'">
 					<field column="DESCRIPTION" name="description" />
-	            </entity>
+				</entity>
 
 	        </entity>
 	    </document>
