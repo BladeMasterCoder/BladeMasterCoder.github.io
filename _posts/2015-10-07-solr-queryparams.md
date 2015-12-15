@@ -25,7 +25,7 @@ fl：指定返回那些字段内容，用逗号或空格分隔多个。
 
 wt：writer type指定输出格式，可以有 xml, json, php, ruby,python，csv等。
 
-indent：返回的结果是否缩进，默认关闭，用 indent=true|on 开启，一般调试json,php,phps,ruby输出才有必要用这个参数。 
+indent：返回的结果是否缩进，默认关闭，用indent=true|on 开启，一般调试json,php,phps,ruby输出才有必要用这个参数。 
 
 ## 2、高级参数 ##
 
