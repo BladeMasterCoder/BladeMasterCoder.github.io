@@ -2,7 +2,7 @@
 layout: post
 title: solr的自动增量索引
 category: 技术
-tags: [solr]
+tags: [Solr]
 description: 
 ---
 

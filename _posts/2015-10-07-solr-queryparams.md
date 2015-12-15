@@ -2,7 +2,7 @@
 layout: post
 title: solr界面上的一些查询参数
 category: 技术
-tags: [solr]
+tags: [Solr]
 description: 
 ---
 
