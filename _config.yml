@@ -1,7 +1,7 @@
 encoding: UTF-8
 
 permalink: /:year/:month/:day/:title.html
-paginate: 3
+paginate: 5
 markdown: kramdown
 
 kramdown:
