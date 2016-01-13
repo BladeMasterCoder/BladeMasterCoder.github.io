@@ -64,7 +64,127 @@ layout: default
 			  {% endif %}
 		</div>
 	{% endif %}
+<div class="pagination">
+  <ul>
+    {% if paginator.page == 1 %}
+    <li class="disabled">
+      <a>&lt;&lt;</a>
+    </li>
+    {% else %}
+    <li>
+      <a href="/">&lt;&lt;</a>
+    </li>
+    {% endif %}
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li class="prev">
+          <a href="/">&lt;</a>
+        </li>
+      {% else %}
+        <li class="prev">
+          <a href="/page{{ paginator.previous_page }}/">&lt;</a>
+        </li>
+      {% endif %}
+    {% else %}
+      <li class="prev disabled">
+        <a>&lt;</a>
+      </li>
+    {% endif %}
 
+
+    {% assign page_str = '' %}
+    {% assign curr_page_num = paginator.page %}
+    {% assign prev_page_count = 0 %}
+    {% if curr_page_num > 1 %}
+      {% assign end = curr_page_num | minus:1 %}
+      {% if curr_page_num < 4 or curr_page_num == 4 %}
+        {% assign start = 1 %}
+      {% else %}
+        {% assign start = curr_page_num | minus:3 %}
+      {% endif %}
+      {% for count in (start..end) %}
+        {% assign page_str = page_str | append:',' | append:count %}
+        {% assign prev_page_count = prev_page_count | plus:1 %}
+      {% endfor %}
+    {% endif %}
+
+    {% assign page_str = page_str | append:',' | append:curr_page_num %}
+    {% assign last_page_num = paginator.total_pages %}
+    {% assign next_page_count = 0 %}
+    {% if last_page_num > curr_page_num %}
+      {% assign rest_page_count = last_page_num | minus:curr_page_num %}
+      {% assign start = curr_page_num | plus:1 %}
+      {% if rest_page_count > 6 %}
+        {% assign end = curr_page_num | plus:6 %}
+        {% if prev_page_count < 3 %}
+          {% assign not_enough = 3 | minus:prev_page_count %}
+          {% for i in (1..not_enough) %}
+            {% assign try_add_page = end | plus:1 %}
+            {% if try_add_page < last_page_num or try_add_page == last_page_num %}
+              {% assign end = try_add_page %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% else %}
+        {% assign end = last_page_num %}
+      {% endif %}
+      {% for count in (start..end) %}
+        {% assign page_str = page_str | append:',' | append:count %}
+        {% assign next_page_count = next_page_count | plus:1 %}
+      {% endfor %}
+    {% endif %}
+
+    {% if next_page_count < 6 and curr_page_num > 4 %}
+      {% assign not_enough = 6 | minus:next_page_count %}
+      {% for i in (1..not_enough) %}
+        {% assign try_add_page = curr_page_num | minus:4 %}
+        {% if try_add_page > 1 or try_add_page == 1 %}
+          {% assign page_str = page_str | prepend:try_add_page | prepend:',' %}
+          {% assign curr_page_num = curr_page_num | minus:1 %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% assign page_str = page_str | replace_first:',','' %}
+    {% assign page_arr = page_str | split:',' %}
+    {% assign curr_page_num = paginator.page | append:'' %}
+    {% for count in page_arr %}
+      {% if count == curr_page_num %}
+        <li class="disabled">
+          <a>{{ count }}</a>
+        </li>
+      {% elsif count == '1' %}
+        <li>
+          <a href="/">{{ count }}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/page{{ count }}/">{{ count }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+
+    {% if paginator.next_page %}
+      <li class="next">
+        <a href="/page{{ paginator.next_page }}/">&gt;</a>
+      </li>
+    {% else %}
+      <li class="next disabled">
+        <a>&gt;</a>
+      </li>
+    {% endif %}
+    {% if paginator.total_pages == paginator.page %}
+    <li class="disabled">
+        <a>&gt;&gt;</a>
+    </li>
+    {% else %}
+    <li>
+      <a href="/page{{ paginator.total_pages }}/">&gt;&gt;</a>
+    </li>
+    {% endif %}
+  </ul>
+</div>
 <!--
 	<div class="pagination">
 	  {% if paginator.previous_page %}
