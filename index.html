@@ -36,7 +36,7 @@ layout: default
 		
 			  <a class="pjaxlink" href="/index.html"><span class="x1" style="margin-left:5px;">首页</span></a>
 			  {% if paginator.previous_page %}
-			    <a class="pjaxlink"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-right:5px;"><i class="glyphicon glyphicon-chevron-left"></i> 上一页</span></a>
+			    <a class="pjaxlink"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-right:5px;"><i class="glyphicon glyphicon-chevron-left"></i></span></a>
 			  {% endif %}
 			  
 			 {% assign curr_page_num = paginator.page %} 
@@ -70,10 +70,10 @@ layout: default
 			  {% endfor %}
 
 			  {% if paginator.next_page %}
-			   	 <a class="pjaxlink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;">下一页 <i class="glyphicon glyphicon-chevron-right"></i></span></a>
+			   	 <a class="pjaxlink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;"><i class="glyphicon glyphicon-chevron-right"></i></span></a>
 			  {% endif %}
 			  <a class="pjaxlink" href="/page{{paginator.total_pages}}/"><span class="x1" style="margin-left:5px;">末页</span></a>			  
-			  <span class="x1" style="margin-left:5px;">第{{paginator.page}}页 / 共{{paginator.total_pages}}页</span>
+			  <span  style="margin-left:5px;">第{{paginator.page}}页 / 共{{paginator.total_pages}}页</span>
 		</div>
 	{% endif %}
 
