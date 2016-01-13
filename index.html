@@ -72,7 +72,7 @@ layout: default
 			  {% if paginator.next_page %}
 			   	 <a class="pjaxlink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;">下一页 <i class="glyphicon glyphicon-chevron-right"></i></span></a>
 			  {% endif %}
-			  <a class="pjaxlink" href="{{ paginator.total_pages| prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;">末页</span></a>			  
+			  <a class="pjaxlink" href="{{ paginator.total_pages|minus:1| prepend: site.baseurl | replace: '//', '/' }}"><span class="x1" style="margin-left:5px;">末页</span></a>			  
 			  <span class="x1" style="margin-left:5px;">第{{paginator.page}}页 / 共{{paginator.total_pages}}页</span>
 		</div>
 	{% endif %}
