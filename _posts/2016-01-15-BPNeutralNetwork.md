@@ -30,6 +30,7 @@ description:
 \begin{equation}\label{equation４}\tanh(x) = \frac{e ^ {x} - e ^ {-x}}{e ^ {x} + e ^ {-x}}\end{equation} 
 
 　　logistic函数$$\sigma(x)$$对应的函数曲线如下图所示：	
+
 ![](http://tech.meituan.com/img/lr_intro/sigmoid.png)
 
 　　tanh函数以看作是放大并平移的logistic函数$$tanh(x) = 2\sigma(2x)-1$$
@@ -37,6 +38,7 @@ description:
 　　sigmoid 型函数对中间区域的信号有增益，对两侧区的信号有抑制。这样的特点也和生物神经元类似，对一些输入有兴奋作用，另一些输入（两侧区）有抑制作用。和感知器的阶跃激活函数(−1/1, 0/1) 相比，sigmoid 型函数更符合生物神经元的特性，同时也有更好的数学性质。
 
 　　每一个神经元的模型如下所示
+
 ![](/assets/img/blogimg/Perceptron.png)
 
 **前馈神经网络**
@@ -44,6 +46,7 @@ description:
 　　给定一组神经元，我们可以以神经元为节点来构建一个网络。不同的神经网络模型有着不同网络连接的拓扑结构。一种比较直接的拓扑结构是前馈网络。前馈神经网络（Feed-forward Neural Network）是最早发明的简单人工神经网络。
 　　各神经元分别属于不同的层。每一层的神经元可以接收前一层神经元的信号，并产生信号输出到下一层。第一层叫**输入层**，最后一层叫**输出层**，其它中间层叫做**隐藏层**。整个网络中无反馈，信号从输入层向输出层单向传播，可用一个有向无环图表示。
 　　一个前馈神经网络如下图所示：
+
 ![](/assets/img/blogimg/FeedForwardNeuralNetwork.png)
 
 给定一个前馈神经网络，我们用下面的记号来描述这个网络。
