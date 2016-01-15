@@ -21,7 +21,7 @@ description:
 　　其中，w是n维的权重向量，b 是偏置。典型的激活函数f 有sigmoid型函数、非线性斜面函数等。
 　　如果我们设激活函数f为0或1的阶跃函数，人工神经元就是感知器。
 
-***sigmoid 函数***
+*** sigmoid 函数 *** 
 
 　　sigmoid 型函数是指一类S 型曲线函数，常用的sigmoid 型函数有logistic 函数$$\sigma(x)$$ 和tanh(x) 函数。
 
@@ -32,7 +32,7 @@ description:
 　　logistic函数$$\sigma(x)$$对应的函数曲线如下图所示：	
 ![](http://tech.meituan.com/img/lr_intro/sigmoid.png)
 
-　　tanh函数以看作是放大并平移的logistic函数$$tanh(x)＝2\sigma(2x)-1$$
+　　tanh函数以看作是放大并平移的logistic函数$$tanh(x) = 2\sigma(2x)-1$$
 
 　　sigmoid 型函数对中间区域的信号有增益，对两侧区的信号有抑制。这样的特点也和生物神经元类似，对一些输入有兴奋作用，另一些输入（两侧区）有抑制作用。和感知器的阶跃激活函数(−1/1, 0/1) 相比，sigmoid 型函数更符合生物神经元的特性，同时也有更好的数学性质。
 
@@ -41,7 +41,7 @@ description:
 
  
 
-## 2、高级参数 ##
+## 2、前馈神经网络 ##
 
 
 
