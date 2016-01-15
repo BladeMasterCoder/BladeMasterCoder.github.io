@@ -14,8 +14,8 @@ description:
 
 　　人工神经元使用一个非线性的激活函数，输出一个活性值。假定神经元接受n个输入$$x=(x_1,x_2,\ldots,x_n)$$,用状态z表示一个神经元所获得的输入信号x 的加权和，输出为该神经元的活性值a。具体定于如下
 
-$$\begin{center}\begin{equation}\label{equation1}z = \omega^T x + b\end{equation}\end{center}$$
-$$\begin{center}\begin{equation}\label{equation2}a = f(z)\end{equation}\end{center}$$
+\begin{equation}\label{equation1}z = \omega^T x + b\end{equation}
+\begin{equation}\label{equation2}a = f(z)\end{equation}
 
 
  
