@@ -27,7 +27,7 @@ sigmoid 型函数是指一类S 型曲线函数，常用的sigmoid 型函数有lo
 
 \begin{equation}\label{equation３}\sigma(x) = \frac{1}{1 + e ^ {-x}}\end{equation}
 
-\begin{equation}\label{equation４}\tanh(x) = \frac{e ^ {x} － e ^ {-x}}{e ^ {x} + e ^ {-x}}\end{equation} 
+\begin{equation}\label{equation４}\tanh(x) = \frac{e ^ {x} - e ^ {-x}}{e ^ {x} + e ^ {-x}}\end{equation} 
 
 
 
