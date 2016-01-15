@@ -23,7 +23,7 @@ description:
 
 ### sigmoid 函数 ###
 
-sigmoid 型函数是指一类S 型曲线函数，常用的sigmoid 型函数有logistic 函数$$\sigma(x)$$ 和tanh 函数。
+sigmoid 型函数是指一类S 型曲线函数，常用的sigmoid 型函数有logistic 函数$$\sigma(x)$$ 和tanh(x) 函数。
 
 \begin{equation}\label{equation３}\sigma(x) = \frac{1}{1 + e ^ {-x}}end{equation} 
 
