@@ -67,7 +67,7 @@ $$a^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l$$层神经元的活性值
 
 这样，前馈神经网络可以通过逐层的信息传递，得到网络最后的输出$$a^L$$
 
-$$x = a^(0) \to z^(1) \to a^(1) \to z^(2) \to · · · \to a^(L−1) \to z^(L) \to a^(L) = y$$
+$$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y$$
 
 
 
