@@ -54,10 +54,10 @@ description:
 L : 神经网络的层数
 $$n^l$$ : 第$$l$$层神经元的个数
 $$f_l(\cdot)$$ : 第$$l$$层神经元的激活函数
-$$\omega^l \epsilon \mathbbR ^{n^l*n^{l-1}}$$ : 表示$$l-1$$层到$$l$$层的权重矩阵
-$$b^l\epsilon \mathbbR ^{n^l}$$ : 表示$$l-1$$层到$$l$$层的偏置
-$$z^l\epsilon \mathbbR ^{n^l}$$ : 表示$$l$$层神经元的状态
-$$a^l\epsilon \mathbbR ^{n^l}$$ : 表示$$l$$层神经元的活性值
+$$\omega^l \epsilon \mathbb{R} ^{n^l*n^{l-1}}$$ : 表示$$l-1$$层到$$l$$层的权重矩阵
+$$b^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l-1$$层到$$l$$层的偏置
+$$z^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l$$层神经元的状态
+$$a^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l$$层神经元的活性值
 
 
 
