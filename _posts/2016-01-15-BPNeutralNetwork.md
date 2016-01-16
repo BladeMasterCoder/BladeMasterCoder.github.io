@@ -76,7 +76,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　假定给定一组样本 $$(x^i,y^i),1\le i\le N$$,用前馈神经网络的输出为$$f(x\mid\omega,b)$$,目标函数为
 
-\begin{equation}\label{equation７}J(\omega,b)=\sum_{i=0}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda\|W\| _F^2　\end{equation}
+\begin{equation}\label{equation７}J(\omega,b)=\sum_{i=0}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda \|W\| _F^2　\end{equation}
 
 
 　　这里，$$\omega$$和b包含了每一层的权重矩阵和偏置向量，$$\|W\| _F^2 = \sum_{l=1}^L\sum_{j=1}^{n^{l+1}}\sum_{i=1}^{n^l}\omega_{ij}^l$$
