@@ -31,7 +31,7 @@ description:
 
 　　logistic函数$$\sigma(x)$$对应的函数曲线如下图所示：	
 
-![](http://tech.meituan.com/img/lr_intro/sigmoid.png)
+![](/assets/img/blogimg/sigmoid.png)
 
 　　tanh函数以看作是放大并平移的logistic函数$$tanh(x) = 2\sigma(2x)-1$$
 
@@ -73,6 +73,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 
 **反向传播算法**
+
 
 
 
