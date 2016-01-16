@@ -59,6 +59,13 @@ $$b^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l-1$$层到$$l$$层的偏置
 $$z^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l$$层神经元的状态
 $$a^l\epsilon \mathbb{R} ^{n^l}$$ : 表示$$l$$层神经元的活性值
 
+前馈神经网络通过下面公式进行信息传播：
+
+\begin{equation}\label{equation5}z^l =\omega^l \cdot a^{l-1} + b^l\end{equation}
+
+\begin{equation}\label{equation6}a^l = f_l(z^l)\end{equation}
+
+
 
 
 
