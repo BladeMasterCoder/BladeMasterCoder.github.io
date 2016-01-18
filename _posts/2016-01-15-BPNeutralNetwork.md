@@ -76,7 +76,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　假定给定一组样本 $$(x^i,y^i),1\le i\le N$$,用前馈神经网络的输出为$$f(x\mid\omega,b)$$,目标函数为
 
-\begin{equation}\label{equation７}J(\omega,b)=\sum_{i=0}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda \|\|W\|\| _F^2　\end{equation}
+\begin{equation}\label{equation７}J(\omega,b)=\sum_{i=１}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda \|\|W\|\| _F^2　\end{equation}
 
 
 　　这里，$$\omega$$和b包含了每一层的权重矩阵和偏置向量，$$\|W\| _F^2 = \sum_{l=1}^L\sum_{i=1}^{n^l}\sum_{j=1}^{n^{l-1}}\omega_{ij}^l$$，$$\lambda$$表示这个正则项的权重，$$\frac12$$是便于计算。
@@ -85,6 +85,10 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 　　我们的目标是最小化这个结构风险函数$$J(\omega,b)$$，采用随机梯度下降法，用如下方法更新参数，
 
 \begin{equation}\label{equation8}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\frac{\partial J(\omega,b)}{\partial \omega_{ij}^l}\end{equation}
+
+\begin{equation}\label{equation９}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{i=１}^N\frac{\partial J(\omega,b)}{\partial \omega_{ij}^l} - \alpha\lambda\omega_{ij}^l\end{equation}
+
+　　这里$$\alpha$$是参数的更新率。
 
 　　
 
