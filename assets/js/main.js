@@ -65,7 +65,7 @@ $(document).ready(function() {
 			                    }
 			    );
 				pjax_loadChart();
-				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");  
+				 
 				if (typeof MathJax !== 'undefined') // support MathJax
 					MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 								  
@@ -92,7 +92,7 @@ $(document).ready(function() {
                     }
       );
 	  
-
+	$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"); 
 	skillbar();
 });
 		
