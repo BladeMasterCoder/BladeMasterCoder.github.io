@@ -86,7 +86,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation8}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\frac{\partial J(\omega,b)}{\partial \omega_{ij}^l}\end{equation}
 
-\begin{equation}\label{equation９}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{i=１}^N\frac{\partialL(y^i,f(x^i\mid\omega,b)) }{\partial \omega_{ij}^l} - \alpha\cdot\lambda\cdot\omega_{ij}^l\end{equation}
+\begin{equation}\label{equation９}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{i=１}^N\frac{\partial L(y^i,f(x^i\mid\omega,b)) }{\partial \omega_{ij}^l} - \alpha\cdot\lambda\cdot\omega_{ij}^l\end{equation}
 
 　　这里$$\alpha$$是参数的更新率。
 
