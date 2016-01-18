@@ -48,6 +48,7 @@ $(document).ready(function() {
 	
 	 $(document).on('pjax:complete', function() {
 				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML", function(){
+						MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 					    MathJax.Hub.Config({
 							TeX: {equationNumbers: {
 							autoNumber: ["AMS"], useLabelIds: true}},
