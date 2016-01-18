@@ -65,7 +65,7 @@ $(document).ready(function() {
 			                    }
 			    );
 				pjax_loadChart();
-					  
+				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");  
 								  
 	  });
 
