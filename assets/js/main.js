@@ -53,7 +53,7 @@ $(document).ready(function() {
 	 	 		pajx_loadDuoshuo();//pjax加载完成之后调用重载多说函数
 				
 	 	 		$(".pjax_loading").css("display", "none");
- 	 		    pjax_loadChart();
+ 	 		   
 		        $('.bookpiclist .bookpic').hover(
 			                    function() {
 			                        $(this).find('.booklabel').stop().animate({bottom: 0}, 200);
@@ -64,7 +64,7 @@ $(document).ready(function() {
 			                        $(this).find('img').stop().animate({top: 0}, 300);
 			                    }
 			    );
-				
+				pjax_loadChart();
 							  
 								  
 	  });
