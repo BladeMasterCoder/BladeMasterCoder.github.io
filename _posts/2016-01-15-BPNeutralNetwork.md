@@ -86,7 +86,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation8}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\frac{\partial J(\omega,b)}{\partial \omega_{ij}^l}\end{equation}
 
-　　将公式（7）带入上式右边得到：
+　　将公式$$(7)$$带入上式右边得到：
 
 \begin{equation}\label{equation９}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial \omega_{ij}^l}) - \alpha\cdot\lambda\cdot\omega_{ij}^l\end{equation}
 
