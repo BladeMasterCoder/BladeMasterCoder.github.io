@@ -47,7 +47,7 @@ $(document).ready(function() {
 	});
 	
 	 $(document).on('pjax:complete', function() {
-	
+				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"); 
 	 	 		$("pre").addClass("prettyprint linenums");
 				
 				prettyPrint();
@@ -67,7 +67,7 @@ $(document).ready(function() {
 			                    }
 			    );
 				pjax_loadChart();
-				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML");  
+				 
 								  
 	  });
 
