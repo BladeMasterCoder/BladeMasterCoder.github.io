@@ -55,6 +55,7 @@ $(document).ready(function() {
 							SVG: {linebreaks: {automatic: true}}
 						});
 				}); 
+				
 	 	 		$("pre").addClass("prettyprint linenums");
 				
 				prettyPrint();
