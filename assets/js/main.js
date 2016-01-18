@@ -48,7 +48,12 @@ $(document).ready(function() {
 	
 	 $(document).on('pjax:complete', function() {
 				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML", function(){
-					alert("Script loaded and executed.");
+					    MathJax.Hub.Config({
+							TeX: {equationNumbers: {
+							autoNumber: ["AMS"], useLabelIds: true}},
+							"HTML-CSS": {linebreaks: {automatic: true}},
+							SVG: {linebreaks: {automatic: true}}
+						});
 				}); 
 	 	 		$("pre").addClass("prettyprint linenums");
 				
