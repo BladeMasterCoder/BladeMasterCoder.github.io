@@ -79,10 +79,12 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 \begin{equation}\label{equation７}J(\omega,b)=\sum_{i=0}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda \|\|W\|\| _F^2　\end{equation}
 
 
-　　这里，$$\omega$$和b包含了每一层的权重矩阵和偏置向量，$$\|W\| _F^2 = \sum_{l=1}^L\sum_{i=1}^{n^{l+1}}\sum_{j=1}^{n^l}\omega_{ij}^l$$。
+　　这里，$$\omega$$和b包含了每一层的权重矩阵和偏置向量，$$\|W\| _F^2 = \sum_{l=1}^L\sum_{i=1}^{n^l}\sum_{j=1}^{n^{l-1}}\omega_{ij}^l$$，$$\lambda$$表示这个正则项的权重，$$\frac12$$是便于计算。
 
-　　其中$$\omega_{ij}^l$$表示$$n^l$$层第$$j$$个节点到第$$n^{l+1}$$层第$$i$$个节点的权重。
+　　其中$$\omega_{ij}^l$$表示$$n^{l-1}$$层第$$j$$个节点到第$$n^l$$层第$$i$$个节点的权重。
+　　我们的目标是最小化这个结构风险函数$$J(\omega,b)$$，采用随机梯度下降法，用如下方法更新参数，
 
+　　
 
 
 
