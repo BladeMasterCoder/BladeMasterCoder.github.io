@@ -92,7 +92,9 @@ $(document).ready(function() {
                     }
       );
 	  
-	$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"); 
+	$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML", function(){
+		alert("Script loaded and executed.");
+	}); 
 
 });
 		
