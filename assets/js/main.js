@@ -65,7 +65,7 @@ $(document).ready(function() {
 			                    }
 			    );
 				pjax_loadChart();
-				MathJax.Hub.Queue(["Typeset",MathJax.Hub]);			  
+				$.getScript("http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"); }		  
 								  
 	  });
 
