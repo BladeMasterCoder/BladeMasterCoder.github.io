@@ -76,7 +76,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　假定给定一组样本 $$(x^i,y^i),1\le i\le N$$,用前馈神经网络的输出为$$f(x\mid\omega,b)$$,目标函数为
 
-\begin{equation}\label{equation７}J(\omega,b)=\sum_{i=１}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda \|\|W\|\| _F^2　\end{equation}
+\begin{equation}\label{equation7}J(\omega,b)=\sum_{i=１}^NL(y^i,f(x^i\mid\omega,b)) + \frac12 \lambda \|\|W\|\| _F^2　\end{equation}
 
 
 　　这里，$$\omega$$和b包含了每一层的权重矩阵和偏置向量，$$\|W\| _F^2 = \sum_{l=1}^L\sum_{i=1}^{n^l}\sum_{j=1}^{n^{l-1}}\omega_{ij}^l$$，$$\lambda$$表示这个正则项的权重，$$\frac12$$是便于计算。
@@ -86,7 +86,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation8}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\frac{\partial J(\omega,b)}{\partial \omega_{ij}^l}\end{equation}
 
-　　将公式$$(\ref{equation７})$$带入上式右边得到：
+　　将公式$$(\ref{equation7})$$带入上式右边得到：
 
 \begin{equation}\label{equation９}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial \omega_{ij}^l}) - \alpha\cdot\lambda\cdot\omega_{ij}^l\end{equation}
 
