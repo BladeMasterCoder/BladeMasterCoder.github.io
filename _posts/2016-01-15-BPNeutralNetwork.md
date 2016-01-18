@@ -84,7 +84,7 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 　　其中$$\omega_{ij}^l$$表示$$n^{l-1}$$层第$$j$$个节点到第$$n^l$$层第$$i$$个节点的权重。
 　　我们的目标是最小化这个结构风险函数$$J(\omega,b)$$，采用随机梯度下降法，用如下方法更新参数，
 
-\begin{equation}\label{equation8}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\frac{\partialJ(\omega,b)}{\partial\omega_{ij}^l}\end{equation}
+\begin{equation}\label{equation8}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\frac{\partial J(\omega,b)}{\partial \omega_{ij}^l}\end{equation}
 
 　　
 
