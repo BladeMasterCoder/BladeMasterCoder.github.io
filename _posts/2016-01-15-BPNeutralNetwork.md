@@ -110,6 +110,10 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation12}\frac{\partial L}{\partial \omega_{ij}^l} = {\delta_i}^l\cdot{a_j}^{l-1} \end{equation}
 
+　　下面到了最关键的时候了，重点分析这个误差项$${\delta_i}^l$$。
+
+　　
+
 
 
 
