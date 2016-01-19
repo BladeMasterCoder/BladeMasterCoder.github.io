@@ -102,6 +102,17 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation11}\frac{\partial L}{\partial \omega_{ij}^l} =\frac{\partial L}{\partial {z_i}^l}\cdot\frac{\partial {z_i}^l}{\partial \omega_{ij}^l} \end{equation}
 
+　　对于第$$l$$层，定义一个误差项$${\delta_i}^l = \frac{\partial L}{\partial {z_i}^l}$$,为目标函数关于第$$l$$层第$$i$$个神经元状态的偏导数，来表示第$$l$$层第$$i$$个神经元状态对最终误差的影响。公式$$(\ref{equation11})$$的第一项暂记为$${\delta_i}^l$$。
+
+　　而$${z_i}^l = \sum_{j=1}^{n^{l-1}}\omega_{ij}^l\cdot{a_j}^{l-1}+{b_i}^l$$,因此公式$$(\ref{equation11})$$的第二项就是$${a_j}^{l-1}$$。
+
+　　公式$$(\ref{equation11})$$可以改写为
+
+\begin{equation}\label{equation12}\frac{\partial L}{\partial \omega_{ij}^l} = {\delta_i}^l\cdot{a_j}^{l-1} \end{equation}
+
+
+
+
 　　
 
 
