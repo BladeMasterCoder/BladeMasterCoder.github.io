@@ -88,13 +88,13 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　将公式$$(\ref{equation7})$$带入上式右边,并对$$\|W\| _F^2$$进行简化得到：
 
-\begin{equation}\label{equation９}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial \omega_{ij}^l}) - \alpha\cdot\lambda\cdot\omega_{ij}^l\end{equation}
+\begin{equation}\label{equation9}\omega_{ij}^l = \omega_{ij}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial \omega_{ij}^l}) - \alpha\cdot\lambda\cdot\omega_{ij}^l\end{equation}
 
 　　这里$$\alpha$$是参数的更新率。
 
 　　同样可以得到
 
-\begin{equation}\label{equation９}ｂ_{i}^l = ｂ_{i}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial ｂ_{i}^l)\end{equation}
+\begin{equation}\label{equation10}ｂ_{i}^l = ｂ_{i}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial ｂ_{i}^l})\end{equation}
 
 
 　　
