@@ -96,8 +96,11 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation10}b_{i}^l = b_{i}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial b_{i}^l})\end{equation}
 	
-	
+　　看下$$\frac{\partial L}{\partial \omega_{ij}^l}$$怎么计算。
 
+　　根据链式法则$$\frac{\partial L}{\partial \omega_{ij}^l}$$可以改写为
+
+\begin{equation}\label{equation11}\frac{\partial L}{\partial \omega_{ij}^l} =\frac{\partial L}{\partial {z_i}^l}\cdot\frac{\partial {z_i}^l}{\partial \omega_{ij}^l} \end{equation}
 
 　　
 
