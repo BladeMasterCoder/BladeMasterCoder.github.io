@@ -92,6 +92,11 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　这里$$\alpha$$是参数的更新率。
 
+　　同样可以得到
+
+\begin{equation}\label{equation９}ｂ_{i}^l = ｂ_{i}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial ｂ_{i}^l)\end{equation}
+
+
 　　
 
 
