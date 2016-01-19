@@ -94,7 +94,9 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　同样可以得到
 
-\begin{equation}\label{equation10}ｂ_{i}^l = ｂ_{i}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial ｂ_{i}^l})\end{equation}
+\begin{equation}\label{equation10}b_{i}^l = b_{i}^l - \alpha\cdot\sum_{m=１}^N(\frac{\partial L(y^m,f(x^m\mid\omega,b)) }{\partial b_{i}^l})\end{equation}
+	
+	
 
 
 　　
