@@ -110,9 +110,13 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 \begin{equation}\label{equation12}\frac{\partial L}{\partial \omega_{ij}^l} = {\delta_i}^l\cdot{a_j}^{l-1} \end{equation}
 
-　　下面到了最关键的时候了，重点分析这个误差项$${\delta_i}^l$$。
+　　下面到了最关键的时候了，重点分析这个误差项$${\delta_i}^l$$,根据链式法则，
 
 \begin{equation}\label{equation13}{\delta_i}^l =\frac{\partial {a_i}^l}{\partial {z_i}^l}\cdot\frac{\partial z^{l+1}}{\partial {a_i}^l}\cdot\frac{\partial L}{\partial z^{l+1}}  \end{equation}
+
+　　而第$$l+1$$层每个神经云的状态都与$$l$$层第$$i$$个神经元的活性值$${a_i}^l$$有关。
+　　从公式$$(\ref{equation13})$$可以看出第$$l$$层的误差项可以通过第$$l+1$$层的误差项计算得到，这就是误差的反向传播（Backpropagation，BP）。反向传播算法的含义是：第$$l$$层的一个神经元的误差项（或敏感性）是所有与该神经元相连的第$$l+1$$层的神经元的误差项的权重和。然后，在乘上该神经元激活函数的梯度。
+
 
 
 
