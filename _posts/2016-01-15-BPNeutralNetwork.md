@@ -112,6 +112,12 @@ $$x = a^0 \to z^1 \to a^1 \to z^2 \to · · · \to a^{L−1} \to z^L \to a^L = y
 
 　　下面到了最关键的时候了，重点分析这个误差项$${\delta_i}^l$$。
 
+\begin{equation}\label{equation13}{\delta_i}^l =\frac{\partial {a_i}^l}{\partial {z_i}^l}\cdot\frac{\partial z^{l+1}}{\partial {a_i}^l}\cdot\frac{\partial L}{\partial z^{l+1}}  \end{equation}
+
+
+
+
+
 　　
 
 
