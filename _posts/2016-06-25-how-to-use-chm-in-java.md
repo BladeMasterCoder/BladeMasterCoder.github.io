@@ -2,7 +2,7 @@
 layout: post
 title: 如何在java中使用ConcurrentHashMap
 category: 技术
-tags: [java]
+tags: [Java]
 description: 
 ---
 
